@@ -149,7 +149,7 @@
   object-position: center;
 }
 .card h4 {
-  color: #377d71;
+  color: #7C3E66;
 }
 
 .arrow {

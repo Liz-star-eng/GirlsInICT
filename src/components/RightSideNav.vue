@@ -54,7 +54,7 @@ export default {
   z-index: 1;
   top: 12vh;
   right: 0;
-  background-color: #377D71;
+  background-color: #7C3E66;
   overflow-x: hidden;
   transition: width 0.6s ease;
   padding-top: 60px;
@@ -94,7 +94,7 @@ export default {
 }
 
 .openbtn {
-  background-color: #377D71;
+  background-color: #7C3E66;
   margin-top: 11rem !important;
   font-size: 20px;
   cursor: pointer;
@@ -114,7 +114,7 @@ export default {
 .openbtn .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #377D71;
+  background-color: #7C3E66;
   color: white;
   text-align: center;
   border-radius: 6px;
@@ -141,11 +141,17 @@ export default {
   padding: 16px;
   right: 0;
 }
-@media only screen and (max-width: 1409px) {
+
+@media only screen and (max-width: 1033px) {
+  .sidebar  {
+    display: none;
+  }
+}
+/* @media only screen and (max-width: 1409px) {
 .openbtn {
     margin-top: 0 !important;
     margin-left: 0;
     padding-left: 90rem;
   }
-}
+} */
 </style>

@@ -2,19 +2,19 @@
   <div class="sidebar">
     <div class="leftbar">
       <a class="link" href="#"
-        >Basic High School<i
+        >Prmary to JHS<i
           class="fa fa-angle-right"
           style="font-size: 24px; margin-left: 20px"
         ></i>
       </a>
       <a class="link" href="#"
-        >Tertiary<i
+        >SHS<i
           class="fa fa-angle-right"
           style="font-size: 24px; margin-left: 90px"
         ></i
       ></a>
       <a class="link" href="#"
-        >Start Up<i
+        >Tertiary<i
           class="fa fa-angle-right"
           style="font-size: 24px; margin-left: 85px"
         ></i
@@ -43,7 +43,7 @@ export default {
 <style scoped>
 .sidebar {
   padding: 0;
-  background-color: #377D71;
+  background-color: #7C3E66;
   position: fixed;
   height: 100%;
   margin-top: 8%;

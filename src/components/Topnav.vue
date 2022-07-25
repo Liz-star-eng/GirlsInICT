@@ -186,7 +186,7 @@ header {
 .title {
   font-size: 30px;
   font-style: italic;
-  color: #377D71;
+  color: #7C3E66;
   font-weight: bold;
 }
 
@@ -197,7 +197,7 @@ ul li {
 li a,
 .dropbtn {
   display: inline-block;
-  color: #377D71;
+  color: #7C3E66;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -237,7 +237,7 @@ li.dropdown {
 }
 
 .cta {
-  background-color: #377D71;
+  background-color: #7C3E66;
 }
 
 input,
@@ -255,7 +255,7 @@ input {
 input::placeholder {
   font-style: italic;
   font-size: 16px;
-  color: #377D71;
+  color: #7C3E66;
 }
 
 button {
@@ -264,7 +264,7 @@ button {
   border-radius: 50%;
   font-size: 15px;
   border: none;
-  background-color: #377D71;
+  background-color: #7C3E66;
   color: white;
   margin-left: 9px;
 }
@@ -297,7 +297,7 @@ button {
   display: block;
 }
 .NavItems li a {
-  color: #377D71;
+  color: #7C3E66;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
