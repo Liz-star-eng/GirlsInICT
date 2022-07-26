@@ -122,7 +122,7 @@
       <!-- Message from minister -->
       <div class="container">
         <div class="mins-msg">
-          <img src="../assets/cyber.jpg" alt="Minister's image" />
+          <img src="../assets/Min.Ursula-Owusu-Ekuful-1.jpg" alt="Minister's image" />
           <div class="mins-text">
             <h1>Become A Partner Today</h1>
             <p>
@@ -522,6 +522,6 @@ h6 {
 }
 
 .mins-msg img {
-  width: 100%;
+  width: 50%;
 }
 </style>
