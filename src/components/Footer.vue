@@ -1,22 +1,29 @@
 <template>
     
     <div class="footer">
-          <div class="row5">
-            <div class="col-4">
+          <div class="section">
+            <div>
+              <router-link to="/"><img src="../assets/white-girlslogo.png" alt=""></router-link>
+            </div>
+            <div class="Links">
               <h4>Quick Links</h4>
+              <hr class="underline">
               <a href="">About Us</a><br>
               <a href="">Entreprenures' Forum</a><br>
               <a href="">Market Place</a><br>
               <a href="">Resources</a><br>
             </div>
-            <div class="col-4">
+            <div class="contact">
               <h4>Contact Us</h4>
+               <hr class="underline">
               <p>+233 00 00 00 00 </p>
               <p>030 00 00 00 00</p>
               <p>+233 00 00 00 00</p>
             </div>
-            <div class="col-4">
+            <div class="social" >
               <h4>Social Media</h4>
+              <hr class="underline">
+
               <li>
                 <a href=""><i class="fa fa-facebook"></i></a>
                 <a href=""><i class="fa fa-instagram"></i></a> 
@@ -30,79 +37,50 @@
 
 <style scoped>
 .footer {
-  background-color: #377d71;
+  background-color: #652E89;
   padding: 3rem 1rem;
-  width: 85%;
-  margin-left: 15%;
+  width: 100%;
   overflow: hidden;
   z-index: 99;
 }
-
-.row5 {
+.section {
   display: flex;
-  flex-wrap: wrap;
-  color: white;
-  justify-content: space-around;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
 }
 
-
-p {
-  text-align: center;
-  margin-left: 0;
+.section div {
+  margin: 0 6rem;
 }
-
- li {
+.section img {
+  width: 300px
+}
+.section img:hover {
+  width: 298px;
+  transition: 0.3s;
+}
+li {
   list-style-type: none;
 }
-
- a {
+.Links, a, .contact, .social {
   color: white;
-  margin: 5px;
+  text-decoration: none;
 }
-
- a:hover {
-  color: rgb(6, 90, 117);
-  cursor: pointer;
+a:hover {
+  color: #FFC527;
+} 
+.social i {
+  margin-left: 1rem;
 }
-
- li i {
-  color: white;
-}
-
- a i:hover {
-  background-color: white;
-  color: black;
-}
-
- p {
-  color: rgb(224, 217, 217);
-  text-align: center;
-  font-size: 14px;
-}
-
- p:hover {
-  transition: 0.3;
-  cursor: pointer;
+.underline {
+margin-top: 0;
 }
 
 .copyright {
-  padding: 5rem 0;
-}
-
-@media only screen and (max-width: 1033px ) {
-  .footer {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-@media only screen and (max-width: 600) {
-  .row5 {
-    flex-wrap: wrap;
-  }
-  .row5 div {
-    width: 100%;
-  }
+  color: rgb(217, 215, 215);
+  text-align: center;
+  padding: 2rem 0;
 }
 
 </style>

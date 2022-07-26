@@ -227,7 +227,7 @@
 
 .navigation a:hover {
   background-color: #5fb9da;
-  color: blue;
+  text-decoration: none;
 }
 @media only screen and (max-width: 1033px ) {
   .main-body {

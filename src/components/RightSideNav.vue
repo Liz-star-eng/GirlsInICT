@@ -24,7 +24,7 @@
 
   <div id="main">
     <span class="openbtn" @click="toggleSideBar()"><i><i class="fa fa-angle-double-right"></i></i>
-    <span  class="tooltiptext"> click to show Right Navbar</span>
+    <span  class="tooltiptext"> Show right panel</span>
     </span>
   </div>
 </template>
@@ -54,10 +54,11 @@ export default {
   z-index: 1;
   top: 12vh;
   right: 0;
-  background-color: #7C3E66;
+  background-color: #652E89;
   overflow-x: hidden;
   transition: width 0.6s ease;
   padding-top: 60px;
+
 }
 
 .slide {
@@ -94,7 +95,7 @@ export default {
 }
 
 .openbtn {
-  background-color: #7C3E66;
+  background-color: #652E89;
   margin-top: 11rem !important;
   font-size: 20px;
   cursor: pointer;
@@ -105,6 +106,7 @@ export default {
   right: 5rem;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+  display: none;
 }
 
 .openbtn:hover {
@@ -113,8 +115,8 @@ export default {
 
 .openbtn .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: #7C3E66;
+  width: 150px;
+  background-color: #652E89;
   color: white;
   text-align: center;
   border-radius: 6px;
@@ -124,8 +126,8 @@ export default {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 100%;
-  left: -80%;
+  top: 0;
+  left: -300%;
 }
 
 .openbtn:hover .tooltiptext {

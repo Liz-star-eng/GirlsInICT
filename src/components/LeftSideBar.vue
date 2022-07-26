@@ -1,23 +1,31 @@
 <template>
   <div class="sidebar">
     <div class="leftbar">
-      <a class="link" href="#"
-        >Prmary to JHS<i
-          class="fa fa-angle-right"
-          style="font-size: 24px; margin-left: 20px"
-        ></i>
+      <a href="" class="link"
+        ><i class="fa fa-graduation-cap icons"></i>
+        <span>
+          Prmary to JHS<i
+            class="fa fa-angle-right"
+            style="font-size: 24px; margin-left: 20px"
+          ></i>
+        </span>
       </a>
       <a class="link" href="#"
-        >SHS<i
-          class="fa fa-angle-right"
-          style="font-size: 24px; margin-left: 90px"
-        ></i
-      ></a>
+        ><i class="fa fa-graduation-cap icons"></i>
+        <span
+          >SHS<i
+            class="fa fa-angle-right"
+            style="font-size: 24px; margin-left: 90px"
+          ></i
+        ></span>
+      </a>
       <a class="link" href="#"
-        >Tertiary<i
-          class="fa fa-angle-right"
-          style="font-size: 24px; margin-left: 85px"
-        ></i
+        ><i class="fa fa-graduation-cap icons"></i>
+        <span>
+          Tertiary<i
+            class="fa fa-angle-right"
+            style="font-size: 24px; margin-left: 65px"
+          ></i></span
       ></a>
       <br />
       <div class="user">
@@ -43,22 +51,35 @@ export default {
 <style scoped>
 .sidebar {
   padding: 0;
-  background-color: #7C3E66;
+  background-color: #652E89;
   position: fixed;
-  height: 100%;
+  height: 60%;
   margin-top: 8%;
-  overflow: auto;
-  width: 16%;
+  overflow: hidden;
+  width: 5.5vw;
+  transition: all 500ms ease-in-out;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.sidebar:hover {
+  width: 18vw;
 }
 
 .sidebar .link {
-  display: block;
+  display: flex;
+  flex-wrap: nowrap;
   color: white;
-  padding: 16px 10px;
+  margin: 15px 10px 15px 40px;
   text-decoration: none;
-  margin-left: 40px;
 }
-
+span {
+  margin-left: 3rem;
+  padding: 0 10px;
+  top: 0;
+ display: flex;
+ flex-wrap: nowrap;
+}
 .sidebar .link:hover {
   color: #aecdd3;
   margin-left: 60px !important;
@@ -66,23 +87,23 @@ export default {
   cursor: pointer;
 }
 
-
 .leftbar {
   margin-top: 10vh;
+}
+
+.icons {
+  margin-right: 10px;
 }
 
 .sidebar h4 {
   text-align: left;
   color: white;
-  margin-top: 100%;
-  margin-left: 55px;
+  font-size: 14px;
 }
 .sidebar .text {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   width: 100px;
-  padding: 13px;
-  margin-top: 10%;
 }
 
 div .content {
@@ -90,9 +111,6 @@ div .content {
   height: 1000px;
 }
 
-.text {
-  margin-left: 40px;
-}
 
 .text:hover {
   text-decoration: none;
@@ -101,8 +119,9 @@ div .content {
 }
 
 .user {
-  position: fixed;
+   margin-left: 3px;
 }
+
 
 /* media queries */
 

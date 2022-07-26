@@ -86,9 +86,10 @@
 
 <style scoped>
 .main-body {
-  margin-left: 17%;
+  margin-left: 16%;
   margin-top: 10vh;
   overflow: hidden;
+  padding: 0 4rem;
 }
 .MoC-content {
   display: flex;
@@ -104,7 +105,7 @@
 }
 
 .empower {
-  background-color: #A2D5AC;
+  background-color: #925db6;
   width: 100%;
   display: grid;
   grid-template-columns: 40% 55%;

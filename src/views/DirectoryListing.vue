@@ -11,7 +11,7 @@
           <img src="../assets/office.png" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Janet Nkansah</b></h4></router-link
             >
             <p>Computer Analyst</p>
           </div>
@@ -20,16 +20,16 @@
           <img src="../assets/ladys.webp" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Sara Antwi</b></h4></router-link
             >
-            <p>Systems Analyst</p>
+            <p>Mavis Mensah</p>
           </div>
         </div>
         <div class="card">
           <img src="../assets/lady.jpg" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Rebecca Agyapong</b></h4></router-link
             >
             <p>Computer Application Analyst</p>
           </div>
@@ -41,7 +41,7 @@
           <img src="../assets/lady.jpg" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Elizabeth Appiah</b></h4></router-link
             >
             <p>ICT Business Analyst</p>
           </div>
@@ -50,7 +50,7 @@
           <img src="../assets/office.png" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Appiah Juliana</b></h4></router-link
             >
             <p>UI/UX Designer</p>
           </div>
@@ -59,7 +59,7 @@
           <img src="../assets/lady.jpg" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Doreen Fordie</b></h4></router-link
             >
             <p>Cyber Security Expert</p>
           </div>
@@ -71,7 +71,7 @@
           <img src="../assets/office.png" alt="Avatar"/>
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>LadyMartha Annoba</b></h4></router-link
             >
             <p>ux/ui Designer</p>
           </div>
@@ -80,7 +80,7 @@
           <img src="../assets/lady.jpg" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Doris Okyere</b></h4></router-link
             >
             <p>system Analysis</p>
           </div>
@@ -89,7 +89,7 @@
           <img src="../assets/office.png" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
+              ><h4><b>Matilda Teye</b></h4></router-link
             >
             <p>internet security analyst</p>
           </div>
@@ -125,7 +125,7 @@
 
 <style scoped>
 .main-body {
-  margin-left: 17%;
+  padding: 0 10rem;
   margin-top: 10vh;
   overflow: hidden;
 }
@@ -134,7 +134,7 @@
 }
 .cards {
   display: flex;
-  justify-content: space-around; 
+  /* justify-content: space-around;  */
 }
 .card {
   height: 100%;

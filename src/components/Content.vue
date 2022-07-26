@@ -1,45 +1,15 @@
 <template>
   <div id="main-body" class="main-body">
-    <!-- <RightSideNavVue /> -->
-
-    <!-- carousel -->
-    <div class="container-fluid">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="../assets/Girls-in-ICT-Day.jpg" alt="" />
-          </div>
-
-          <div class="item">
-            <img src="../assets/Girls-in-ICT-Day.jpg" alt="" />
-          </div>
-
-          <div class="item">
-            <img src="../assets/Girls-in-ICT-Day.jpg" alt="" />
-          </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
+    <div class="herobg">
+      <div class="herotext">
+        <div class="left"></div>
+        <div class="right">
+        <h2>Women in ICT</h2>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui odio explicabo officiis vel dolorem illum optio aliquid ex tenetur numquam eaque dignissimos iure provident, nisi illo accusantium. Deserunt, deleniti libero?</P>
+        <button><i class="fa fa-user"></i> Who we are</button>
+       </div>
       </div>
     </div>
-
-    <!-- end of carousel -->
 
     <h3 style="text-align: center; margin-top: 5%">
       We are here to <br /><strong>always help</strong> you
@@ -57,7 +27,10 @@
     <h3 style="text-align: center; margin-top: 5%">Text Goes Here</h3>
     <div class="row top-cards mt-3 mb-5">
       <div class="top-card">
-        <img src="../assets/icon-search-heart-heart-inspiration-icon-with-png-and-vector-856151.png" alt="">
+        <img
+          src="../assets/icon-search-heart-heart-inspiration-icon-with-png-and-vector-856151.png"
+          alt=""
+        />
         <h4 style="text-align: center">Inspire</h4>
       </div>
       <div class="top-card top-card-mid">
@@ -65,7 +38,7 @@
         <h4 style="text-align: center">Engage</h4>
       </div>
       <div class="top-card">
-       <img src="../assets/photo_2022-04-29_15-17-16.png" alt="">
+        <img src="../assets/photo_2022-04-29_15-17-16.png" alt="" />
         <h4 style="text-align: center">Educate</h4>
       </div>
     </div>
@@ -75,36 +48,28 @@
         <h3>Empowering Girls & Women In Cyber Security</h3>
         <p style="text-align: justify">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Excepteur sint occaecat cupidatat non proident, sunt
-          in culpa qui officia deserunt mollit anim id est laborum.
-          <br><br>
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+          <br /><br />
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Excepteur sint occaecat cupidatat non proident, sunt
-          in culpa qui officia deserunt mollit anim id est laborum.
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
         </p>
       </div>
       <img src="../assets/photo_2022-07-25_09-11-26.jpg" alt="" />
     </div>
     <div class="pastEvent">
-      <h3>
-        Past Events
-      </h3>
-      <div class="row-2">
-        <div class="col-sm-4">
-          <img src="../assets/sustainable-development-strategy.jpg" alt="" />
-        </div>
-        <div class="col-sm-4">
-          <img src="../assets/Digi_Transf.png" alt="" />
-        </div>
-        <div class="col-sm-4">
-          <img src="../assets/bd.jpg" alt="" />
-        </div>
+      <h3>Past Events</h3>
+      <div class="container">
+        <a href=""><img src="../assets/tertiary.jpg" alt="" /></a>
+        <a href=""><img src="../assets/mic.jpg" alt="" /></a>
+        <a href=""><img src="../assets/office.png" alt="" /></a>
       </div>
     </div>
 
@@ -152,6 +117,29 @@
         </div>
       </div>
     </div>
+
+    <section>
+      <!-- Message from minister -->
+      <div class="container">
+        <div class="mins-msg">
+          <img src="../assets/cyber.jpg" alt="Minister's image" />
+          <div class="mins-text">
+            <h1>Become A Partner Today</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsa
+              vitae. Rerum corrupti explicabo maiores enim quae vitae, molestias
+              voluptatem consequuntur! Ipsum voluptatum nihil molestiae veniam
+              ratione neque mollitia ex!
+              <br /><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsa
+              vitae. Rerum corrupti explicabo maiores enim quae vitae, molestias
+              voluptatem consequuntur! Ipsum voluptatum nihil molestiae veniam
+              ratione neque mollitia ex!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Our partners carousel -->
 
@@ -215,7 +203,7 @@
             </div>
           </div>
 
-          <!-- Left and right controls --> 
+          <!-- Left and right controls -->
           <a
             class="left carousel-control"
             href="#LogoCarousel"
@@ -239,25 +227,51 @@
 </template>
 
 <style scoped>
+/* h1,
+h2,
+h3,
+h4
+ {
+  font-size: ;
+} */
+
 .main-body {
-  margin-left: 15%;
-  margin-top: 17vh;
+  /* margin-left: 15%; */
+  margin-top: 15.5vh;
   overflow: hidden;
-  padding: 0 30px;
+}
+/* Hero background */
+.herobg {
+  background-image: url("../assets/IMG_7391.jpg");
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size:  100% 130%;
 }
 
-.container-fluid {
-  width: 80%;
+.herotext {
+  display: flex;
+  height: 65vh;
+  padding: 15rem 30rem 0 30rem;
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.798), rgba(255, 255, 255, 0.001));
 }
-.carousel-inner {
-  width: 100%;
-  overflow: hidden;
-  height: 60vh;
+.herotext .right {
+  width: 50%;
 }
-.carousel-inner img {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
+
+.herotext button {
+  padding: 1.5rem 3.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 197, 39, 0.8);
+  color: #652e89;
+  font-size: 18px;
+}
+.herotext button:hover {
+   background-color: rgba(204, 153, 12, 0.8);
+} 
+
+.herotext h2, .herotext p {
+  color: white;
 }
 
 .top-cards {
@@ -279,7 +293,7 @@
   color: white;
 }
 .top-card-mid {
-  background-color: #A2D5AC;
+  background-color: #652e89;
   padding: 0 10rem;
 }
 
@@ -288,34 +302,20 @@
   font-size: 100px;
 }
 
+/* empower women section */
 .empower {
-  background-color: #A2D5AC;
-  width: 100%;
+  background-color: #fdd5ef;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 100px 0;
-  padding: 5rem 20rem;
-  gap: 10px;
+  padding: 8rem 16rem;
+  align-content: center;
 }
-.empower .left, .empower .right {
-  width: 50%;
-}
-.empower p,
-.empower h3 {
-  color: rgb(53, 52, 52);
-  margin-right: 20px;
-}
-.empower p {
-  font-size: 16px;
-  text-align: center;
+
+.empower .left {
+  padding: 0 3rem 0 0;
 }
 
 .empower img {
-  height: 400px;
   width: 500px;
-  border-top-left-radius: 50px;
-  object-fit: cover;
 }
 
 .col-sm-4 img {
@@ -324,22 +324,21 @@
 }
 /* past events */
 .pastEvent h3 {
-text-align: center; 
-margin: 100px auto 30px auto;
+  text-align: center;
+  margin: 100px auto 30px auto;
 }
 
-.pastEvent .row2 {
+.pastEvent .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 !important;
-  margin: 0;
 }
-
-.pastEvent img {
-  /* width: 400px; */
+.pastEvent .container a img {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   object-position: center;
+  border-radius: 10px;
 }
 
 /* whats our specialty card */
@@ -354,7 +353,7 @@ margin: 100px auto 30px auto;
   text-align: center;
   padding: 30px 20px;
   width: 350px;
-  
+
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 15px 1px lightgray;
@@ -374,7 +373,7 @@ margin: 100px auto 30px auto;
   flex-wrap: wrap;
   justify-content: center;
   padding: 5rem 1rem;
-  background-color: #A2D5AC;
+  background-color: #652e89;
   width: 100%;
   gap: 10px;
 }
@@ -384,12 +383,12 @@ margin: 100px auto 30px auto;
 }
 .partner .left h4 {
   font-weight: bold;
-  color: black;
+  color: white;
 }
 .partner .right button {
   padding: 10px 15px;
-  background-color: #4E888A;
-  color: white;
+  background-color: white;
+  color: #652e89;
   width: auto;
   height: 50px;
   border: none;
@@ -397,9 +396,9 @@ margin: 100px auto 30px auto;
   font-weight: bold;
 }
 
-.partner .right button:hover{
-    background-color: #b2e1e2;
-     color: black;
+.partner .right button:hover {
+  background-color: #ffc527;
+  color: #652e89;
 }
 
 p,
@@ -434,7 +433,7 @@ h6 {
   width: 300px;
 }
 
-@media only screen and (max-width: 1033px) {
+@media only screen and (max-width: 1203px) {
   .main-body {
     margin: 50px 20px 0 20px;
   }
@@ -442,11 +441,36 @@ h6 {
   .carousel-inner {
     height: 20vh;
   }
+
+  .empower {
+    flex-wrap: wrap;
+  }
+  .empower img {
+    width: 100%;
+  }
+  .mins-msg {
+    flex-direction: column;
+  }
+  .mins-text {
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .carousel-inner {
     height: 15vh;
+  }
+  .mins-msg {
+    flex-direction: column;
+  }
+  .mins-text {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .mins-text h1 {
+    font-size: 3rem;
   }
   /* .top-card {
     width: 25vw !important;
@@ -456,6 +480,9 @@ h6 {
 
   .empower {
     padding: 20px;
+  }
+  .empower img {
+    width: 100%;
   }
 
   .row-2 .col-sm-4 {
@@ -481,5 +508,20 @@ h6 {
   display: flex;
   justify-content: center;
   padding: 10px 0 0 0;
+}
+
+.mins-msg {
+  display: flex;
+  margin: 40px 0;
+}
+.mins-text {
+  margin: 0 30px;
+}
+.mins-text h1 {
+  font-size: 3rem;
+}
+
+.mins-msg img {
+  width: 100%;
 }
 </style>

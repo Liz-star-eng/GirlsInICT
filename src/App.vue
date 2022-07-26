@@ -1,6 +1,6 @@
 <template>
   <Topnav />
-  <LeftSideBar />
+  <!-- <LeftSideBar /> -->
   <RightSideNav />
   <router-view />
   <Footer />
@@ -9,7 +9,7 @@
 <script>
 import Topnav from "./components/Topnav.vue";
 import Footer from "./components/Footer.vue";
-import LeftSideBar from "./components/LeftSideBar.vue";
+// import LeftSideBar from "./components/LeftSideBar.vue";
 import RightSideNav from "./components/RightSideNav.vue";
 
 export default {
@@ -17,15 +17,13 @@ export default {
   components: {
     Topnav,
     Footer,
-    LeftSideBar,
+    // LeftSideBar,
     RightSideNav,
   },
 };
 </script>
 
 <style scoped>
-/* #App {
-  position: absolute;
-  overflow: hidden;
-} */
+
 </style>
+
