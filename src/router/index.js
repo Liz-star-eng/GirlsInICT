@@ -10,6 +10,7 @@ import Careers from "../views/Careers.vue";
 import NewsViews from "../views/NewsViews.vue";
 import NewsDetails from "../views/NewsDetails.vue";
 import Form from "../views/Form.vue";
+import AboutUs from "../views/AboutUs.vue";
 import Test from "../views/Test.vue"
 
 
@@ -20,6 +21,11 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/about-us",
+    name: "aboutus",
+    component: AboutUs,
   },
   {
     path: "/directorylistings",

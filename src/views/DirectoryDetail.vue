@@ -129,8 +129,8 @@
 
 <style scoped>
 .main-body {
-  margin-left: 17%;
-  margin-top: 10vh;
+
+  margin-top: 14vh;
   overflow: hidden;
 }
 

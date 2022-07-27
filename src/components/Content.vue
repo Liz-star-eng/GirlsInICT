@@ -5,8 +5,8 @@
         <div class="left"></div>
         <div class="right">
         <h2>Women in ICT</h2>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui odio explicabo officiis vel dolorem illum optio aliquid ex tenetur numquam eaque dignissimos iure provident, nisi illo accusantium. Deserunt, deleniti libero?</P>
-        <button><i class="fa fa-user"></i> Who we are</button>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui  iure provident, nisi illo accusantium. Deserunt, deleniti libero?</P>
+        <router-link to="/about-us"><button><i class="fa fa-user"></i> Who we are</button></router-link>
        </div>
       </div>
     </div>
@@ -227,13 +227,6 @@
 </template>
 
 <style scoped>
-/* h1,
-h2,
-h3,
-h4
- {
-  font-size: ;
-} */
 
 .main-body {
   /* margin-left: 15%; */
@@ -458,8 +451,13 @@ h6 {
 }
 
 @media only screen and (max-width: 600px) {
-  .carousel-inner {
-    height: 15vh;
+
+  .herotext{
+      padding: 7px;
+  }
+
+  .herobg {
+    
   }
   .mins-msg {
     flex-direction: column;
@@ -472,11 +470,7 @@ h6 {
   .mins-text h1 {
     font-size: 3rem;
   }
-  /* .top-card {
-    width: 25vw !important;
-    margin: 10px;
-    flex-wrap: wrap;
-  } */
+ 
 
   .empower {
     padding: 20px;

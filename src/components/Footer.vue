@@ -46,6 +46,7 @@
 .section {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   max-width: 80%;
   margin: auto;
 }
