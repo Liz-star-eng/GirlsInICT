@@ -229,8 +229,6 @@
 <style scoped>
 
 .main-body {
-  /* margin-left: 15%; */
-  margin-top: 15.5vh;
   overflow: hidden;
 }
 /* Hero background */
@@ -425,10 +423,38 @@ h6 {
   height: 50px;
   width: 300px;
 }
+.mt-5 .carousel-inner {
+  height: 100px;
+  padding: 10px 0;
+}
+.mt-5 .carousel-inner img {
+  height: 50px;
+  width: 200px;
+}
+.mt-5 .carousel-inner .row {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 0 0;
+}
+
+.mins-msg {
+  display: flex;
+  margin: 40px 0;
+}
+.mins-text {
+  margin: 0 30px;
+}
+.mins-text h1 {
+  font-size: 3rem;
+}
+
+.mins-msg img {
+  width: 50%;
+}
 
 @media only screen and (max-width: 1203px) {
   .main-body {
-    margin: 50px 20px 0 20px;
+    margin: 0 20px 0 20px;
   }
 
   .carousel-inner {
@@ -456,11 +482,28 @@ h6 {
       padding: 7px;
   }
 
-  .herobg {
-    
+  /* sponsors */
+  .partner .left h4 {
+    text-align: center;
   }
+  /* end */
+
+  /* past events */
+  
+.pastEvent .container a:first-child {
+  padding-left: 0 !important;
+   padding-right: 20px !important
+}
+  .pastEvent .container {
+    gap: 5px;
+  }
+  /* end */
+
   .mins-msg {
     flex-direction: column;
+  }
+  .mins-msg img {
+   width: 100%;
   }
   .mins-text {
     margin: 0px;
@@ -490,32 +533,5 @@ h6 {
   }
 }
 
-.mt-5 .carousel-inner {
-  height: 100px;
-  padding: 10px 0;
-}
-.mt-5 .carousel-inner img {
-  height: 50px;
-  width: 200px;
-}
-.mt-5 .carousel-inner .row {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0 0 0;
-}
 
-.mins-msg {
-  display: flex;
-  margin: 40px 0;
-}
-.mins-text {
-  margin: 0 30px;
-}
-.mins-text h1 {
-  font-size: 3rem;
-}
-
-.mins-msg img {
-  width: 50%;
-}
 </style>

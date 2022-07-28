@@ -1,9 +1,11 @@
 <template>
   <div class="header">
-    <nav class="topBar">
+    <nav class="topBar bigscreen">
       <div class="H-container">
         <div class="user">
-          <a><i class="fa fa-user"></i> About Us</a>
+          <router-link to="/about-us"
+            ><i class="fa fa-user"></i> About Us</router-link
+          >
           <a class="text"
             ><i class="fa fa-sign-in" aria-hidden="true"></i>
             Login
@@ -17,148 +19,167 @@
         </div>
       </div>
     </nav>
-    <header>
-      <div class="navBar">
-        <router-link to="/" class="title"
-          ><img src="../assets/girlslogo.png" alt="" />
-        </router-link>
-        <nav>
-          <li class="dropdown">
-            <a href="" class="dropbtn"
-              ><i class="fa fa-address-book-o"></i> Directory
-              <i class="fa fa-chevron-down"></i
-            ></a>
-            <div class="dropdown-content">
-              <router-link to="/directorylistings">Mentors</router-link>
-              <router-link to="/StudentsViews">Students</router-link>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="" class="dropbtn"
-              ><i class="fa fa-folder-open-o"></i> Forum
-              <i class="fa fa-chevron-down"></i
-            ></a>
-            <div class="dropdown-content">
-              <router-link to="/moccorner">Mentors</router-link>
-              <router-link to="/careers">Carreers</router-link>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="" class="dropbtn"
-              ><i class="fa fa-graduation-cap"></i> Academy
-              <i class="fa fa-chevron-down"></i
-            ></a>
-            <div class="dropdown-content">
-              <router-link to="/cyberview">Cyber Security</router-link>
-              <router-link to="/careers">Programming</router-link>
-              <router-link to="/careers">Trends in Tech</router-link>
-              <router-link to="/StudentsViews">Basic of computing</router-link>
-              <router-link to="/cyberview">IoT</router-link>
-              <router-link to="/careers">Robotics</router-link>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="" class="dropbtn"
-              ><i class="fa fa-fire"></i> Events
-              <i class="fa fa-chevron-down"></i
-            ></a>
-            <div class="dropdown-content">
-              <router-link to="/upcomingevent">Upcoming</router-link>
-              <router-link to="newsviews">Past</router-link>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="" class="dropbtn"
-              ><i class="fa fa-archive"></i> Information Hub
-              <i class="fa fa-chevron-down"></i
-            ></a>
-            <div class="dropdown-content">
-              <router-link to="/cyberview">Cybersecurity</router-link>
-            </div>
-          </li>
-        </nav>
-        <a href="" class="cta"> Ask for help </a>
-        <div class="search-bar">
-          <!-- <input type="text" placeholder="what's on your mind" /> -->
-          <button><i class="fa fa-search"></i></button>
-        </div>
-      </div>
-    </header>
-
-    <!-- responsiveness -->
-    <nav class="collapsibleNav">
-      <div class="smallDevices">
-        <router-link to="/" class="title"
-          ><img src="../assets/girlslogo.png" alt="" />
-        </router-link>
-        <i class="fa fa-bars" @click="toggleNav()"></i>
-      </div>
-    </nav>
-    <!-- toggle navbar -->
-    <div class="ResponsiveNav" :class="collapsibleNav">
-      <nav class="NavItems">
+  </div>
+  <header>
+    <div class="navBar">
+      <router-link to="/" class="title"
+        ><img src="../assets/girlslogo.png" alt="" />
+      </router-link>
+      <nav>
         <li class="dropdown">
           <a href="" class="dropbtn"
-            ><i class="fa fa-folder-open-o"></i> Directory
+            ><i class="fa fa-address-book-o"></i> Directory
             <i class="fa fa-chevron-down"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="">Mentors</router-link>
-            <router-link to="">Students</router-link>
+            <router-link to="/directorylistings">Mentors</router-link>
+            <router-link to="/StudentsViews">Students</router-link>
           </div>
         </li>
         <li class="dropdown">
           <a href="" class="dropbtn"
-            ><i class="fa fa-folder-open-o"></i> Directory
+            ><i class="fa fa-folder-open-o"></i> Forum
             <i class="fa fa-chevron-down"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="">Mentors</router-link>
-            <router-link to="">Students</router-link>
+            <router-link to="/moccorner">Mentors</router-link>
+            <router-link to="/careers">Carreers</router-link>
           </div>
         </li>
         <li class="dropdown">
           <a href="" class="dropbtn"
-            ><i class="fa fa-folder-open-o"></i> Academy
+            ><i class="fa fa-graduation-cap"></i> Academy
             <i class="fa fa-chevron-down"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="">Cyber Security</router-link>
-            <router-link to="">Programming</router-link>
-            <router-link to="">Trends in Tech</router-link>
-            <router-link to="">Basic of computing</router-link>
-            <router-link to="">IoT</router-link>
-            <router-link to="">Robotics</router-link>
+            <router-link to="/cyberview">Cyber Security</router-link>
+            <router-link to="/careers">Programming</router-link>
+            <router-link to="/careers">Trends in Tech</router-link>
+            <router-link to="/StudentsViews">Basic of computing</router-link>
+            <router-link to="/cyberview">IoT</router-link>
+            <router-link to="/careers">Robotics</router-link>
           </div>
         </li>
         <li class="dropdown">
           <a href="" class="dropbtn"
-            ><i class="fa fa-folder-open-o"></i> Events
-            <i class="fa fa-chevron-down"></i
+            ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="">Upcoming</router-link>
-            <router-link to="">Past</router-link>
+            <router-link to="/upcomingevent">Upcoming</router-link>
+            <router-link to="newsviews">Past</router-link>
           </div>
         </li>
         <li class="dropdown">
           <a href="" class="dropbtn"
-            ><i class="fa fa-folder-building-o"></i> Information Hub
+            ><i class="fa fa-archive"></i> Information Hub
             <i class="fa fa-chevron-down"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="">Cybersecurity</router-link>
+            <router-link to="/cyberview">Cybersecurity</router-link>
           </div>
         </li>
-        <a href="" class="cta"> Ask for help </a>
       </nav>
-
+      <a href="" class="cta"> Ask for help </a>
       <div class="search-bar">
-        <input type="text" placeholder="What are you looing for?" />
+        <!-- <input type="text" placeholder="what's on your mind" /> -->
         <button><i class="fa fa-search"></i></button>
       </div>
     </div>
+  </header>
+
+  <!-- responsiveness -->
+  <div class="changedScreen">
+    <nav class="topBar">
+      <div class="H-container">
+        <div class="user">
+          <router-link to="/about-us"
+            ><i class="fa fa-user"></i> About Us</router-link
+          >
+          <a class="text"
+            ><i class="fa fa-sign-in" aria-hidden="true"></i>
+            Login
+          </a>
+        </div>
+        <div class="social">
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </nav>
+  <nav class="collapsibleNav">
+    <div class="smallDevices">
+      <router-link to="/" class="title"
+        ><img src="../assets/girlslogo.png" alt="" />
+      </router-link>
+      <i class="fa fa-bars" @click="toggleNav()"></i>
+    </div>
+  </nav>
+  <!-- toggle navbar -->
+  <div class="ResponsiveNav" :class="collapsibleNav">
+    <nav class="NavItems">
+     <li class="dropdown">
+          <a href="" class="dropbtn"
+            ><i class="fa fa-address-book-o"></i> Directory
+            <i class="fa fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-content">
+            <router-link to="/directorylistings">Mentors</router-link>
+            <router-link to="/StudentsViews">Students</router-link>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn"
+            ><i class="fa fa-folder-open-o"></i> Forum
+            <i class="fa fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-content">
+            <router-link to="/moccorner">Mentors</router-link>
+            <router-link to="/careers">Carreers</router-link>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn"
+            ><i class="fa fa-graduation-cap"></i> Academy
+            <i class="fa fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-content">
+            <router-link to="/cyberview">Cyber Security</router-link>
+            <router-link to="/careers">Programming</router-link>
+            <router-link to="/careers">Trends in Tech</router-link>
+            <router-link to="/StudentsViews">Basic of computing</router-link>
+            <router-link to="/cyberview">IoT</router-link>
+            <router-link to="/careers">Robotics</router-link>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn"
+            ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-content">
+            <router-link to="/upcomingevent">Upcoming</router-link>
+            <router-link to="newsviews">Past</router-link>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn"
+            ><i class="fa fa-archive"></i> Information Hub
+            <i class="fa fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-content">
+            <router-link to="/cyberview">Cybersecurity</router-link>
+          </div>
+        </li>
+      <a href="" class="cta"> Ask for help </a>
+    </nav>
+
+    <div class="search-bar">
+      <input type="text" placeholder="What are you looing for?" />
+      <button><i class="fa fa-search"></i></button>
+    </div>
   </div>
+   </div>
 </template>
 <script>
 export default {
@@ -188,9 +209,8 @@ button {
   padding: 0;
 }
 .header {
-  position: fixed;
-  z-index: 99;
-  width: 100vw;
+  width: 100%;
+    z-index: 99;
 }
 /* TOPNAV */
 .topBar {
@@ -214,8 +234,8 @@ button {
   margin-left: 1rem;
 }
 .H-container a:hover {
-text-decoration: none;
-color: #ffc527;
+  text-decoration: none;
+  color: #ffc527;
 }
 .user a:first-child {
   margin-right: 3rem;
@@ -225,7 +245,7 @@ header {
   background-color: white;
   padding: 3rem 5rem;
   box-shadow: 0 10px 20px hsl(0deg 0% 67% / 15%);
-  width: 100vw;
+  width: 100%;
 }
 .navBar {
   display: flex;
@@ -269,6 +289,7 @@ li a:hover,
 }
 li.dropdown {
   display: inline-block;
+    z-index: 99;
 }
 
 .dropdown-content {
@@ -277,8 +298,9 @@ li.dropdown {
   background-color: #652e89;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
 }
-.dropdown-content a {
+.ResponsiveNav .dropdown-content a, .dropdown-content a {
   color: white;
   padding: 12px 16px;
   text-decoration: none;
@@ -390,6 +412,11 @@ button {
   color: white;
 }
 
+.changedScreen {
+  display: none;
+  width: 100%;
+}
+
 @media (max-width: 1600px) {
   li a,
   .dropbtn {
@@ -411,9 +438,15 @@ button {
   header {
     display: none;
   }
+  .bigscreen {
+    display: none;
+  }
   .collapsibleNav {
     display: flex;
     padding: 3rem 0;
+  }
+  .changedScreen {
+    display: block;
   }
 }
 </style>

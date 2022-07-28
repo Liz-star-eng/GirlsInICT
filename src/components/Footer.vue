@@ -84,4 +84,8 @@ margin-top: 0;
   padding: 2rem 0;
 }
 
+@media only screen and (max-width: 600px) {
+  
+}
+
 </style>

@@ -125,7 +125,7 @@
 
 <style scoped>
 .main-body {
-  padding: 0 10rem;
+  padding: 0 15rem;
   margin-top: 10vh;
   overflow: hidden;
 }
@@ -171,20 +171,21 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #A2D5AC;
+  background-color: #c889f2;
+  color: white;
 }
 .partners button {
   margin-left: 20px;
   border: none;
   border-radius: 10px;
-  color: white;
-  background-color: #479595;
+  color: #652e89;
+  background-color: #ffc527;
   padding: 10px;
 }
 
 .partners button:hover {
   transition: 0.1s;
-  background-color: #1e5757;
+  background-color: #d3a629;
 }
 
 .row-2 {

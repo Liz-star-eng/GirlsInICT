@@ -55,8 +55,8 @@
 
 <style scoped>
 .main-body{
-    margin: 12vh 8% 5% 18%;
-    padding: 0 3rem;
+    
+    padding: 0 15rem;
 }
 
 h3 {

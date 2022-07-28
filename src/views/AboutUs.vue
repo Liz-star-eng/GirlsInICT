@@ -86,11 +86,77 @@
       <div class="container">
         <div class="ourteamtitle">
           <h1>Meet Our Team</h1>
-          <div>
-            
+          <div class="grid-conainer cards">
+            <router-link to="">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="../assets/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Christiana</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+              </div>
+            </div>
+            </router-link>
+            <router-link to="">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="../assets/mandy-zhang-a0EQFTH4ZfA-unsplash.jpg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Christiana</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+              </div>
+            </div>
+            </router-link>
+            <router-link to="">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="../assets/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Christiana</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+              </div>
+            </div>
+            </router-link>
+            <router-link to="">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="../assets/mandy-zhang-a0EQFTH4ZfA-unsplash.jpg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Christiana</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+              </div>
+            </div>
+            </router-link>
           </div>
         </div>
-        
       </div>
     </div>
   </section>
@@ -165,38 +231,44 @@ section {
 }
 
 .ourteam {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
 }
 .ourteamtitle h1 {
   text-align: center;
-  
-}
-.ourteam .col5 {
-  width: 100%;
-  margin: 50px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.piccard {
-  padding-right: 100px;
-  justify-content: center;
-}
-
-.col5 p {
-  color: rgb(100, 100, 100);
-  margin-top: -10px;
-}
-.ourteam .col5 img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
 }
 .ourpartner {
   margin-bottom: 50px;
   background-color: rgba(250, 235, 215, 0.095);
   padding: 100px 0;
+}
+
+/* Grid cards*/
+.grid-conainer {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 55px;
+  padding: 30px 0 0 0;
+}
+
+.cards {
+  text-align: center;
+}
+.cards img {
+  width: 150px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cards a{
+  color: black;
+}
+.cards a:hover {
+  text-decoration: none;
+  background-color: whitesmoke;
+  padding: 6px;
+  transition: 0.3s ease-in-out;
 }
 @media only screen and (max-width: 600px) {
   .row {
@@ -215,14 +287,12 @@ section {
   .mv .col4 {
     margin: 4px 0;
   }
-
-  .ourteam .col5 {
-    margin: 30px 0;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  
+.grid-conainer {
+   grid-template-columns: 100%;
+}
+.cards img  {
+  height: 270px;
+}
 }
 @media only screen and (max-width: 768px) {
   .row {

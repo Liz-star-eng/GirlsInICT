@@ -79,10 +79,10 @@
     <div class="col-sm-4 related-news">
       <h3>Related news</h3>
       <nav>
-        <a href=""><img src="../assets/bd.jpg" alt="">Lorem ipsum dolor sit amet.</a>
-        <a href=""><img src="../assets/bd.jpg" alt="">Lorem ipsum dolor sit amet.</a>
-        <a href=""><img src="../assets/bd.jpg" alt="">Lorem ipsum dolor sit amet.</a>
-        <a href=""><img src="../assets/bd.jpg" alt="">Lorem ipsum dolor sit amet.</a>
+        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
+        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
+        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
+        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
        
         
       </nav>
@@ -92,13 +92,10 @@
 
 <style scoped>
 .row {
-  margin: 20vh 0 0 0;
   padding: 1rem 15rem;
   display: flex;
   justify-content: space-between;
 }
-
-
 
 .news {
   text-align: left;
@@ -120,18 +117,21 @@
 .related-news a {
 color: #652e89;
 font-size: 18px;
-
+margin-right: 0;
+}
+.related-news a p {
+  margin-left: 2.5rem;
 }
 .related-news a:hover {
   color: #574105;
   text-decoration: none;
 }
 .related-news img {
-  width: 99%;
+  width: 80%;
   padding: 10px 20px;
 }
 .related-news img:hover{
- width: 100%;
+ width: 81%;
  transition: 0.3s ease-in-out;
 }
 p {

@@ -121,10 +121,8 @@
 
 <style scoped>
 .main-body {
-  margin-left: 17%;
-  margin-top: 10vh;
-  overflow: hidden;
-  padding: 20px;
+  overflow-x: hidden;
+  padding: 0 15rem;
 }
 
 img {

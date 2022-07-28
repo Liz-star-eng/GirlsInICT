@@ -129,8 +129,7 @@
 
 <style scoped>
 .main-body {
-
-  margin-top: 14vh;
+padding: 0 15rem;
   overflow: hidden;
 }
 

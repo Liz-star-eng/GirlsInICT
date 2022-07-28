@@ -1,7 +1,9 @@
 <template>
+  <div class="topNav">
   <Topnav />
+  </div>
   <!-- <LeftSideBar /> -->
-  <RightSideNav />
+  <!-- <RightSideNav /> -->
   <router-view />
   <Footer />
 </template>
@@ -10,7 +12,7 @@
 import Topnav from "./components/Topnav.vue";
 import Footer from "./components/Footer.vue";
 // import LeftSideBar from "./components/LeftSideBar.vue";
-import RightSideNav from "./components/RightSideNav.vue";
+// import RightSideNav from "./components/RightSideNav.vue";
 
 export default {
   name: "App",
@@ -18,12 +20,15 @@ export default {
     Topnav,
     Footer,
     // LeftSideBar,
-    RightSideNav,
+    // RightSideNav,
   },
 };
 </script>
 
 <style scoped>
-
+/* .topNav {
+  position: fixed;
+  width: 100%;
+} */
 </style>
 

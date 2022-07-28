@@ -67,6 +67,7 @@
         </div>
       </div>
     </div>
+      </div>
     <div class="empower mb-5">
       <div class="left">
         <h3>Empowering Girls & Women In Cyber Security</h3>
@@ -81,15 +82,15 @@
       </div>
       <img src="../assets/Girls-in-ICT-North-East.jpg" alt="" />
     </div>
-  </div>
+
 </template>
 
 <style scoped>
 .main-body {
-  margin-left: 16%;
-  margin-top: 10vh;
+  /* margin-left: 16%; */
+  /* margin-top: 10vh; */
   overflow: hidden;
-  padding: 0 4rem;
+  padding: 0 15rem;
 }
 .MoC-content {
   display: flex;
