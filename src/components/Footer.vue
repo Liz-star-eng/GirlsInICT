@@ -83,9 +83,28 @@ margin-top: 0;
   text-align: center;
   padding: 2rem 0;
 }
+@media only screen and (max-width: 1100px) {
+    .section {
+       gap: 20px;
+    }
+}
 
-@media only screen and (max-width: 600px) {
-  
+@media only screen and (max-width: 660px) {
+  .section {
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 3rem;
+  }
+  .section img {
+    width: 200px;
+  }
+   .section img:hover {
+    width: 201px;
+   }
+  .underline {
+    width: 50%;
+    margin-left: 0 !important;
+  }
 }
 
 </style>

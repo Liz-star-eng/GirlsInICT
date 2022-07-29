@@ -167,8 +167,7 @@
 
 <style scoped>
 .main-body {
-  margin-left: 17%;
-  margin-top: 10vh;
+  padding: 1rem 10rem;
   justify-content: center;
   margin-bottom: 0;
 }

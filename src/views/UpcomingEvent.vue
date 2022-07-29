@@ -1,6 +1,5 @@
 <template>
   <div id="main-body" class="main-body">
-
     <div class="Events">
       <h3><strong>Upcoming Events</strong></h3>
       <hr />
@@ -32,7 +31,7 @@
       </div>
       <div class="eventContent">
         <div><img src="../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
-        <div>
+        <div class="textContent">
           <h4>
             Splunk 101 Hands-on Workshop <br />
             -infosec Basics
@@ -58,9 +57,9 @@
       </div>
       <div class="eventContent">
         <div><img src="../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
-        <div>
+        <div class="textContent">
           <h4>
-            Splunk 101 Hands-on Workshop <br>
+            Splunk 101 Hands-on Workshop <br />
             -infosec Basics
           </h4>
           <p>
@@ -71,7 +70,7 @@
             earum impedit in consequatur excepturi non cupiditate blanditiis ut
             corrupti commodi distinctio. Fugit, suscipit ut!
           </p>
-          <br>
+          <br />
           <div class="symbol">
             <p class="symbol-text">
               <i class="fa fa-clock-o"></i> text goes here
@@ -84,9 +83,9 @@
       </div>
     </div>
 
-    <div class="Jumbotron upcoming">
+    <div class="container">
       <div class="row">
-        <div class="col-6" style="margin-left: 20px;">
+        <div class="col-6">
           <h3>Empowering Women and Girls in ICT</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -96,31 +95,29 @@
           </p>
         </div>
         <div class="col-6">
-          <img src="images/photo_2022-05-05_09-27-14.jpg" alt="" style="" />
+          <img src="images/photo_2022-05-05_09-27-14.jpg" alt=""/>
         </div>
       </div>
     </div>
-      <div class="empower mb-5">
-      <div class="left">
-        <h3>Empowering Girls & Women In Cyber Security</h3>
-        <p style="text-align: justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. <br />Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-          id est laborum.
-        </p>
-      </div>
-      <img src="../assets/Girls-in-ICT-North-East.jpg" alt="" />
+  </div>
+  <div class="empower mb-5">
+    <div class="left">
+      <h3>Empowering Girls & Women In Cyber Security</h3>
+      <p style="text-align: justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. <br />Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
     </div>
+    <img src="../assets/Girls-in-ICT-North-East.jpg" alt="" />
   </div>
 </template>
 
 <style scoped>
 .main-body {
-  margin-left: 17%;
-  margin-top: 10vh;
+  padding: 1rem 10rem;
   overflow: hidden;
 }
 
@@ -136,7 +133,7 @@
   margin: 20px;
 }
 
-.eventContent .textContent{
+.eventContent .textContent {
   padding: 3rem;
 }
 
@@ -172,45 +169,54 @@
 .symbol .fa {
   color: green;
 }
+/* container empowering women */
+.container {
+  padding: 0 6rem;
+}
 
 .empower {
-  height: 500px;
-  background-color: #A2D5AC;
-  width: 100%;
+  background-color: #fdd5ef;
   display: flex;
-  justify-content: center;
-  color: white;
-  margin: 10px 0 0 0;
+  padding: 8rem 16rem;
+  align-content: center;
 }
 
-.empower .left,
-.empower .right {
-  margin-top: 50px;
-}
 .empower .left {
-  padding: 50px;
-  width: 30%;
+  padding: 0 3rem 0 0;
 }
-.empower .left h3,
-.empower .left p {
-  color: white;
-}
+
 .empower img {
-  height: 400px;
   width: 500px;
-  margin: 50px 0 0 0;
-  border-top-left-radius: 50px;
-  object-fit: cover;
 }
-@media only screen and (max-width: 1033px ){
+
+.col-sm-4 img {
+  border-radius: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 1033px) {
   .main-body {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 1200px ) {
+@media only screen and (max-width: 1200px) {
   .eventContent {
     flex-wrap: wrap;
   }
 }
- 
+@media only screen and (max-width: 1000px) {
+  .empower {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .empower {
+      padding: 2rem 5rem;
+      align-content: justify;
+      margin-left: 0 !important;
+  }
+  .empower img {
+    width: 400px;
+  }
+}
 </style>

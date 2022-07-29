@@ -108,18 +108,18 @@
         </div>
       </div>
     </nav>
-  <nav class="collapsibleNav">
-    <div class="smallDevices">
-      <router-link to="/" class="title"
-        ><img src="../assets/girlslogo.png" alt="" />
-      </router-link>
-      <i class="fa fa-bars" @click="toggleNav()"></i>
-    </div>
-  </nav>
-  <!-- toggle navbar -->
-  <div class="ResponsiveNav" :class="collapsibleNav">
-    <nav class="NavItems">
-     <li class="dropdown">
+    <nav class="collapsibleNav">
+      <div class="smallDevices">
+        <router-link to="/" class="title"
+          ><img src="../assets/girlslogo.png" alt="" />
+        </router-link>
+        <i class="fa fa-bars" @click="toggleNav()"></i>
+      </div>
+    </nav>
+    <!-- toggle navbar -->
+    <div class="ResponsiveNav" :class="collapsibleNav">
+      <nav class="NavItems">
+        <li class="dropdown">
           <a href="" class="dropbtn"
             ><i class="fa fa-address-book-o"></i> Directory
             <i class="fa fa-chevron-down"></i
@@ -171,15 +171,16 @@
             <router-link to="/cyberview">Cybersecurity</router-link>
           </div>
         </li>
-      <a href="" class="cta"> Ask for help </a>
-    </nav>
-
-    <div class="search-bar">
-      <input type="text" placeholder="What are you looing for?" />
-      <button><i class="fa fa-search"></i></button>
+      </nav>
+      <div class="split">
+        <a href="" class="cta"> Ask for help </a>
+        <div class="search-bar">
+          <input type="text" placeholder="What are you looing for?" />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+      </div>
     </div>
   </div>
-   </div>
 </template>
 <script>
 export default {
@@ -192,7 +193,7 @@ export default {
 
   methods: {
     toggleNav() {
-      this.SmallScreen = !this.SmallScreen;
+      // this.SmallScreen = !this.SmallScreen;
       this.collapsibleNav = "slidedown";
     },
   },
@@ -210,7 +211,7 @@ button {
 }
 .header {
   width: 100%;
-    z-index: 99;
+  z-index: 99;
 }
 /* TOPNAV */
 .topBar {
@@ -289,7 +290,7 @@ li a:hover,
 }
 li.dropdown {
   display: inline-block;
-    z-index: 99;
+  z-index: 99;
 }
 
 .dropdown-content {
@@ -298,9 +299,9 @@ li.dropdown {
   background-color: #652e89;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
 }
-.ResponsiveNav .dropdown-content a, .dropdown-content a {
+.ResponsiveNav .dropdown-content a,
+.dropdown-content a {
   color: white;
   padding: 12px 16px;
   text-decoration: none;
@@ -370,7 +371,9 @@ button {
 }
 
 .slideDown {
-  height: auto;
+  display: block;
+  height: 20% !important;
+  transition: height 3s ease;
 }
 .slideUp {
   display: none;
@@ -395,12 +398,17 @@ button {
   text-decoration: none;
   font-size: 18px;
   margin: 0 2rem;
+  margin-bottom: 2px;
 }
 
 .NavItems li a:hover {
   color: #aecdd3;
   transition: 0.3s;
 }
+
+/* .NavItems .cta, .ResponsiveNav .search-bar {
+  float: right;
+} */
 
 .smallDevices .fa-bars {
   font-size: 30px;
