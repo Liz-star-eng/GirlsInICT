@@ -129,7 +129,7 @@
 
 <style scoped>
 .main-body {
-padding: 0 15rem;
+padding: 15rem;
   overflow: hidden;
 }
 

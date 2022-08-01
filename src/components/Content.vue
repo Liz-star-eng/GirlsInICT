@@ -4,28 +4,33 @@
       <div class="herotext">
         <div class="left"></div>
         <div class="right">
-        <h2>Women in ICT</h2>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui  iure provident, nisi illo accusantium. Deserunt, deleniti libero?</P>
-        <router-link to="/about-us"><button><i class="fa fa-user"></i> Who we are</button></router-link>
-       </div>
+          <h2>GIRLS in ICT</h2>
+          <P
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui iure
+            provident, nisi illo accusantium. Deserunt, deleniti libero?</P
+          >
+          <router-link to="/about-us"
+            ><button><i class="fa fa-user"></i> Who we are</button></router-link
+          >
+        </div>
       </div>
     </div>
-
-    <h3 style="text-align: center; margin-top: 5%">
-      We are here to <br /><strong>always help</strong> you
-    </h3>
-    <p class="mt-4" style="text-align: center">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. <br />Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      <br />Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-      officia deserunt mollit anim id est laborum.
-    </p>
-
+    <div class="intro">
+      <h3 style="text-align: center; margin-top: 5%">
+        We are here to <br /><strong>always help</strong> you
+      </h3>
+      <p class="mt-4" style="text-align: center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. <br />Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        <br />Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
     <h3 style="text-align: center; margin-top: 5%">Text Goes Here</h3>
-    <div class="row top-cards mt-3 mb-5">
+    <div class="top-cards mt-3 mb-5">
       <div class="top-card">
         <img
           src="../assets/icon-search-heart-heart-inspiration-icon-with-png-and-vector-856151.png"
@@ -66,7 +71,7 @@
     </div>
     <div class="pastEvent">
       <h3>Past Events</h3>
-      <div class="container">
+      <div class="containerEvents">
         <a href=""><img src="../assets/tertiary.jpg" alt="" /></a>
         <a href=""><img src="../assets/mic.jpg" alt="" /></a>
         <a href=""><img src="../assets/office.png" alt="" /></a>
@@ -122,7 +127,12 @@
       <!-- Message from minister -->
       <div class="container">
         <div class="mins-msg">
-          <img src="../assets/Min.Ursula-Owusu-Ekuful-1.jpg" alt="Minister's image" />
+          <div class="minsImage">
+          <img
+            src="../assets/Min.Ursula-Owusu-Ekuful-1.jpg"
+            alt="Minister's image"
+          />
+          </div>
           <div class="mins-text">
             <h1>Become A Partner Today</h1>
             <p>
@@ -145,105 +155,42 @@
 
     <div class="mt-5 mb-5">
       <h3 style="text-align: center" class="mt-5 mb-5">Our Partners</h3>
-      <div class="partners">
-        <div id="LogoCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li
-              data-target="#LogoCarousel"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#LogoCarousel" data-slide-to="1"></li>
-            <li data-target="#LogoCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="row">
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-41-16.png" alt="" />
-                </div>
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-41-57.png" alt="" />
-                </div>
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="row">
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-41-16.png" alt="" />
-                </div>
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-41-57.png" alt="" />
-                </div>
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="row">
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-41-16.png" alt="" />
-                </div>
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-41-57.png" alt="" />
-                </div>
-                <div class="col-sm-3">
-                  <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Left and right controls -->
-          <a
-            class="left carousel-control"
-            href="#LogoCarousel"
-            data-slide="prev"
-          >
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="right carousel-control"
-            href="#LogoCarousel"
-            data-slide="next"
-          >
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
+      <!-- <partners /> -->
     </div>
   </div>
 </template>
 
-<style scoped>
+<!-- <script>
+import partners from "./views/partners.vue";
 
+export default {
+  components: {
+    partners,
+  },
+};
+</script> -->
+<style scoped>
 .main-body {
   overflow: hidden;
+  padding-top: 15rem;
 }
 /* Hero background */
 .herobg {
   background-image: url("../assets/IMG_7391.jpg");
   height: 65vh;
   background-repeat: no-repeat;
-  background-size:  100% 130%;
+  background-size: 100% 130%;
 }
 
 .herotext {
   display: flex;
   height: 65vh;
   padding: 15rem 30rem 0 30rem;
-  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.798), rgba(255, 255, 255, 0.001));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.798),
+    rgba(255, 255, 255, 0.001)
+  );
 }
 .herotext .right {
   width: 50%;
@@ -258,10 +205,11 @@
   font-size: 18px;
 }
 .herotext button:hover {
-   background-color: rgba(204, 153, 12, 0.8);
-} 
+  background-color: rgba(204, 153, 12, 0.8);
+}
 
-.herotext h2, .herotext p {
+.herotext h2,
+.herotext p {
   color: white;
 }
 
@@ -270,7 +218,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 0;
-  padding: 10px;
+  /* padding: 10px; */
   gap: 10px;
 }
 .top-card {
@@ -319,12 +267,14 @@
   margin: 100px auto 30px auto;
 }
 
-.pastEvent .container {
+.pastEvent .containerEvents {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 7.5rem;
+  padding: 0 4rem;
 }
-.pastEvent .container a img {
+.pastEvent .containerEvents a img {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -441,6 +391,9 @@ h6 {
   display: flex;
   margin: 40px 0;
 }
+.minsImage  {
+  width: 90%;
+}
 .mins-text {
   margin: 0 30px;
 }
@@ -449,7 +402,7 @@ h6 {
 }
 
 .mins-msg img {
-  width: 50%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1203px) {
@@ -477,11 +430,32 @@ h6 {
 }
 
 @media only screen and (max-width: 600px) {
-
-  .herotext{
-      padding: 7px;
+  .main-body {
+    margin: 0;
+  }
+  .herobg,
+  .herotext {
+    height: 35vh;
+  }
+  .herotext .right {
+    width: 70%;
   }
 
+  .herotext {
+    padding: 10px;
+  }
+  .herotext button {
+    padding: 1rem 2rem;
+  }
+
+  .intro {
+    padding: 0 10px;
+  }
+
+  /* Past events */
+ .pastEvent .containerEvents {
+    gap: 2rem;
+  }
   /* sponsors */
   .partner .left h4 {
     text-align: center;
@@ -489,11 +463,11 @@ h6 {
   /* end */
 
   /* past events */
-  
-.pastEvent .container a:first-child {
-  padding-left: 0 !important;
-   padding-right: 20px !important
-}
+
+  .pastEvent .container a:first-child {
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+  }
   .pastEvent .container {
     gap: 5px;
   }
@@ -503,7 +477,7 @@ h6 {
     flex-direction: column;
   }
   .mins-msg img {
-   width: 100%;
+    width: 100%;
   }
   .mins-text {
     margin: 0px;
@@ -513,7 +487,6 @@ h6 {
   .mins-text h1 {
     font-size: 3rem;
   }
- 
 
   .empower {
     padding: 20px;
@@ -532,6 +505,4 @@ h6 {
     height: 100%;
   }
 }
-
-
 </style>

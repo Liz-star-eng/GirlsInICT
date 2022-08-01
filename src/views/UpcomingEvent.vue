@@ -83,26 +83,10 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h3>Empowering Women and Girls in ICT</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quos magni accusantium soluta vero neque debitis repudiandae
-            deleniti, magnam doloribus dicta expedita tempore iusto, modi sequi
-            perferendis, recusandae iste eligendi.
-          </p>
-        </div>
-        <div class="col-6">
-          <img src="images/photo_2022-05-05_09-27-14.jpg" alt=""/>
-        </div>
-      </div>
-    </div>
   </div>
   <div class="empower mb-5">
     <div class="left">
-      <h3>Empowering Girls & Women In Cyber Security</h3>
+      <h3>Empowering Girls & Women In ICT</h3>
       <p style="text-align: justify">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad
@@ -117,7 +101,7 @@
 
 <style scoped>
 .main-body {
-  padding: 1rem 10rem;
+  padding: 15rem 10rem 0 10rem;
   overflow: hidden;
 }
 

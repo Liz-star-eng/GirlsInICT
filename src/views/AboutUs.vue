@@ -1,4 +1,5 @@
 <template>
+<div class="mainBody">
   <section>
     <div class="about">
       <div class="container">
@@ -172,9 +173,13 @@
       </div>
     </div>
   </section>
+  </div>
 </template>
 
 <style scoped>
+.mainBody {
+    padding-top: 15rem;
+}
 section {
   width: 100vw;
   overflow: hidden;

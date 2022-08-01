@@ -54,9 +54,8 @@
 </template>
 
 <style scoped>
-.main-body{
-    
-    padding: 0 15rem;
+.main-body{ 
+    padding: 15rem;
 }
 
 h3 {

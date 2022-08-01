@@ -92,7 +92,7 @@
 
 <style scoped>
 .row {
-  padding: 1rem 15rem;
+  padding: 15rem 10rem 5rem 15rem;
   display: flex;
   justify-content: space-between;
 }

@@ -169,6 +169,7 @@
 .main-body {
   padding: 1rem 10rem;
   justify-content: center;
+  padding-top: 15rem;
   margin-bottom: 0;
 }
 

@@ -87,10 +87,9 @@
 
 <style scoped>
 .main-body {
-  /* margin-left: 16%; */
-  /* margin-top: 10vh; */
+
   overflow: hidden;
-  padding: 0 15rem;
+  padding:15rem 15rem 0 15rem;
 }
 .MoC-content {
   display: flex;

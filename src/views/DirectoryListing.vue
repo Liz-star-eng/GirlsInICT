@@ -126,7 +126,7 @@
 <style scoped>
 .main-body {
   padding: 0 15rem;
-  margin-top: 10vh;
+  padding-top: 15rem;
   overflow: hidden;
 }
 .sub-body  {
