@@ -1,6 +1,7 @@
 <template>
   <div class="sidebar">
     <div class="leftbar">
+<<<<<<< HEAD
       <a href="" class="link"
         ><i class="fa fa-graduation-cap icons"></i>
         <span>
@@ -26,6 +27,25 @@
             class="fa fa-angle-right"
             style="font-size: 24px; margin-left: 65px"
           ></i></span
+=======
+      <a class="link" href="#"
+        >Basic High School<i
+          class="fa fa-angle-right"
+          style="font-size: 24px; margin-left: 20px"
+        ></i>
+      </a>
+      <a class="link" href="#"
+        >Tertiary<i
+          class="fa fa-angle-right"
+          style="font-size: 24px; margin-left: 90px"
+        ></i
+      ></a>
+      <a class="link" href="#"
+        >Start Up<i
+          class="fa fa-angle-right"
+          style="font-size: 24px; margin-left: 85px"
+        ></i
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
       ></a>
       <br />
       <div class="user">
@@ -51,6 +71,7 @@ export default {
 <style scoped>
 .sidebar {
   padding: 0;
+<<<<<<< HEAD
   background-color: #652E89;
   position: fixed;
   height: 60%;
@@ -64,6 +85,14 @@ export default {
 
 .sidebar:hover {
   width: 18vw;
+=======
+  background-color: #377D71;
+  position: fixed;
+  height: 100%;
+  margin-top: 8%;
+  overflow: auto;
+  width: 16%;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
 }
 
 .sidebar .link {
@@ -86,6 +115,7 @@ span {
   transition: 0.4s;
   cursor: pointer;
 }
+
 
 .leftbar {
   margin-top: 10vh;
@@ -119,7 +149,11 @@ div .content {
 }
 
 .user {
+<<<<<<< HEAD
    margin-left: 3px;
+=======
+  position: fixed;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
 }
 
 

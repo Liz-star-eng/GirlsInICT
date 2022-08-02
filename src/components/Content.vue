@@ -32,10 +32,14 @@
     <h3 style="text-align: center; margin-top: 5%">Text Goes Here</h3>
     <div class="top-cards mt-3 mb-5">
       <div class="top-card">
+<<<<<<< HEAD
         <img
           src="../assets/icon-search-heart-heart-inspiration-icon-with-png-and-vector-856151.png"
           alt=""
         />
+=======
+        <img src="../assets/icon-search-heart-heart-inspiration-icon-with-png-and-vector-856151.png" alt="">
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
         <h4 style="text-align: center">Inspire</h4>
       </div>
       <div class="top-card top-card-mid">
@@ -43,7 +47,11 @@
         <h4 style="text-align: center">Engage</h4>
       </div>
       <div class="top-card">
+<<<<<<< HEAD
         <img src="../assets/photo_2022-04-29_15-17-16.png" alt="" />
+=======
+       <img src="../assets/photo_2022-04-29_15-17-16.png" alt="">
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
         <h4 style="text-align: center">Educate</h4>
       </div>
     </div>
@@ -53,6 +61,7 @@
         <h3>Empowering Girls & Women In Cyber Security</h3>
         <p style="text-align: justify">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+<<<<<<< HEAD
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
@@ -65,6 +74,20 @@
           aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.
+=======
+          eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Excepteur sint occaecat cupidatat non proident, sunt
+          in culpa qui officia deserunt mollit anim id est laborum.
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Excepteur sint occaecat cupidatat non proident, sunt
+          in culpa qui officia deserunt mollit anim id est laborum.
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
         </p>
       </div>
       <img src="../assets/photo_2022-07-25_09-11-26.jpg" alt="" />
@@ -123,6 +146,7 @@
       </div>
     </div>
 
+<<<<<<< HEAD
     <section>
       <!-- Message from minister -->
       <div class="container">
@@ -147,6 +171,87 @@
               ratione neque mollitia ex!
             </p>
           </div>
+=======
+    <!-- Our partners carousel -->
+
+    <div class="mt-5 mb-5">
+      <h3 style="text-align: center" class="mt-5 mb-5">Our Partners</h3>
+      <div class="partners">
+        <div id="LogoCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#LogoCarousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#LogoCarousel" data-slide-to="1"></li>
+            <li data-target="#LogoCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-41-16.png" alt="" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-41-57.png" alt="" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-41-16.png" alt="" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-41-57.png" alt="" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-41-16.png" alt="" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-41-57.png" alt="" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls --> 
+          <a
+            class="left carousel-control"
+            href="#LogoCarousel"
+            data-slide="prev"
+          >
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#LogoCarousel"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
         </div>
       </div>
     </section>
@@ -171,6 +276,7 @@ export default {
 </script> -->
 <style scoped>
 .main-body {
+<<<<<<< HEAD
   overflow: hidden;
   padding-top: 15rem;
 }
@@ -180,6 +286,12 @@ export default {
   height: 65vh;
   background-repeat: no-repeat;
   background-size: 100% 130%;
+=======
+  margin-left: 15%;
+  margin-top: 17vh;
+  overflow: hidden;
+  padding: 0 30px;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
 }
 
 .herotext {
@@ -232,7 +344,11 @@ export default {
   color: white;
 }
 .top-card-mid {
+<<<<<<< HEAD
   background-color: #652e89;
+=======
+  background-color: #A2D5AC;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
   padding: 0 10rem;
 }
 
@@ -245,6 +361,7 @@ export default {
 .empower {
   background-color: #fdd5ef;
   display: flex;
+<<<<<<< HEAD
   padding: 8rem 16rem;
   align-content: center;
 }
@@ -254,6 +371,29 @@ export default {
 }
 
 .empower img {
+=======
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px 0;
+  padding: 5rem 20rem;
+  gap: 10px;
+}
+.empower .left, .empower .right {
+  width: 50%;
+}
+.empower p,
+.empower h3 {
+  color: rgb(53, 52, 52);
+  margin-right: 20px;
+}
+.empower p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.empower img {
+  height: 400px;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
   width: 500px;
 }
 
@@ -263,14 +403,20 @@ export default {
 }
 /* past events */
 .pastEvent h3 {
+<<<<<<< HEAD
   text-align: center;
   margin: 100px auto 30px auto;
+=======
+text-align: center; 
+margin: 100px auto 30px auto;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
 }
 
 .pastEvent .containerEvents {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+<<<<<<< HEAD
   gap: 7.5rem;
   padding: 0 4rem;
 }
@@ -280,6 +426,16 @@ export default {
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
+=======
+  padding: 0 !important;
+  margin: 0;
+}
+
+.pastEvent img {
+  /* width: 400px; */
+  object-fit: cover;
+  object-position: center;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
 }
 
 /* whats our specialty card */
@@ -294,7 +450,11 @@ export default {
   text-align: center;
   padding: 30px 20px;
   width: 350px;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 15px 1px lightgray;
@@ -314,7 +474,11 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   padding: 5rem 1rem;
+<<<<<<< HEAD
   background-color: #652e89;
+=======
+  background-color: #A2D5AC;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
   width: 100%;
   gap: 10px;
 }

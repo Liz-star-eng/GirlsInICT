@@ -68,6 +68,13 @@ export default {
   width: 0;
 }
 
+.slide {
+  width: 20%;
+}
+.noSlide {
+  width: 0;
+}
+
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
