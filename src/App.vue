@@ -26,10 +26,10 @@ export default {
 </script>
 
 <style scoped>
-.topNav {
+/* .topNav {
   position: fixed;
   width: 100%;
   z-index: 100000;
-}
+} */
 </style>
 

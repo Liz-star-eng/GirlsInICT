@@ -6,12 +6,13 @@
           <router-link to="/about-us"
             ><i class="fa fa-user"></i> About Us</router-link
           >
+             <a href="" class="cta"> Ask for help </a>
+        </div>
+        <div class="social">
           <a class="text"
             ><i class="fa fa-sign-in" aria-hidden="true"></i>
             Login
           </a>
-        </div>
-        <div class="social">
           <a href=""><i class="fa fa-facebook"></i></a>
           <a href=""><i class="fa fa-linkedin"></i></a>
           <a href=""><i class="fa fa-twitter"></i></a>
@@ -19,103 +20,85 @@
         </div>
       </div>
     </nav>
-  </div>
-  <header>
-    <div class="navBar">
-      <router-link to="/" class="title"
-        ><img src="../assets/girlslogo.png" alt="" />
-      </router-link>
-      <nav>
-        <li class="dropdown">
-          <a href="" class="dropbtn"
-            ><i class="fa fa-address-book-o"></i> Directory
-            <i class="fa fa-chevron-down"></i
-          ></a>
-          <div class="dropdown-content">
-            <router-link to="/directorylistings">Mentors</router-link>
-            <router-link to="/StudentsViews">Students</router-link>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="" class="dropbtn"
-            ><i class="fa fa-folder-open-o"></i> Forum
-            <i class="fa fa-chevron-down"></i
-          ></a>
-          <div class="dropdown-content">
-            <router-link to="/moccorner">Mentors</router-link>
-            <router-link to="/careers">Carreers</router-link>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="" class="dropbtn"
-            ><i class="fa fa-graduation-cap"></i> Academy
-            <i class="fa fa-chevron-down"></i
-          ></a>
-          <div class="dropdown-content">
-            <router-link to="/cyberview">Cyber Security</router-link>
-            <router-link to="/careers">Programming</router-link>
-            <router-link to="/careers">Trends in Tech</router-link>
-            <router-link to="/StudentsViews">Basic of computing</router-link>
-            <router-link to="/cyberview">IoT</router-link>
-            <router-link to="/careers">Robotics</router-link>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="" class="dropbtn"
-            ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down"></i
-          ></a>
-          <div class="dropdown-content">
-            <router-link to="/upcomingevent">Upcoming</router-link>
-            <router-link to="newsviews">Past</router-link>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="" class="dropbtn"
-            ><i class="fa fa-archive"></i> Information Hub
-            <i class="fa fa-chevron-down"></i
-          ></a>
-          <div class="dropdown-content">
-            <router-link to="/cyberview">Cybersecurity</router-link>
-          </div>
-        </li>
-      </nav>
-      <a href="" class="cta"> Ask for help </a>
-      <div class="search-bar">
-        <!-- <input type="text" placeholder="what's on your mind" /> -->
-        <button><i class="fa fa-search"></i></button>
-      </div>
-    </div>
-  </header>
 
-  <!-- responsiveness -->
-  <div class="changedScreen">
-    <nav class="topBar">
-      <div class="H-container">
-        <div class="user">
-          <router-link to="/about-us"
-            ><i class="fa fa-user"></i> About Us</router-link
-          >
-          <a class="text"
-            ><i class="fa fa-sign-in" aria-hidden="true"></i>
-            Login
-          </a>
-        </div>
-        <div class="social">
-          <a href=""><i class="fa fa-facebook"></i></a>
-          <a href=""><i class="fa fa-linkedin"></i></a>
-          <a href=""><i class="fa fa-twitter"></i></a>
-          <a href=""><i class="fa fa-instagram"></i></a>
-        </div>
-      </div>
-    </nav>
-    <nav class="collapsibleNav">
-      <div class="smallDevices">
+    <header>
+      <div class="navBar">
         <router-link to="/" class="title"
           ><img src="../assets/girlslogo.png" alt="" />
         </router-link>
-        <i class="fa fa-bars" @click="toggleNav()"></i>
+        <nav class="menuItems">
+          <li class="dropdown">
+            <a href="" class="dropbtn"
+              ><i class="fa fa-address-book-o"></i> Directory
+              <i class="fa fa-chevron-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <router-link to="/directorylistings">Mentors</router-link>
+              <!-- <router-link to="/StudentsViews">Students</router-link> -->
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropbtn"
+              ><i class="fa fa-folder-open-o"></i> Forum
+              <i class="fa fa-chevron-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <router-link to="/moccorner">Mentors</router-link>
+              <router-link to="/careers">Carreers</router-link>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropbtn"
+              ><i class="fa fa-graduation-cap"></i> Academy
+              <i class="fa fa-chevron-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <router-link to="/cyberview" >Primary/JHS</router-link>
+              <router-link to="/careers">SHS</router-link>
+              <router-link to="/careers">Tertiary</router-link>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropbtn"
+              ><i class="fa fa-fire"></i> Events
+              <i class="fa fa-chevron-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <router-link to="/upcomingevent">Upcoming</router-link>
+              <router-link to="newsviews">Past</router-link>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropbtn"
+              ><i class="fa fa-archive"></i> Information Hub
+              <i class="fa fa-chevron-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <router-link to="/cyberview">Cybersecurity</router-link>
+            </div>
+          </li>
+           <li class="dropdown">
+            <a href="" class="dropbtn"
+              ><i class="fa fa-archive"></i> Competition
+              <i class="fa fa-chevron-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <router-link to="/cyberview">Cyber Security</router-link>
+              <router-link to="/careers">Programming</router-link>
+              <router-link to="/cyberview">IoT</router-link>
+              <router-link to="/careers">Robotics</router-link>
+            </div>
+          </li>
+        </nav>
+     
+        <div class="search-bar">
+          <!-- <input type="text" placeholder="what's on your mind" /> -->
+          <button><i class="fa fa-search"></i></button>
+        </div>
+        <i class="fa fa-bars menuBars" @click="toggleNav()"></i>
       </div>
-    </nav>
+    </header>
+
     <!-- toggle navbar -->
     <div class="ResponsiveNav" :class="collapsibleNav">
       <nav class="NavItems">
@@ -172,13 +155,16 @@
           </div>
         </li>
       </nav>
-      <div class="split">
+      <div class="sectionAsk">
         <a href="" class="cta"> Ask for help </a>
         <div class="search-bar">
           <input type="text" placeholder="What are you looing for?" />
           <button><i class="fa fa-search"></i></button>
         </div>
       </div>
+      <a @click="close()">
+        <i class="fa fa-times close"></i>
+      </a>
     </div>
   </div>
 </template>
@@ -186,15 +172,16 @@
 export default {
   data() {
     return {
-      SmallScreen: false,
       collapsibleNav: "slideUp",
     };
   },
 
   methods: {
     toggleNav() {
-      // this.SmallScreen = !this.SmallScreen;
-      this.collapsibleNav = "slidedown";
+      this.collapsibleNav = !this.collapsibleNav;
+    },
+    close() {
+      this.collapsibleNav = "closeSlide";
     },
   },
 };
@@ -212,6 +199,7 @@ button {
 .header {
   width: 100%;
   z-index: 99;
+  position: fixed;
 }
 /* TOPNAV */
 .topBar {
@@ -223,9 +211,11 @@ button {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 .user {
   display: flex;
+  align-items: flex-end;
 }
 .H-container a {
   color: white;
@@ -320,19 +310,24 @@ li.dropdown {
 }
 
 .cta {
-  background-color: #652e89;
-  padding: 1rem 2rem;
+  background-color: #ffc527;
+  padding: 0.4rem 2rem;
   border-radius: 50px;
-  color: white;
+  color: #652e89 !important;
 }
 
 .cta:hover {
   text-decoration: none;
   color: #652e89;
-  background-color: #ffc527;
+  background-color: white;
   font-weight: bold;
 }
-
+/* MENU BARS */
+.menuBars {
+  display: none;
+  color: #652e89;
+  font-size: 26px;
+}
 input,
 button {
   height: 35px;
@@ -362,31 +357,28 @@ button {
   margin-left: 9px;
 }
 
-.collapsibleNav {
-  display: none;
-  box-shadow: 0 10px 20px hsl(0deg 0% 67% / 15%);
-  background-color: white;
-  z-index: 1;
+.ResponsiveNav {
+  height: 50rem;
+  background-color: whitesmoke;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.slideUp {
+  height: 0;
+}
+.closeSlide {
+  height: 0;
   overflow: hidden;
 }
 
-.slideDown {
-  display: block;
-  height: 20% !important;
-  transition: height 3s ease;
-}
-.slideUp {
-  display: none;
-  height: 0;
-}
-.smallDevices {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: auto;
-}
-.ResponsiveNav {
-  padding: 0 0 2rem 2rem;
+.close {
+  color: #652e89;
+  font-size: 26px;
+  padding-right: 2rem;
 }
 .NavItems li {
   display: block;
@@ -397,18 +389,13 @@ button {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
-  margin: 0 2rem;
-  margin-bottom: 2px;
+  margin: 0 2rem 0.2rem 7rem;
 }
 
 .NavItems li a:hover {
   color: #aecdd3;
   transition: 0.3s;
 }
-
-/* .NavItems .cta, .ResponsiveNav .search-bar {
-  float: right;
-} */
 
 .smallDevices .fa-bars {
   font-size: 30px;
@@ -418,11 +405,6 @@ button {
 .NavItems .dropdown-content {
   left: 17rem;
   color: white;
-}
-
-.changedScreen {
-  display: none;
-  width: 100%;
 }
 
 @media (max-width: 1600px) {
@@ -443,18 +425,18 @@ button {
 }
 
 @media (max-width: 1310px) {
-  header {
+  .menuItems,
+  .cta,
+  .search-bar {
     display: none;
   }
-  .bigscreen {
-    display: none;
-  }
-  .collapsibleNav {
-    display: flex;
-    padding: 3rem 0;
-  }
-  .changedScreen {
+  .menuBars {
     display: block;
+  }
+}
+@media (max-width: 600px) {
+  .NavItems li a {
+    margin-left: 2rem;
   }
 }
 </style>
