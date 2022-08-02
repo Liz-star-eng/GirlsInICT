@@ -129,7 +129,7 @@
 
 <style scoped>
 .main-body {
-padding: 15rem;
+  padding: 15rem;
   overflow: hidden;
 }
 
@@ -182,15 +182,23 @@ padding: 15rem;
   
 }
 
-/* @media only screen and (max-width: 1033px ) {
-  .main-body {
-    padding: 3rem;
+@media only screen and (max-width: 992px ) {
+   .main-body {
+    padding: 15rem 1rem 1rem 1rem;
   }
-
-} */
+  .row {
+    flex-wrap: wrap;
+     justify-content: center;
+  }
+}
 
 @media (max-width: 600px ) {
-  
+  .main-body {
+    padding: 15rem 1rem 1rem 1rem;
+  }
+  .row {
+     justify-content: center;
+  }
 }
 
 </style>

@@ -30,7 +30,7 @@
         </router-link>
         <nav class="menuItems">
           <li class="dropdown">
-            <a href="" class="dropbtn"
+            <a class="dropbtn"
               ><i class="fa fa-address-book-o"></i> Directory
               <i class="fa fa-chevron-down"></i
             ></a>
@@ -40,7 +40,7 @@
             </div>
           </li>
           <li class="dropdown">
-            <a href="" class="dropbtn"
+            <a class="dropbtn"
               ><i class="fa fa-folder-open-o"></i> Forum
               <i class="fa fa-chevron-down"></i
             ></a>
@@ -50,7 +50,7 @@
             </div>
           </li>
           <li class="dropdown">
-            <a href="" class="dropbtn"
+            <a class="dropbtn"
               ><i class="fa fa-graduation-cap"></i> Academy
               <i class="fa fa-chevron-down"></i
             ></a>
@@ -61,7 +61,7 @@
             </div>
           </li>
           <li class="dropdown">
-            <a href="" class="dropbtn"
+            <a class="dropbtn"
               ><i class="fa fa-fire"></i> Events
               <i class="fa fa-chevron-down"></i
             ></a>
@@ -71,7 +71,7 @@
             </div>
           </li>
           <li class="dropdown">
-            <a href="" class="dropbtn"
+            <a class="dropbtn"
               ><i class="fa fa-archive"></i> Information Hub
               <i class="fa fa-chevron-down"></i
             ></a>
@@ -80,7 +80,7 @@
             </div>
           </li>
            <li class="dropdown">
-            <a href="" class="dropbtn"
+            <a class="dropbtn"
               ><i class="fa fa-archive"></i> Competition
               <i class="fa fa-chevron-down"></i
             ></a>
