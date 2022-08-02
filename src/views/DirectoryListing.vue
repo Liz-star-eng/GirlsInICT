@@ -68,7 +68,7 @@
       <hr class="hr" />
       <div class="cards">
         <div class="card">
-          <img src="../assets/office.png" alt="Avatar"/>
+          <img src="../assets/office.png" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
               ><h4><b>LadyMartha Annoba</b></h4></router-link
@@ -102,11 +102,12 @@
       </div>
       <hr class="hr" />
     </div>
-    <div class="jumbotron partners">
-      <div><h4>Our Partners and Sponsors make us grow</h4></div>
-      <div><button>Become a Partner Today</button></div>
-    </div>
-    <div class="mt-5 mb-5">
+  </div>
+  <div class="jumbotron partners">
+    <div><h4>Our Partners and Sponsors make us grow</h4></div>
+    <div><button>Become a Partner Today</button></div>
+  </div>
+  <!-- <div class="mt-5 mb-5">
       <h3 style="text-align: center" class="mt-5 mb-5">Our Partners</h3>
       <div class="row-2 links">
         <div class="col-sm-3">
@@ -119,8 +120,7 @@
           <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
         </div>
       </div>
-    </div>
-  </div>
+    </div> -->
 </template>
 
 <style scoped>
@@ -129,7 +129,7 @@
   padding-top: 15rem;
   overflow: hidden;
 }
-.sub-body  {
+.sub-body {
   padding: 0 3rem;
 }
 .cards {
@@ -165,13 +165,14 @@
 }
 
 .arrow a:hover {
-  background-color: pink;
+  background-color: #420a68;
+  color: #ffc527;
 }
 .jumbotron {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #c889f2;
+  background-color: #8f32ce;
   color: white;
 }
 .partners button {
@@ -185,7 +186,8 @@
 
 .partners button:hover {
   transition: 0.1s;
-  background-color: #1e5757;
+  background-color: #420a68;
+  color: #ffc527;
 }
 
 .row-2 {
@@ -200,27 +202,40 @@
   object-fit: cover;
   width: auto;
 }
-@media only screen and (max-width: 1033px ) {
+@media only screen and (max-width: 1033px) {
   .main-body {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 725px) {
+
+@media only screen and (max-width: 992px) {
+  .main-body {
+     padding: 15rem 6rem 1px 6rem;
+  }
+}
+@media only screen and (max-width: 722px) {
+  .main-body {
+     padding: 15rem 2rem 1px 2rem;
+  }
   .cards {
     flex-wrap: wrap;
   }
   .card .container {
-  text-align: center;
-}
-
-}
-/* 
-@media only screen and (max-width: 600) {
-  .main-body {
-    overflow-x: none !important;
-  }
-  .card .container {
     text-align: center;
   }
-} */
+}
+
+@media only screen and (max-width: 600px) {
+  .main-body {
+    margin-left: 0;
+    padding: 15rem 2rem !important;
+  }
+
+  .sub-body {
+    padding: 0 !important;
+  }
+  .cards {
+    justify-content: center;
+  }
+}
 </style>

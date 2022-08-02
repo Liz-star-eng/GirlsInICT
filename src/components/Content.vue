@@ -39,7 +39,7 @@
         <h4 style="text-align: center">Inspire</h4>
       </div>
       <div class="top-card top-card-mid">
-         <img src="../assets/fa-users.png" alt="" />
+        <img src="../assets/fa-users.png" alt="" />
         <h4 style="text-align: center">Engage</h4>
       </div>
       <div class="top-card">
@@ -128,10 +128,10 @@
       <div class="container">
         <div class="mins-msg">
           <div class="minsImage">
-          <img
-            src="../assets/Min.Ursula-Owusu-Ekuful-1.jpg"
-            alt="Minister's image"
-          />
+            <img
+              src="../assets/Min.Ursula-Owusu-Ekuful-1.jpg"
+              alt="Minister's image"
+            />
           </div>
           <div class="mins-text">
             <h1>Become A Partner Today</h1>
@@ -221,7 +221,8 @@ export default {
   /* padding: 10px; */
   gap: 10px;
 }
-.top-card,.top-card-mid {
+.top-card,
+.top-card-mid {
   background-color: #293139;
   color: white !important;
   padding: 5rem 5rem;
@@ -389,7 +390,7 @@ h6 {
   display: flex;
   margin: 40px 0;
 }
-.minsImage  {
+.minsImage {
   width: 90%;
 }
 .mins-text {
@@ -405,7 +406,10 @@ h6 {
 
 @media only screen and (max-width: 1203px) {
   .main-body {
-    margin: 0 20px 0 20px;
+    margin: 0;
+  }
+   .intro {
+    padding: 0 10px;
   }
 
   .carousel-inner {
@@ -427,10 +431,17 @@ h6 {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .main-body {
-    margin: 0;
+@media (max-width: 890px) {
+  .herobg,
+  .herotext {
+    height: 35vh;
   }
+  .herotext {
+    padding: 12rem 2rem 2rem 2rem;;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .herobg,
   .herotext {
     height: 35vh;
@@ -446,12 +457,8 @@ h6 {
     padding: 1rem 2rem;
   }
 
-  .intro {
-    padding: 0 10px;
-  }
-
   /* Past events */
- .pastEvent .containerEvents {
+  .pastEvent .containerEvents {
     gap: 2rem;
   }
   /* sponsors */
@@ -501,6 +508,22 @@ h6 {
   .row-2 .speciality-card {
     width: 100% !important;
     height: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+   .herobg,
+  .herotext {
+    height: 38vh;
+  }
+  .herotext .right {
+    width: 100%;
+  }
+   .herotext button {
+    padding: 5px 2rem;
+  }
+  .herotext {
+    padding: 0;
   }
 }
 </style>

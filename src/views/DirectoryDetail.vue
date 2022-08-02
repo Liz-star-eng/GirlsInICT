@@ -182,11 +182,15 @@ padding: 15rem;
   
 }
 
-@media only screen and (max-width: 1033px ) {
+/* @media only screen and (max-width: 1033px ) {
   .main-body {
     padding: 3rem;
   }
 
+} */
+
+@media (max-width: 600px ) {
+  
 }
 
 </style>

@@ -449,6 +449,7 @@ button {
     display: block;
   }
 }
+
 @media (max-width: 600px) {
   .NavItems li a {
     margin-left: 2rem;
@@ -459,6 +460,15 @@ button {
 
   .NavItems .dropdown-content {
     left: 20rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .H-container {
+    max-width: 97%;
+  }
+  .cta {
+     padding: 2px 2rem;
   }
 }
 </style>
