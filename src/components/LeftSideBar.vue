@@ -2,6 +2,7 @@
   <div class="sidebar">
     <div class="leftbar">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <a href="" class="link"
         ><i class="fa fa-graduation-cap icons"></i>
         <span>
@@ -28,6 +29,8 @@
             style="font-size: 24px; margin-left: 65px"
           ></i></span
 =======
+=======
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
       <a class="link" href="#"
         >Basic High School<i
           class="fa fa-angle-right"
@@ -45,6 +48,9 @@
           class="fa fa-angle-right"
           style="font-size: 24px; margin-left: 85px"
         ></i
+<<<<<<< HEAD
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
+=======
 >>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
       ></a>
       <br />
@@ -72,6 +78,7 @@ export default {
 .sidebar {
   padding: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #652E89;
   position: fixed;
   height: 60%;
@@ -88,6 +95,10 @@ export default {
 =======
   background-color: #377D71;
   position: fixed;
+=======
+  background-color: #377D71;
+  position: fixed;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
   height: 100%;
   margin-top: 8%;
   overflow: auto;
@@ -150,7 +161,11 @@ div .content {
 
 .user {
 <<<<<<< HEAD
+<<<<<<< HEAD
    margin-left: 3px;
+=======
+  position: fixed;
+>>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
 =======
   position: fixed;
 >>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1

@@ -39,7 +39,7 @@
         <h4 style="text-align: center">Inspire</h4>
       </div>
       <div class="top-card top-card-mid">
-        <i class="fa fa-users"></i><br />
+         <img src="../assets/fa-users.png" alt="" />
         <h4 style="text-align: center">Engage</h4>
       </div>
       <div class="top-card">
@@ -221,7 +221,7 @@ export default {
   /* padding: 10px; */
   gap: 10px;
 }
-.top-card {
+.top-card,.top-card-mid {
   background-color: #293139;
   color: white !important;
   padding: 5rem 5rem;
@@ -233,7 +233,6 @@ export default {
 }
 .top-card-mid {
   background-color: #652e89;
-  padding: 0 10rem;
 }
 
 .top-cards i {

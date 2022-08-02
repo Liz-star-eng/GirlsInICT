@@ -13,10 +13,12 @@
             ><i class="fa fa-sign-in" aria-hidden="true"></i>
             Login
           </a>
+          <div class="socialIcons">
           <a href=""><i class="fa fa-facebook"></i></a>
           <a href=""><i class="fa fa-linkedin"></i></a>
           <a href=""><i class="fa fa-twitter"></i></a>
           <a href=""><i class="fa fa-instagram"></i></a>
+          </div>
         </div>
       </div>
     </nav>
@@ -105,17 +107,17 @@
         <li class="dropdown">
           <a href="" class="dropbtn"
             ><i class="fa fa-address-book-o"></i> Directory
-            <i class="fa fa-chevron-down"></i
+            <i class="fa fa-chevron-down" style="margin-left: 7.8rem;"></i
           ></a>
           <div class="dropdown-content">
             <router-link to="/directorylistings">Mentors</router-link>
-            <router-link to="/StudentsViews">Students</router-link>
+            <!-- <router-link to="/StudentsViews">Students</router-link> -->
           </div>
         </li>
         <li class="dropdown">
           <a href="" class="dropbtn"
             ><i class="fa fa-folder-open-o"></i> Forum
-            <i class="fa fa-chevron-down"></i
+            <i class="fa fa-chevron-down" style="margin-left: 9.7rem;"></i
           ></a>
           <div class="dropdown-content">
             <router-link to="/moccorner">Mentors</router-link>
@@ -125,20 +127,17 @@
         <li class="dropdown">
           <a href="" class="dropbtn"
             ><i class="fa fa-graduation-cap"></i> Academy
-            <i class="fa fa-chevron-down"></i
+            <i class="fa fa-chevron-down" style="margin-left: 6.6rem;"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="/cyberview">Cyber Security</router-link>
-            <router-link to="/careers">Programming</router-link>
-            <router-link to="/careers">Trends in Tech</router-link>
-            <router-link to="/StudentsViews">Basic of computing</router-link>
-            <router-link to="/cyberview">IoT</router-link>
-            <router-link to="/careers">Robotics</router-link>
+              <router-link to="/cyberview" >Primary/JHS</router-link>
+              <router-link to="/careers">SHS</router-link>
+              <router-link to="/careers">Tertiary</router-link>
           </div>
         </li>
         <li class="dropdown">
           <a href="" class="dropbtn"
-            ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down"></i
+            ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down" style="margin-left: 10rem;"></i
           ></a>
           <div class="dropdown-content">
             <router-link to="/upcomingevent">Upcoming</router-link>
@@ -148,15 +147,25 @@
         <li class="dropdown">
           <a href="" class="dropbtn"
             ><i class="fa fa-archive"></i> Information Hub
-            <i class="fa fa-chevron-down"></i
+            <i class="fa fa-chevron-down" style="margin-left: 1.8rem;"></i
           ></a>
           <div class="dropdown-content">
             <router-link to="/cyberview">Cybersecurity</router-link>
           </div>
         </li>
+        <li class="dropdown">
+            <a href="" class="dropbtn"
+              ><i class="fa fa-archive"></i> Competition
+              <i class="fa fa-chevron-down" style="margin-left: 4.9rem;"></i
+            ></a>
+            <div class="dropdown-content">
+              <router-link to="/cyberview">Cyber Security</router-link>
+              <router-link to="/careers">Programming</router-link>
+              <router-link to="/careers">Robotics</router-link>
+            </div>
+          </li>
       </nav>
       <div class="sectionAsk">
-        <a href="" class="cta"> Ask for help </a>
         <div class="search-bar">
           <input type="text" placeholder="What are you looing for?" />
           <button><i class="fa fa-search"></i></button>
@@ -357,8 +366,9 @@ button {
   margin-left: 9px;
 }
 
+/* responsivness */
 .ResponsiveNav {
-  height: 50rem;
+  height: 45rem;
   background-color: whitesmoke;
   overflow: hidden;
   transition: height 1s ease-in-out;
@@ -388,23 +398,29 @@ button {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 2rem 0.2rem 7rem;
 }
 
 .NavItems li a:hover {
-  color: #aecdd3;
+  color: #ffc527;
   transition: 0.3s;
 }
 
-.smallDevices .fa-bars {
-  font-size: 30px;
-  color: #652e89;
+.NavItems .dropdown-content a {
+  font-size: 14px;
+  margin-left: 0;
+}
+.NavItems .dropdown-content {
+  left: 28rem;
+  top: 0;
+  color: white;
+  width: 50px;
 }
 
-.NavItems .dropdown-content {
-  left: 17rem;
-  color: white;
+.fa-chevron-down {
+  font-size: 14px;
+  position: relative;
 }
 
 @media (max-width: 1600px) {
@@ -426,7 +442,6 @@ button {
 
 @media (max-width: 1310px) {
   .menuItems,
-  .cta,
   .search-bar {
     display: none;
   }
@@ -437,6 +452,13 @@ button {
 @media (max-width: 600px) {
   .NavItems li a {
     margin-left: 2rem;
+  }
+  .socialIcons {
+    display: none;
+  }
+
+  .NavItems .dropdown-content {
+    left: 20rem;
   }
 }
 </style>

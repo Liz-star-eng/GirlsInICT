@@ -22,7 +22,7 @@
             <router-link to="/directorydetail"
               ><h4><b>Sara Antwi</b></h4></router-link
             >
-            <p>Mavis Mensah</p>
+            <p>Systems Analyst</p>
           </div>
         </div>
         <div class="card">
@@ -59,7 +59,7 @@
           <img src="../assets/lady.jpg" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Doreen Fordie</b></h4></router-link
+              ><h4><b>Jane Doe</b></h4></router-link
             >
             <p>Cyber Security Expert</p>
           </div>
@@ -80,7 +80,7 @@
           <img src="../assets/lady.jpg" alt="Avatar" />
           <div class="container">
             <router-link to="/directorydetail"
-              ><h4><b>Doris Okyere</b></h4></router-link
+              ><h4><b>Jane Doe</b></h4></router-link
             >
             <p>system Analysis</p>
           </div>
@@ -149,7 +149,7 @@
   object-position: center;
 }
 .card h4 {
-  color: #7C3E66;
+  color: #377d71;
 }
 
 .arrow {
@@ -185,7 +185,7 @@
 
 .partners button:hover {
   transition: 0.1s;
-  background-color: #d3a629;
+  background-color: #1e5757;
 }
 
 .row-2 {

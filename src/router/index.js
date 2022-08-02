@@ -11,6 +11,8 @@ import NewsViews from "../views/NewsViews.vue";
 import NewsDetails from "../views/NewsDetails.vue";
 import Form from "../views/Form.vue";
 import AboutUs from "../views/AboutUs.vue";
+import privacy from "../views/privacy.vue"
+import FQA from "../views/FQA.vue";
 import Test from "../views/Test.vue"
 
 
@@ -76,6 +78,16 @@ const routes = [
     path: "/newsdetails",
     name: "newsdetails",
     component: NewsDetails,
+  },
+  {
+    path: "/privacy",
+    name: "privacy",
+    component: privacy,
+  },
+  {
+    path: "/fqa",
+    name: "fqa",
+    component: FQA,
   },
   {
     path: "/Test",
