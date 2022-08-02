@@ -37,11 +37,7 @@
 
 <style scoped>
 .footer {
-<<<<<<< HEAD
   background-color: #652E89;
-=======
-  background-color: #377d71;
->>>>>>> 5561f7eff834579583aa6d6b6854a24ba7914ba1
   padding: 3rem 1rem;
   width: 100%;
   overflow: hidden;
