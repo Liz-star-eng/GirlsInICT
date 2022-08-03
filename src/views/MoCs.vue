@@ -132,5 +132,8 @@
 .empower {
   padding: 10px;
 }
+.MoC-content p{
+  text-align: justify;
+}
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="main-body">
     <div class="container">
       <h1>PRIVACY POLICY</h1>
       <br />
@@ -168,15 +168,24 @@
 </template>
 <script></script>
 <style scoped>
+section {
+  padding: 15rem 0 8rem 0;
+}
 h1{
   color: #652e89;
 }
 .container {
-  padding-left: 10%;
-  padding-right: 10%;
+ max-width: 80%;
+ margin: auto;
 }
-section {
-  padding-top: 16rem;
-  padding-bottom: 8rem;
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+p{ 
+    text-align: justify;
+  }
 }
+
 </style>

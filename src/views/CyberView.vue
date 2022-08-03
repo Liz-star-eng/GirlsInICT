@@ -11,7 +11,7 @@
     </div>
 
     <h3>Long & big title</h3>
-    <p>
+    <p class="content">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatibus
       fugit minus earum cumque consequatur voluptate tempore debitis quam!
       Laborum odit minima veniam ea a sunt distinctio inventore debitis
@@ -25,7 +25,7 @@
       placeat?
     </p>
     <br />
-    <p>
+    <p class="content">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatibus
       fugit minus earum cumque consequatur voluptate tempore debitis quam!
       Laborum odit minima veniam ea a sunt distinctio inventore debitis
@@ -259,7 +259,9 @@ input::placeholder {
   .main-body {
     padding: 15rem 1rem 1rem 1rem;
   }
-
+.content {
+  text-align: justify;
+}
   .cards {
     justify-content: center;
     flex-direction: column;

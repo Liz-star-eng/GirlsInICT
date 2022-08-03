@@ -5,8 +5,8 @@
       <div class="card col-sm-3">
         <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
         <div class="container">
-          <h4><b>Jane Doe</b></h4>
-          <p>Interior Designer</p>
+          <h4><b>Matilda Doe</b></h4>
+          <p>System analyst</p>
         </div>
       </div>
       <div class="col-sm-9">
@@ -94,7 +94,8 @@
         <br />
       </div>
     </div>
-    <div class="jumbotron">
+  </div>
+  <div class="jumbotron">
         <h2>Sponsors</h2>
         <div class="sponsors">
             <div class="cards">
@@ -124,7 +125,6 @@
         </div>
 
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -142,6 +142,7 @@
 .card {
   padding-top: 3rem;
   width: 200px;
+text-align: ju;
   /* height: 100%; */
 }
 
@@ -153,12 +154,17 @@
   object-position: center;
 }
 .card h4 {
-  color: green;
+  color: #652e89;
+}
+.card h4:hover {
+  color: #ffc527;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .jumbotron {
-    padding: 0;
-    margin: 0;
+  margin-bottom: 0;
+  background-color: whitesmoke;
 }
 
 .jumbotron h2 {
@@ -168,8 +174,11 @@
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
 }
 
 @media only screen and (max-width: 1033px ) {
@@ -194,10 +203,18 @@
 
 @media (max-width: 600px ) {
   .main-body {
-    padding: 15rem 1rem 1rem 1rem;
+    padding: 15rem 2rem 1rem 2rem;
   }
   .row {
      justify-content: center;
+  }
+  .col-sm-9 p {
+    text-align: justify;
+  }
+
+  .cards {
+    justify-content: center;
+    text-align: center;
   }
 }
 

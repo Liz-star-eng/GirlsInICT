@@ -466,7 +466,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 380px) {
   .H-container {
     max-width: 97%;
   }

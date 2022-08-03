@@ -1,100 +1,115 @@
 <template>
-  <main class="row">
-    <div class="col-sm-8 news-content">
-      <h2 class="news">News</h2>
-      <hr class="break" />
-      <p class="sub-heading">
-        Things to know when moving a website from a shopify to WordPress CMS
-      </p>
-      <img src="../assets/office.png" alt="Avatar" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
-        ducimus quos, repellat voluptates odio illo perspiciatis debitis error
-        neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
-        modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
-        obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
-        vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
-        debitis? Accusantium possimus, neque omnis facere perspiciatis molestiae
-        ut aperiam nesciunt soluta quaerat dolor doloribus, quis consequuntur
-        dicta expedita culpa, nostrum amet? Non aspernatur dolorem est earum
-        accusamus! Eos adipisci ad iusto laborum laudantium, amet quo
-        consequuntur vitae impedit quaerat autem doloremque!
-      </p>
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
-        ducimus quos, repellat voluptates odio illo perspiciatis debitis error
-        neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
-        modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
-        obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
-        vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
-        debitis? Accusantium possimus, neque omnis facere perspiciatis molestiae
-        ut aperiam nesciunt soluta quaerat dolor doloribus, quis consequuntur
-        dicta expedita culpa, nostrum amet? Non aspernatur dolorem est earum
-        accusamus! Eos adipisci ad iusto laborum laudantium, amet quo
-        consequuntur vitae impedit quaerat autem doloremque!
-      </p>
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
-        ducimus quos, repellat voluptates odio illo perspiciatis debitis error
-        neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
-        modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
-        obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
-        vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
-        debitis? Accusantium possimus, neque omnis facere perspiciatis molestiae
-        ut aperiam nesciunt soluta quaerat dolor doloribus, quis consequuntur
-        dicta expedita culpa, nostrum amet? Non aspernatur dolorem est earum
-        accusamus! Eos adipisci ad iusto laborum laudantium, amet quo
-        consequuntur vitae impedit quaerat autem doloremque!
-      </p>
-      <h2>Conclusion</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
-        ducimus quos, repellat voluptates odio illo perspiciatis debitis error
-        neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
-        modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
-        obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
-        vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
-        debitis? Accusantium possimus, neque omnis facere perspiciatis molestiae
-        ut aperiam nesciunt soluta quaerat dolor doloribus, quis consequuntur
-        dicta expedita culpa, nostrum amet? Non aspernatur dolorem est earum
-        accusamus! Eos adipisci ad iusto laborum laudantium, amet quo
-        consequuntur vitae impedit quaerat autem doloremque!
-      </p>
+  <div class="main-body">
+    <main class="row">
+      <div class="col-sm-8 news-content">
+        <h2 class="news">News</h2>
+        <hr class="break" />
+        <p class="sub-heading">
+          Things to know when moving a website from a shopify to WordPress CMS
+        </p>
+        <img src="../assets/office.png" alt="Avatar" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
+          ducimus quos, repellat voluptates odio illo perspiciatis debitis error
+          neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
+          modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
+          obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
+          vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
+          debitis? Accusantium possimus, neque omnis facere perspiciatis
+          molestiae ut aperiam nesciunt soluta quaerat dolor doloribus, quis
+          consequuntur dicta expedita culpa, nostrum amet? Non aspernatur
+          dolorem est earum accusamus! Eos adipisci ad iusto laborum laudantium,
+          amet quo consequuntur vitae impedit quaerat autem doloremque!
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
+          ducimus quos, repellat voluptates odio illo perspiciatis debitis error
+          neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
+          modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
+          obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
+          vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
+          debitis? Accusantium possimus, neque omnis facere perspiciatis
+          molestiae ut aperiam nesciunt soluta quaerat dolor doloribus, quis
+          consequuntur dicta expedita culpa, nostrum amet? Non aspernatur
+          dolorem est earum accusamus! Eos adipisci ad iusto laborum laudantium,
+          amet quo consequuntur vitae impedit quaerat autem doloremque!
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
+          ducimus quos, repellat voluptates odio illo perspiciatis debitis error
+          neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
+          modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
+          obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
+          vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
+          debitis? Accusantium possimus, neque omnis facere perspiciatis
+          molestiae ut aperiam nesciunt soluta quaerat dolor doloribus, quis
+          consequuntur dicta expedita culpa, nostrum amet? Non aspernatur
+          dolorem est earum accusamus! Eos adipisci ad iusto laborum laudantium,
+          amet quo consequuntur vitae impedit quaerat autem doloremque!
+        </p>
+        <h2>Conclusion</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
+          ducimus quos, repellat voluptates odio illo perspiciatis debitis error
+          neque itaque, eligendi magnam dolorem cumque assumenda eveniet eius ea
+          modi aliquid explicabo eum minus? Suscipit natus impedit tempore in
+          obcaecati, magnam animi illo dignissimos nihil labore modi aspernatur
+          vero quo iure sint qui cupiditate ut molestiae laudantium repudiandae
+          debitis? Accusantium possimus, neque omnis facere perspiciatis
+          molestiae ut aperiam nesciunt soluta quaerat dolor doloribus, quis
+          consequuntur dicta expedita culpa, nostrum amet? Non aspernatur
+          dolorem est earum accusamus! Eos adipisci ad iusto laborum laudantium,
+          amet quo consequuntur vitae impedit quaerat autem doloremque!
+        </p>
 
-      <div class="container">
-        <h3>Comments</h3>
-        <h4>leave a reply</h4>
+        <div class="container">
+          <h3>Comments</h3>
+          <h4>leave a reply</h4>
 
-        <input class="message" type="text" placeholder="Your Reply" /><br />
-        <div class="input">
-          <input type="text" placeholder="Your name" />
-          <input type="text" placeholder="Your email" />
+          <input class="message" type="text" placeholder="Your Reply" /><br />
+          <div class="input">
+            <input type="text" placeholder="Your name" />
+            <input type="text" placeholder="Your email" />
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi.</p>
+          <button>Post Comment</button>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi.</p>
-        <button>Post Comment</button>
       </div>
-    </div>
-    <div class="col-sm-4 related-news">
-      <h3>Related news</h3>
-      <nav>
-        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
-        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
-        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
-        <a href=""><img src="../assets/bd.jpg" alt=""><p>Lorem ipsum dolor sit amet.</p></a>
-       
-        
-      </nav>
-    </div>
-  </main>
+      <div class="col-sm-4 related-news">
+        <h3>Related news</h3>
+        <nav>
+          <a href=""
+            ><img src="../assets/bd.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <a href=""
+            ><img src="../assets/bd.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <a href=""
+            ><img src="../assets/bd.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+          <a href=""
+            ><img src="../assets/bd.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet.</p></a
+          >
+        </nav>
+      </div>
+    </main>
+  </div>
 </template>
 
 <style scoped>
+.main-body {
+ padding: 15rem 10rem 5rem 5rem;
+}
 .row {
-  padding: 15rem 10rem 5rem 15rem;
+ 
   display: flex;
-  justify-content: space-between;
+  overflow: hidden;
 }
 
 .news {
@@ -115,9 +130,9 @@
   border-radius: 10px;
 }
 .related-news a {
-color: #652e89;
-font-size: 18px;
-margin-right: 0;
+  color: #652e89;
+  font-size: 18px;
+  margin-right: 0;
 }
 .related-news a p {
   margin-left: 2.5rem;
@@ -130,9 +145,9 @@ margin-right: 0;
   width: 80%;
   padding: 10px 20px;
 }
-.related-news img:hover{
- width: 81%;
- transition: 0.3s ease-in-out;
+.related-news img:hover {
+  width: 81%;
+  transition: 0.3s ease-in-out;
 }
 p {
   margin-top: 10px;
@@ -145,6 +160,7 @@ p {
 
 .container {
   display: block;
+  padding: 1rem;
 }
 .message {
   width: 40%;
@@ -186,10 +202,13 @@ button:hover {
 }
 
 @media (max-width: 1310px) {
-  .row {
-    padding: 0 10rem;
+  .main-body {
+padding: 15rem 5rem 1rem 5rem;
   }
- 
+  .row {
+    overflow: hidden;
+  }
+
   .related-news a {
     font-size: 14px;
   }
@@ -205,24 +224,31 @@ button:hover {
   }
 
   .related-news {
-    width:100%;
+    width: 100%;
   }
-  .related-news nav{
+  .related-news nav {
     display: flex;
-     }
+  }
 }
 
-@media screen and (max-width: 722px) {
- .row  {
-  padding: 1rem 5rem;
- }
+@media screen and (max-width: 800px) {
+  .main-body {
+padding: 15rem 5rem 1rem 5rem;
+  }
+  .row {
+    padding: 1rem 5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .row  {
-  margin-top: 20%;
-  padding: 1rem;
- }
+  .row {
+    padding: 15rem 1rem 1rem 1rem;
+  }
+  p {
+    text-align: justify;
+  }
+  .related-news {
+    overflow: hidden;
+  }
 }
-
 </style>
