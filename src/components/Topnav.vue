@@ -110,8 +110,8 @@
             <i class="fa fa-chevron-down" style="margin-left: 7.8rem;"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="/directorylistings">Mentors</router-link>
-            <!-- <router-link to="/StudentsViews">Students</router-link> -->
+            <a href="/directorylistings">Mentors</a>
+            <!-- <a href="/StudentsViews">Students</a> -->
           </div>
         </li>
         <li class="dropdown">
@@ -120,8 +120,8 @@
             <i class="fa fa-chevron-down" style="margin-left: 9.7rem;"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="/moccorner">Mentors</router-link>
-            <router-link to="/careers">Carreers</router-link>
+            <a href="/moccorner">Mentors</a>
+            <a href="/careers">Carreers</a>
           </div>
         </li>
         <li class="dropdown">
@@ -130,9 +130,9 @@
             <i class="fa fa-chevron-down" style="margin-left: 6.6rem;"></i
           ></a>
           <div class="dropdown-content">
-              <router-link to="/cyberview" >Primary/JHS</router-link>
-              <router-link to="/careers">SHS</router-link>
-              <router-link to="/careers">Tertiary</router-link>
+              <a href="/cyberview" >Primary/JHS</a>
+              <a href="/careers">SHS</a>
+              <a href="/careers">Tertiary</a>
           </div>
         </li>
         <li class="dropdown">
@@ -140,8 +140,8 @@
             ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down" style="margin-left: 10rem;"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="/upcomingevent">Upcoming</router-link>
-            <router-link to="newsviews">Past</router-link>
+            <a href="/upcomingevent">Upcoming</a>
+            <a href="newsviews">Past</a>
           </div>
         </li>
         <li class="dropdown">
@@ -150,7 +150,7 @@
             <i class="fa fa-chevron-down" style="margin-left: 1.8rem;"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="/cyberview">Cybersecurity</router-link>
+            <a href="/cyberview">Cybersecurity</a>
           </div>
         </li>
         <li class="dropdown">
@@ -159,9 +159,9 @@
               <i class="fa fa-chevron-down" style="margin-left: 4.9rem;"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/cyberview">Cyber Security</router-link>
-              <router-link to="/careers">Programming</router-link>
-              <router-link to="/careers">Robotics</router-link>
+              <a href="/cyberview">Cyber Security</a>
+              <a href="/careers">Programming</a>
+              <a href="/careers">Robotics</a>
             </div>
           </li>
       </nav>

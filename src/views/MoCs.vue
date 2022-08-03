@@ -51,22 +51,6 @@
       </p>
     </div>
 
-    <div class="Jumbotron">
-      <div class="row">
-        <div class="col-3">
-          <h3>Empowering Women and Girls in ICT</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            quos magni accusantium soluta vero neque debitis repudiandae
-            deleniti, magnam doloribus dicta expedita tempore iusto, modi sequi
-            perferendis, recusandae iste eligendi.
-          </p>
-        </div>
-        <div class="col-9">
-          <img src="images/photo_2022-05-05_09-27-14.jpg" alt="" style="" />
-        </div>
-      </div>
-    </div>
       </div>
     <div class="empower mb-5">
       <div class="left">
@@ -87,7 +71,6 @@
 
 <style scoped>
 .main-body {
-
   overflow: hidden;
   padding:15rem 15rem 0 15rem;
 }
@@ -95,7 +78,7 @@
   display: flex;
 }
 .MoC-content img {
-  width: 40%;
+  width: 35%;
   margin: 0 20px 30px 0;
   border-radius: 5px;
 }
@@ -105,42 +88,44 @@
 }
 
 .empower {
-  background-color: #925db6;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 40% 55%;
-  margin: 100px 0;
-  padding: 5rem 10rem;
-  gap: 20px;
+  background-color: #fdd5ef;
+  display: flex;
+  padding: 8rem 16rem;
+  align-content: center;
 }
-.empower p,
-.empower h3 {
-  color: white;
-  line-height: 1.5;
-}
-.empower p {
-  font-size: 16px;
-  text-align: center;
+
+.empower .left {
+  padding: 0 3rem 0 0;
 }
 
 .empower img {
-  height: 300px;
   width: 500px;
-  border-top-left-radius: 50px;
-  object-fit: cover;
-}
-@media only screen and (max-width: 1033px ) {
-  .main-body {
-    margin-left: 0;
-  }
 }
 @media only screen and (max-width: 1200px) {
    .main-body {
     margin-left: 0;
-    padding: 10px;
+    padding: 15rem 10px 10px 10px;
   }
+  .MoC-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .MoC-content img {
+    width: 70%;
+  }
+  .Moc-body p {
+    text-align: center;
+  }
+  
   .empower {
       grid-template-columns: 100%;
+  }
+  .empower {
+    flex-wrap: wrap;
+  }
+  .empower img {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {

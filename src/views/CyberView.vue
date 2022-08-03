@@ -122,7 +122,7 @@
 <style scoped>
 .main-body {
   overflow-x: hidden;
-  padding: 15rem;
+  padding: 15rem 10rem 1rem 10rem;
 }
 
 img {
