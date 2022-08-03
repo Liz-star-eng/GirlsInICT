@@ -167,8 +167,7 @@
 
 <style scoped>
 .main-body {
-  margin-left: 17%;
-  padding-top: 15rem;
+  padding: 15rem 10rem 1rem 10rem;
   justify-content: center;
   margin-bottom: 0;
 }
@@ -198,7 +197,13 @@
 }
 
 .link{
-color: orangered;
+color: #652e89;
+}
+
+.link:hover {
+  color: #2d0b44;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .cards .card h4,
@@ -215,12 +220,34 @@ color: orangered;
 .navigation a {
   margin: 10px;
   background-color: whitesmoke;
+  border-radius: 10px;
   padding: 5px;
-  color: black;
+  color: #652e89;
 }
 
 .navigation a:hover {
-  background-color: #5fb9da;
-  color: blue;
+  background-color: #652e89;
+  color: #ffc527;
+}
+@media (max-width: 992px) {
+  .main-body {
+  padding: 15rem 2rem 1rem 1rem
+}
+  .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (max-width: 600px) {
+/* .main-body {
+  padding: 15rem 1px 1px 1px;
+} */
+.grid-container {
+  grid-template-columns: 100%;
+   margin: 0;
+}
+
+.navigation a {
+    margin: 5px;
+}
 }
 </style>

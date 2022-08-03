@@ -68,54 +68,53 @@
       </div>
     </div>
     <div class="cards">
-       <div class="arrow">
-             <a href=""><i class="fa fa-chevron-left"></i></a>
-       </div>
-        <div class="card">
-            <i class="fa fa-"></i>
-          <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
-          <div class="container">
-            <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">
-            Some example text some example text. John Doe is an architect and
-            engineer
-          </p>
-          <a href="#" class="btn">See Profile</a>
-        </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
-          <div class="container">
-          <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">
-            Some example text some example text. John Doe is an architect and
-            engineer
-          </p>
-          <a href="#" class="btn">See Profile</a>
-        </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/ursla.jpg" alt="Avatar"/>
-          <div class="container">
-             <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">
-            Some example text some example text. John Doe is an architect and
-            engineer
-          </p>
-          <a href="#" class="btn">See Profile</a>
-        </div>
-          </div>
-        </div>
-        <div class="arrow">
-               <a href=""><i class="fa fa-chevron-right"></i></a>
-        </div>
-      
+      <div class="arrow">
+        <a href=""><i class="fa fa-chevron-left"></i></a>
       </div>
+      <div class="card">
+        <i class="fa fa-"></i>
+        <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">
+              Some example text some example text. John Doe is an architect and
+              engineer
+            </p>
+            <a href="#" class="btn">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">
+              Some example text some example text. John Doe is an architect and
+              engineer
+            </p>
+            <a href="#" class="btn">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../assets/ursla.jpg" alt="Avatar" />
+        <div class="container">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">
+              Some example text some example text. John Doe is an architect and
+              engineer
+            </p>
+            <a href="#" class="btn">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="arrow">
+        <a href=""><i class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -125,7 +124,7 @@
   padding: 15rem 10rem 1rem 10rem;
 }
 
-img {
+.image img {
   object-fit: cover;
   object-position: center;
   width: 70%;
@@ -140,6 +139,7 @@ img {
 }
 
 button {
+  border: none;
   border-radius: 20px;
   height: 40px;
   width: 120px;
@@ -147,16 +147,17 @@ button {
 }
 
 .active {
-  background: #557C83;
-  color: white;
+  background: #652e89;
+  color: #ffc527;
 }
 
 button:hover {
-  background-color: #557C83;
-  color: white;
+  background-color: #652e89;
+  color: #ffc527;
   transition: 0.3s;
 }
 
+/* form */
 .container div {
   margin: 30px 0 10px 0;
 }
@@ -171,17 +172,21 @@ input {
   border-bottom: 1px solid;
   width: 40rem;
 }
+input::placeholder {
+  color: rgba(128, 128, 128, 0.4);
+}
 
 .btn {
-  background-color: #557C83;
-  color: rgb(255, 255, 255);
+  background-color: #652e89;
+  color: #ffc527;
   width: 100px;
 }
 
 .btn:hover {
- background-color: #91cfd8;
- color: black;
+  background-color: #ffc527;
+  color: #652e89;
 }
+/* end */
 
 .cards {
   display: flex;
@@ -189,11 +194,13 @@ input {
   align-content: center;
   padding: 5px 0;
 }
+
 .card {
   width: 350px;
   padding-bottom: 3rem;
   overflow: hidden;
   background-color: rgb(218, 211, 211);
+  border-radius: 10px;
 }
 
 .card img {
@@ -203,22 +210,98 @@ input {
   object-fit: cover;
   object-position: center;
   margin: 0;
+  align-items: center;
 }
 
 .arrow {
-    font-size: 24px;
-    margin: 130px 0 0 0;
+  font-size: 24px;
+  margin: 130px 0 0 0;
 }
 
-@media only screen and (max-width: 1033px ) {
+@media only screen and (max-width: 1280px) {
   .main-body {
-    margin-left: 0;
+    padding: 15rem 5rem 1rem 5rem;
+  }
+  .button {
+    justify-content: center;
+  }
+  .cards {
+    gap: 10px;
   }
 }
-@media only screen and (max-width: 992px)  {
+@media only screen and (max-width: 992px) {
+  .image img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .card {
+    width: 280px;
+  }
   .cards {
-    flex-wrap: wrap;
     gap: 5px;
   }
+  input {
+    width: 30rem;
+  }
+}
+@media (max-width: 600px) {
+  .image img {
+    margin-left: 0;
+    height: 250px;
+    width: 100%;
+  }
+  button {
+    margin: 1px;
+  }
+  .button {
+    margin: 4px;
+  }
+  .main-body {
+    padding: 15rem 1rem 1rem 1rem;
+  }
+
+  .cards {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3rem;
+    gap: 20px;
+    margin-top: 1px !important;
+  }
+  .fa-chevron-right,
+  .fa-chevron-left {
+    display: none;
+  }
+
+  .container {
+    margin-bottom: 1px;
+  }
+  .container h3 {
+    font-size: 18px;
+  }
+  .container div {
+    margin: 30px 0 10px 0;
+    align-items: center;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.4);
+  }
+  .fa-chevron-down {
+    font-size: 10px;
+  }
+  /* arrow section */
+  .arrow {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 360px) {
+.cards {
+margin-left: 7px;
+}
+input {
+  width: 25rem;
+}
 }
 </style>

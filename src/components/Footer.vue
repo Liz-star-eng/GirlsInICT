@@ -2,9 +2,9 @@
   <div class="footer">
     <div class="section">
       <div class="whitelogo">
-        <router-link to="/"
+        <a href="/"
           ><img src="../assets/white-girlslogo.png" alt=""
-        /></router-link>
+        /></a>
       </div>
       <div class="Links">
         <h4>Quick Links</h4>
@@ -54,10 +54,7 @@
 
 <style scoped>
 .footer {
-  padding: 0% !important;
-  margin: 0% !important;
   background-color: #652e89;
-  padding: 3rem 1rem;
   width: 100%;
   overflow: hidden;
   z-index: 99;
@@ -67,7 +64,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
 }
 /* .line {
@@ -155,6 +152,12 @@ a:hover {
   .copyright-container p {
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 200px) {
+  .footer {
+    display: none;
   }
 }
 </style>

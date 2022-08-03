@@ -72,4 +72,28 @@ h4 {
     margin: 5px 0 5px 15px;
 }
 
+@media (max-width: 1280px) {
+ .main-body {
+    padding: 15rem 9rem 4rem 9rem;
+  }
+}
+@media (max-width: 992px) {
+  .main-body {
+    padding: 15rem 5rem 1rem 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+   p {
+    text-align: justify;
+  }
+  .main-body {
+    padding: 15rem 1rem 1rem 1rem;
+  }
+}
+@media (max-width: 200px) {
+.main-body {
+  display: none;
+}
+}
 </style>

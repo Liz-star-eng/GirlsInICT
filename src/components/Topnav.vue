@@ -3,8 +3,8 @@
     <nav class="topBar bigscreen">
       <div class="H-container">
         <div class="user">
-          <router-link to="/about-us"
-            ><i class="fa fa-user"></i> About Us</router-link
+          <a href="/about-us"
+            ><i class="fa fa-user"></i> About Us</a
           >
              <a href="" class="cta"> Ask for help </a>
         </div>
@@ -25,9 +25,9 @@
 
     <header>
       <div class="navBar">
-        <router-link to="/" class="title"
+        <a href="/" class="title"
           ><img src="../assets/girlslogo.png" alt="" />
-        </router-link>
+        </a>
         <nav class="menuItems">
           <li class="dropdown">
             <a class="dropbtn"
@@ -105,7 +105,7 @@
     <div class="ResponsiveNav" :class="collapsibleNav">
       <nav class="NavItems">
         <li class="dropdown">
-          <a href="" class="dropbtn"
+          <a class="dropbtn"
             ><i class="fa fa-address-book-o"></i> Directory
             <i class="fa fa-chevron-down" style="margin-left: 7.8rem;"></i
           ></a>
@@ -115,7 +115,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="" class="dropbtn"
+          <a class="dropbtn"
             ><i class="fa fa-folder-open-o"></i> Forum
             <i class="fa fa-chevron-down" style="margin-left: 9.7rem;"></i
           ></a>
@@ -125,7 +125,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="" class="dropbtn"
+          <a class="dropbtn"
             ><i class="fa fa-graduation-cap"></i> Academy
             <i class="fa fa-chevron-down" style="margin-left: 6.6rem;"></i
           ></a>
@@ -136,7 +136,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="" class="dropbtn"
+          <a class="dropbtn"
             ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down" style="margin-left: 10rem;"></i
           ></a>
           <div class="dropdown-content">
@@ -145,7 +145,7 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="" class="dropbtn"
+          <a class="dropbtn"
             ><i class="fa fa-archive"></i> Information Hub
             <i class="fa fa-chevron-down" style="margin-left: 1.8rem;"></i
           ></a>
@@ -154,7 +154,7 @@
           </div>
         </li>
         <li class="dropdown">
-            <a href="" class="dropbtn"
+            <a class="dropbtn"
               ><i class="fa fa-archive"></i> Competition
               <i class="fa fa-chevron-down" style="margin-left: 4.9rem;"></i
             ></a>
@@ -230,6 +230,9 @@ button {
   color: white;
 }
 
+.social {
+  display: flex;
+}
 .social a {
   margin-left: 1rem;
 }
@@ -459,16 +462,23 @@ button {
   }
 
   .NavItems .dropdown-content {
-    left: 20rem;
+    left: 23rem;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 370px) {
   .H-container {
     max-width: 97%;
   }
   .cta {
      padding: 2px 2rem;
+  }
+ 
+}
+
+@media (max-width: 200px) {
+  .header {
+    display: none;
   }
 }
 </style>

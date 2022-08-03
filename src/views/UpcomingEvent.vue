@@ -115,6 +115,7 @@
   border-radius: 5px;
   background-color: whitesmoke;
   margin: 20px;
+  padding: 10px 10px 3px 10px;
 }
 
 .eventContent .textContent {
@@ -123,7 +124,8 @@
 
 .eventContent img {
   object-fit: cover;
-  width: 500px;
+  width: 100%;
+  border-radius: 10px;
   margin: 0 30px 0 0;
 }
 
@@ -146,12 +148,16 @@
 
 .symbol button {
   border-radius: 5px;
-  color: orange;
+  color: #6f36bb;
   padding: 5px;
+  border: 1px solid #6f36bb;
+}
+a:hover {
+  background-color: #6f36bb;
 }
 
 .symbol .fa {
-  color: green;
+  color: #6f36bb;
 }
 /* container empowering women */
 .container {
@@ -173,6 +179,7 @@
   width: 500px;
 }
 
+
 .col-sm-4 img {
   border-radius: 10px;
   width: 100%;
@@ -193,7 +200,10 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 992px) {
+  .main-body {
+     padding: 15rem 1px 0 1px;
+  }
   .empower {
       padding: 2rem 5rem;
       align-content: justify;
@@ -202,5 +212,46 @@
   .empower img {
     width: 400px;
   }
+}
+
+@media (max-width: 600px) {
+  .main-body {
+     padding: 15rem 1rem 0 1rem;
+  }
+  .Events {
+    margin: 0 0 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ 
+  }
+  .eventContent {
+    margin: 0;
+  }
+  .eventContent .textContent {
+    padding: 1rem;
+  }
+  .textContent {
+    text-align: justify;
+  }
+  .symbol {
+    padding: 5px 1px;
+    flex-wrap: nowrap;
+  }
+
+  .symbol-text {
+    margin-right: 0;
+  }
+   .eventContent img {
+    width: 100%;
+   }
+    .empower {
+    padding: 20px;
+  }
+  .empower img {
+    width: 100%;
+  }
+
 }
 </style>

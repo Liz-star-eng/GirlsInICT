@@ -405,23 +405,23 @@ h6 {
 }
 
 @media only screen and (max-width: 1203px) {
+  /* main content */
   .main-body {
     margin: 0;
   }
-   .intro {
-    padding: 0 10px;
+   .intro, .row-2, .pastEvent .containerEvents, .empower {
+    padding: 0 1rem;
   }
-
-  .carousel-inner {
-    height: 20vh;
-  }
-
+/* end */
+/* empower section */
   .empower {
     flex-wrap: wrap;
   }
   .empower img {
     width: 100%;
   }
+
+  /* end */
   .mins-msg {
     flex-direction: column;
   }
