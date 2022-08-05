@@ -57,8 +57,8 @@
             ></a>
             <div class="dropdown-content">
               <router-link to="/academy/coursesinf" >Primary/JHS</router-link>
-              <router-link to="/careers">SHS</router-link>
-              <router-link to="/careers">Tertiary</router-link>
+              <router-link to="/academy/shs">SHS</router-link>
+              <router-link to="/academy/tertiary">Tertiary</router-link>
             </div>
           </li>
           <li class="dropdown">
