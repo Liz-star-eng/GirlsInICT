@@ -1,99 +1,55 @@
 <template>
-  <div class="main-body" id="main-body">
-    <div class="text">
-      <h2>Career</h2>
-      <h3>PHP Developer</h3>
-      <h4>Job Discription and Responsibilities</h4>
+<main>
+ <div class="custom-shape-divider-top-1659711561">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+     <h2>Cyber Career Profiles</h2>
+</div>
+  <div class="sidenav">
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor
-        ipsum assumenda, error delectus tempore, beatae numquam aliquid neque
-        accusamus consectetur pariatur magnam ullam nostrum eveniet fuga cumque
-        incidunt velit nisi et exercitationem. Odio, tempora! Velit, rem, atque
-        illum ex ipsam ipsa tenetur qui hic eum porro sunt labore nihil, aliquid
-        reiciendis? Omnis laboriosam minus facilis laudantium corporis odit,
-        dicta architecto consectetur qui deleniti repellendus. Inventore ex quas
-        ipsum. Dolor non, nihil ratione officiis aliquam eius, quae quas laborum
-        consectetur sint sapiente odit, quam consequuntur excepturi nemo
-        voluptatem a corrupti? Suscipit, aspernatur recusandae. Sint quam rerum
-        repudiandae unde, et perferendis.
-      </p>
-      <br>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad inventore
-        enim earum sequi rem minus soluta dignissimos quas tempore amet magnam,
-        quisquam quod veritatis repudiandae necessitatibus iusto. Harum
-        inventore alias omnis nesciunt nulla, voluptatem, saepe atque, eos illum
-        soluta beatae ipsam. Id porro beatae asperiores doloribus vero ex
-        voluptates optio!
-      </p> <br> <br>
-
-      <h2>Requirement</h2>
-      <h4>Educational requirement</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas alias
-        sequi, quis odit est odio. Cum dignissimos distinctio, voluptatum
-        blanditiis amet itaque maiores ex. Obcaecati illum modi illo sint porro.
-      </p>  <br>
-      <h4>Experiencial requirement</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas alias
-        sequi, quis odit est odio. Cum dignissimos distinctio, voluptatum
-        blanditiis amet itaque maiores ex. Obcaecati illum modi illo sint porro.
-      </p>
-      <br>
-
-      <h4>Additional requirement</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas alias
-        sequi, quis odit est odio. Cum dignissimos distinctio, voluptatum
-        blanditiis amet itaque maiores ex. Obcaecati illum modi illo sint porro.
-      </p>
-    </div>
   </div>
+  <div class="container"></div>
+</main>
 </template>
 
 <style scoped>
-.main-body{ 
-    padding: 15rem;
+main {
+  padding-top: 15rem;
 }
+.sidenav {
+  margin-top: 20%;
+    background-color: grey;
+    padding: 20rem;
+    width: 20%;
+    height: 80%;
+    left: 0;
 
-h3 {
-    color: orange;
-    font-style: italic;
 }
-
 h2 {
-    margin-bottom: 20px;
+  text-align: center;
+  color: white;
 }
 
-h4 {
-    font-style: italic;
-    margin: 5px 0 5px 15px;
+.custom-shape-divider-top-1659711561 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    overflow: hidden;
 }
 
-@media (max-width: 1280px) {
- .main-body {
-    padding: 15rem 9rem 4rem 9rem;
-  }
-}
-@media (max-width: 992px) {
-  .main-body {
-    padding: 15rem 5rem 1rem 5rem;
-  }
+.custom-shape-divider-top-1659711561 svg {
+    position: relative;
+    display: block;
+    width: calc(181% + 1.3px);
+    height: 499px;
 }
 
-@media (max-width: 600px) {
-   p {
-    text-align: justify;
-  }
-  .main-body {
-    padding: 15rem 1rem 1rem 1rem;
-  }
-}
-@media (max-width: 200px) {
-.main-body {
-  display: none;
-}
+.custom-shape-divider-top-1659711561 .shape-fill {
+    fill: rgba(101, 46, 137, 0.9);
 }
 </style>

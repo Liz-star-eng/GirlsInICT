@@ -36,6 +36,7 @@
             ></a>
             <div class="dropdown-content">
               <router-link to="/directorylistings">Mentors</router-link>
+                <router-link to="/careers">Carreers</router-link>
               <!-- <router-link to="/StudentsViews">Students</router-link> -->
             </div>
           </li>
@@ -45,8 +46,8 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/moccorner">Mentors</router-link>
-              <router-link to="/careers">Carreers</router-link>
+              <!-- <router-link to="/moccorner">Mentors</router-link> -->
+              <router-link to="">Let's Chat</router-link>
             </div>
           </li>
           <li class="dropdown">
@@ -55,7 +56,7 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/cyberview" >Primary/JHS</router-link>
+              <router-link to="/academy/coursesinf" >Primary/JHS</router-link>
               <router-link to="/careers">SHS</router-link>
               <router-link to="/careers">Tertiary</router-link>
             </div>
@@ -85,8 +86,8 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/cyberview">Cyber Security</router-link>
-              <router-link to="/careers">Programming</router-link>
+              <router-link to="/cyberview">CyberSecurity</router-link>
+              <router-link to="/careers">GirlsInICT</router-link>
               <router-link to="/cyberview">IoT</router-link>
               <router-link to="/careers">Robotics</router-link>
             </div>

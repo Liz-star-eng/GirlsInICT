@@ -13,6 +13,11 @@ import Form from "../views/Form.vue";
 import AboutUs from "../views/AboutUs.vue";
 import privacy from "../views/privacy.vue"
 import FQA from "../views/FQA.vue";
+import contact from "../views/Contact"
+import courseInfo from "../views/academy/courseInfo";
+import primaryJhs from "../views/academy/primaryJhs";
+import Shs from "../views/academy/Shs";
+import Tertiary from "../views/academy/Tertiary";
 import Test from "../views/Test.vue"
 
 
@@ -88,6 +93,31 @@ const routes = [
     path: "/fqa",
     name: "fqa",
     component: FQA,
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: contact,
+  },
+  {
+    path: "/academy/coursesinf",
+    name: "coursesinfo",
+    component: courseInfo,
+  },
+  {
+    path: "/academy/primaryJhs",
+    name: "primary",
+    component: primaryJhs,
+  },
+  {
+    path: "/academy/shs",
+    name: "shs",
+    component: Shs,
+  },
+  {
+    path: "/academy/tertiary",
+    name: "tertiary",
+    component: Tertiary,
   },
   {
     path: "/Test",

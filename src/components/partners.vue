@@ -1,178 +1,168 @@
 <template>
-<section class="partnerlogo">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../assets/moc_logo_2.jpg" alt="" />
-            <img src="img/nita-logo.png" alt="" />
-            <img src="img/gi-kace-logo.png" alt="" />
+  <main>
+    <div class="partners">
+      <h2>Our Partners</h2>
+      <div class="jumbotron">
+        <div id="largeCarousel" class="carousel slide largeScreens" data-ride="carousel">
+          <!-- Carousel Indicators -->
+           <ol class="carousel-indicators">
+            <li data-target="#largeCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#largeCarousel" data-slide-to="1"></li>
+            <li data-target="#largeCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- flex carousel items-->
+          <div class="carousel-inner">
+            <div class="item active row">
+              <div class="col-sm-2"></div>
+                <div class="col-sm-3">
+              <img src="../assets/moc_logo_2.jpg" alt="Los Angeles"  />
+                </div>
+                <div class="col-sm-3">
+              <img class="nita" src="../assets/nita-logo.png" alt="Chicago" />
+                </div>
+                <div class="col-sm-3">
+              <img src="../assets/gi-kace-logo.png" alt="New york" />
+                </div>
+                 <div class="col-sm-1"></div>
+            </div>
+             <div class="item row">
+               <div class="col-sm-2"></div>
+                <div class="col-sm-3">
+              <img src="../assets/moc_logo_2.jpg" alt="Los Angeles"  />
+                </div>
+                <div class="col-sm-3">
+              <img class="nita" src="../assets/nita-logo.png" alt="Chicago" />
+                </div>
+                <div class="col-sm-3">
+              <img src="../assets/gi-kace-logo.png" alt="New york" />
+                </div>
+                 <div class="col-sm-1"></div>
+            </div>
+             <div class="item row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-3">
+              <img src="../assets/moc_logo_2.jpg" alt="Los Angeles"  />
+                </div>
+                <div class="col-sm-3">
+              <img class="nita" src="../assets/nita-logo.png" alt="Chicago" />
+                </div>
+                <div class="col-sm-3">
+              <img src="../assets/gi-kace-logo.png" alt="New york" />
+                </div>
+                 <div class="col-sm-1"></div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="../assets/moc_logo_2.jpg" alt="" />
-            <img src="../assets/nita-logo.png" alt="" />
-            <img src="../assets/gi-kace-logo.png" alt="" />
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/moc_logo_2.jpg" alt="" />
-            <img src="../assets/nita-logo.png" alt="" />
-            <img src="../assets/gi-kace-logo.png" alt="" />
-          </div>
+           <a class="left carousel-control" href="#largeCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#largeCarousel"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon icon"
-            aria-hidden="true"
-          ></span>
 
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon icon"
-            aria-hidden="true"
-          ></span>
+        <!-- small screens -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
 
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <!-- mobile view -->
-    <section class="partnerlogo-m">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../assets/moc_logo_2.jpg" alt="" />
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="../assets/moc_logo_2.jpg" alt="Los Angeles"  />
+            </div>
+
+            <div class="item">
+              <img src="../assets/nita-logo.png" alt="Chicago" />
+            </div>
+
+            <div class="item">
+              <img src="../assets/gi-kace-logo.png" alt="New york" />
+            </div>
+
           </div>
-          <div class="carousel-item">
-            <img src="../assets/nita-logo.png" alt="" />
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/gi-kace-logo.png" alt="" />
-          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#myCarousel"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right right"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon icon"
-            aria-hidden="true"
-          ></span>
-
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon icon"
-            aria-hidden="true"
-          ></span>
-
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </section>
+    </div>
+  </main>
 </template>
 
+<style scoped>
+.jumbotron {
+  background-color: white;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
 
-    <style scoped>
-      .partnerlogo-m {
-        display: none;
-      }
+#myCarousel {
+  display: none;
+}
 
-      .partnerlogo {
-        margin-top: 50px;
-        padding: 20px 0;
-      }
-      .carousel-item {
-        display: flex;
-      }
-      .carousel-inner {
-        padding: 0 20%;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-      }
 
-      .carousel-item img {
-        height: 100px;
-        padding-right: 20px;
-      }
-      .icon {
-        font-weight: bold;
-        size: 20px;
-        background-color: #652e89;
-        padding: 7px 10px;
-        border-radius: 25%;
-      }
-  
-      @media only screen and (max-width: 768px) {
-        .carousel-item img {
-          height: 40px;
-          padding-right: 20px;
-        }
-      }
-      @media only screen and (max-width: 1024px) {
-        .carousel-item img {
-          height: 40px;
-          padding-right: 20px;
-        }
-      }
+#largeCarousel .carousel-inner img{
+  width: 60%;
+}
+.nita {
+  height: 60px;
+}
 
-      @media only screen and (max-width: 1280px) {
-        .carousel-item img {
-          height: 40px;
-          padding-right: 20px;
-        }
-      }
-      @media only screen and (max-width: 992px) {
-        /* .partnerlogo {
-          margin-top: 50px;
-          padding: 20px 0;
-          display: flex;
-        } */
-        .carousel-item img {
-          height: 35px;
-          padding-right: 10px;
-        }
-      }
-          @media only screen and (max-width: 600px) {
-        .partnerlogo-m {
-          display: block;
-          margin-top: 50px;
-        }
-  
+.carousel-control.right, .carousel-control.left {
+  background-color: white;
+  background-image: none;
+  color: #652e89;
+}
+.partners {
+   text-align: center;
+}
 
-        .carousel-item img {
-          height: 200px;
-          justify-items: center;
-        }
-        .partnerlogo {
-          display: none;
-        }
-      }
-    </style>
+@media (max-width: 992px){
+  #largeCarousel .carousel-inner img{
+  width: 70%;
+}
+  .nita {
+  height: 45px;
+}
+} 
+@media (max-width: 600px) {
+#largeCarousel {
+    display: none;
+  }
+  #myCarousel {
+    display: flex;
+  }
+
+    #myCarousel .carousel-inner {
+    padding-left: 10rem;
+  }
+ #myCarousel .carousel-inner img{
+width: 70%;
+height: 80px;
+}
+
+}
+
+</style>

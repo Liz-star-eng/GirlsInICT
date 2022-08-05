@@ -1,0 +1,400 @@
+<template>
+  <section>
+    <div class="titleHolder">
+      <div class="container2">
+        <div class="title">Tertiary</div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="row2">
+        <div class="menus">
+          <div class="menuHolder">
+            <div class="innerContainer">
+              <div class="menu">
+                <a href="/academy/primaryJhs">Primary/JHS</a>
+                <a href="/academy/Shs">SHS</a>
+                <a href="/academy/Tertiary" class="lst">Tertiary</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="intro">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id et
+              molestias illo vero est aut blanditiis, rem atque eligendi natus,
+              repellat deleniti explicabo rerum perspiciatis doloremque beatae
+              sapiente illum ipsam minus aliquid fugiat! Vitae reiciendis
+              quisquam perspiciatis autem accusantium fuga recusandae quae
+              nostrum fugit quos inventore quidem suscipit quasi laborum libero
+              porro sed optio unde, asperiores similique repellendus a dolores
+              iusto! Cupiditate eveniet officia nulla, architecto blanditiis
+              tempora quae? Numquam nostrum, corrupti earum voluptate excepturi
+              quos explicabo cupiditate tempore ipsum quo illum praesentium at
+              expedita
+            </p>
+          </div>
+
+          <div class="cardHolder">
+            <div class="cards">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  alt="Card image"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">
+                    Some example text some example text. John Doe is an
+                    architect and engineer
+                  </p>
+                  <router-link to="/academy/courseInfo" class="link"
+                    >See Profile</router-link
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  alt="Card image"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">
+                    Some example text some example text. John Doe is an
+                    architect and engineer
+                  </p>
+                  <router-link to="/academy/courseInfo" class="link"
+                    >See Profile</router-link
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  alt="Card image"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">
+                    Some example text some example text. John Doe is an
+                    architect and engineer
+                  </p>
+                  <router-link to="/academy/courseInfo" class="link"
+                    >See Profile</router-link
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  alt="Card image"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">
+                    Some example text some example text. John Doe is an
+                    architect and engineer
+                  </p>
+                  <router-link to="/academy/courseInfo" class="link"
+                    >See Profile</router-link
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  alt="Card image"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">
+                    Some example text some example text. John Doe is an
+                    architect and engineer
+                  </p>
+                  <router-link to="/academy/courseInfo" class="link"
+                    >See Profile</router-link
+                  >
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  alt="Card image"
+                  style="width: 100%"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">
+                    Some example text some example text. John Doe is an
+                    architect and engineer
+                  </p>
+                  <router-link to="/academy/courseInfo" class="link"
+                    >See Profile</router-link
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr />
+            <div class="navigation">
+              <a href="">Previous</a>
+              <a href="">1</a>
+              <a href="">2</a>
+              <a href="">3</a>
+              <a href="">4</a>
+              <a href="">5</a>
+              <a href="">Next</a>
+            </div>
+            <hr class="btm" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+<script></script>
+<style scoped>
+section {
+  padding-top: 15rem;
+  padding-bottom: 8rem;
+}
+
+.container2 {
+  padding: 0 10%;
+}
+
+.titleHolder {
+  display: flex;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(255, 255, 255, 0.001)
+    ),
+    url("../../assets/IMG_1967.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  padding-top: 20rem;
+  color: white;
+  font-size: 4rem;
+}
+
+.row2 {
+  display: flex;
+}
+.menus {
+  flex-basis: 30%;
+  margin: -5rem;
+  position: relative;
+}
+
+.menuHolder {
+  padding-top: 5rem;
+  background-color: antiquewhite;
+  width: 300px;
+  height: 300px;
+}
+.innerContainer {
+  padding: 20px;
+}
+.innerContainer .menu {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.innerContainer .menu a {
+  padding: 10px 15px;
+  background-color: #652e89;
+  margin: 10px;
+  color: white;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.innerContainer .menu a:hover {
+  background-color: white;
+  color: #652e89;
+  text-decoration: none;
+  font-weight: bold;
+}
+.lst {
+  margin-bottom: 100px;
+}
+
+.main {
+  margin-top: 25px;
+  flex-basis: 70%;
+}
+
+.main .intro {
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+
+.main .cardHolder {
+  display: flex;
+  flex-direction: column;
+}
+.main .cardHolder .cards {
+  margin-top: 25px;
+  gap: 30px;
+  display: flex;
+}
+.card-body {
+  padding-bottom: 30px;
+}
+
+.card-text,
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  padding-bottom: 10px;
+}
+
+.link {
+  background-color: #652e89;
+  padding: 10px;
+  margin: 12px 0;
+  color: white;
+  border-radius: 2px;
+}
+.link:hover {
+  background-color: #652e89;
+  color: rgba(255, 197, 39, 0.8);
+  text-decoration: none;
+}
+
+.navigation {
+  justify-content: space-around;
+  text-align: center;
+}
+.navigation a {
+  margin: 10px;
+  background-color: whitesmoke;
+  padding: 5px;
+  color: black;
+}
+
+.navigation a:hover {
+  background-color: #652e89;
+  color: rgba(255, 197, 39, 0.8);
+  text-decoration: none;
+}
+hr {
+  height: 2px;
+  border: none;
+  background: grey;
+  margin: 30px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    padding-top: 13rem;
+    padding-bottom: 8rem;
+  }
+
+  .title {
+    padding-top: 10rem;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .row2 {
+    flex-direction: column-reverse;
+  }
+  .menus {
+    margin: 0;
+    flex-basis: 100%;
+  }
+  .menuHolder {
+    padding-top: 5rem;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 300px;
+  }
+  .main .cardHolder .cards {
+    margin-top: 25px;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .navigation {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  section {
+    padding-top: 13rem;
+    padding-bottom: 8rem;
+  }
+
+  .title {
+    padding-top: 18rem;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .row2 {
+    flex-direction: column-reverse;
+  }
+  .menus {
+    margin: 0;
+    flex-basis: 50%;
+  }
+  .main {
+    margin: 25px 0;
+    padding-left: 0;
+  }
+  .menuHolder {
+    padding-top: 5rem;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 300px;
+  }
+  .main .cardHolder .cards {
+    margin-top: 25px;
+    gap: 30px;
+    /* flex-direction: column; */
+  }
+  .btm {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .menus {
+    flex-basis: 40%;
+    margin: -5rem;
+    position: relative;
+  }
+  .main {
+    /* padding-left: 80px; */
+    margin-top: 25px;
+    flex-basis: 60%;
+  }
+}
+</style>

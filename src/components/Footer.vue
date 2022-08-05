@@ -11,7 +11,7 @@
         <hr class="underline" />
         <a href="">About Us</a><br />
         <a href="">Competition</a><br />
-        <a href="">Contact Us</a><br />
+        <a href="/contact">Contact Us</a><br />
         <a href="/FQA">FAQ</a><br />
       </div>
       <div class="contact">

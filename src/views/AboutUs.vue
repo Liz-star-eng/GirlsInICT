@@ -283,13 +283,21 @@ section {
     width: 100%;
     padding: 1px !important;
   }
-  .row {
+  /* .row {
     flex-direction: column;
-  }
- .col1 {
+  } */
+  /* .col1 {
   padding: 1rem;
   text-align: justify;
- }
+ } */
+  .row .col1,
+  .col3,
+  .col4 {
+    margin: 50px 0;
+    padding: 5px;
+    text-align: center;
+  }
+
   .col2 img {
     margin-top: 1px;
     width: 100%;
