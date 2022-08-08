@@ -56,7 +56,7 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/academy/coursesinf" >Primary/JHS</router-link>
+              <router-link to="/academy/primaryJhs" >Primary/JHS</router-link>
               <router-link to="/academy/shs">SHS</router-link>
               <router-link to="/academy/tertiary">Tertiary</router-link>
             </div>
@@ -131,9 +131,9 @@
             <i class="fa fa-chevron-down" style="margin-left: 6.6rem;"></i
           ></a>
           <div class="dropdown-content">
-              <a href="/cyberview" >Primary/JHS</a>
-              <a href="/careers">SHS</a>
-              <a href="/careers">Tertiary</a>
+              <a href="/academy/primaryJhs" >Primary/JHS</a>
+              <a href="/academy/shs">SHS</a>
+              <a href="/academy/tertiary">Tertiary</a>
           </div>
         </li>
         <li class="dropdown">
