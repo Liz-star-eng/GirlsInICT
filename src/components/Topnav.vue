@@ -110,6 +110,7 @@
           ></a>
           <div class="dropdown-content">
             <a href="/directorylistings">Mentors</a>
+            <router-link to="/careers">Carreers</router-link>
             <!-- <a href="/StudentsViews">Students</a> -->
           </div>
         </li>
@@ -119,8 +120,9 @@
             <i class="fa fa-chevron-down" style="margin-left: 9.7rem"></i
           ></a>
           <div class="dropdown-content">
-            <a href="/moccorner">Mentors</a>
-            <a href="/careers">Carreers</a>
+            <router-link to="">Let's Chat</router-link>
+            <!-- <a href="/moccorner">Mentors</a>
+            <a href="/careers">Carreers</a> -->
           </div>
         </li>
         <li class="dropdown">
