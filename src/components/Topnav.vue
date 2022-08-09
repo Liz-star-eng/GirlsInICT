@@ -3,10 +3,8 @@
     <nav class="topBar bigscreen">
       <div class="H-container">
         <div class="user">
-          <a href="/about-us"
-            ><i class="fa fa-user"></i> About Us</a
-          >
-             <a href="" class="cta"> Ask for help </a>
+          <a href="/about-us"><i class="fa fa-user"></i> About Us</a>
+          <a href="" class="cta"> Ask for help </a>
         </div>
         <div class="social">
           <a class="text"
@@ -14,10 +12,10 @@
             Login
           </a>
           <div class="socialIcons">
-          <a href=""><i class="fa fa-facebook"></i></a>
-          <a href=""><i class="fa fa-linkedin"></i></a>
-          <a href=""><i class="fa fa-twitter"></i></a>
-          <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
           </div>
         </div>
       </div>
@@ -36,7 +34,7 @@
             ></a>
             <div class="dropdown-content">
               <router-link to="/directorylistings">Mentors</router-link>
-                <router-link to="/careers">Carreers</router-link>
+              <router-link to="/careers">Carreers</router-link>
               <!-- <router-link to="/StudentsViews">Students</router-link> -->
             </div>
           </li>
@@ -56,7 +54,7 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/academy/primaryJhs" >Primary/JHS</router-link>
+              <router-link to="/academy/primaryJhs">Primary/JHS</router-link>
               <router-link to="/academy/shs">SHS</router-link>
               <router-link to="/academy/tertiary">Tertiary</router-link>
             </div>
@@ -80,20 +78,20 @@
               <router-link to="/cyberview">Cybersecurity</router-link>
             </div>
           </li>
-           <li class="dropdown">
+          <li class="dropdown">
             <a class="dropbtn"
               ><i class="fa fa-archive"></i> Competition
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
               <router-link to="/cyberview">CyberSecurity</router-link>
-              <router-link to="/careers">GirlsInICT</router-link>
-              <router-link to="/cyberview">IoT</router-link>
-              <router-link to="/careers">Robotics</router-link>
+              <router-link to="/careers">Programming</router-link>
+              <!-- <router-link to="/cyberview">IoT</router-link>
+              <router-link to="/careers">Robotics</router-link> -->
             </div>
           </li>
         </nav>
-     
+
         <div class="search-bar">
           <!-- <input type="text" placeholder="what's on your mind" /> -->
           <button><i class="fa fa-search"></i></button>
@@ -108,7 +106,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-address-book-o"></i> Directory
-            <i class="fa fa-chevron-down" style="margin-left: 7.8rem;"></i
+            <i class="fa fa-chevron-down" style="margin-left: 7.8rem"></i
           ></a>
           <div class="dropdown-content">
             <a href="/directorylistings">Mentors</a>
@@ -118,7 +116,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-folder-open-o"></i> Forum
-            <i class="fa fa-chevron-down" style="margin-left: 9.7rem;"></i
+            <i class="fa fa-chevron-down" style="margin-left: 9.7rem"></i
           ></a>
           <div class="dropdown-content">
             <a href="/moccorner">Mentors</a>
@@ -128,17 +126,18 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-graduation-cap"></i> Academy
-            <i class="fa fa-chevron-down" style="margin-left: 6.6rem;"></i
+            <i class="fa fa-chevron-down" style="margin-left: 6.6rem"></i
           ></a>
           <div class="dropdown-content">
-              <a href="/academy/primaryJhs" >Primary/JHS</a>
-              <a href="/academy/shs">SHS</a>
-              <a href="/academy/tertiary">Tertiary</a>
+            <a href="/academy/primaryJhs">Primary/JHS</a>
+            <a href="/academy/shs">SHS</a>
+            <a href="/academy/tertiary">Tertiary</a>
           </div>
         </li>
         <li class="dropdown">
           <a class="dropbtn"
-            ><i class="fa fa-fire"></i> Events <i class="fa fa-chevron-down" style="margin-left: 10rem;"></i
+            ><i class="fa fa-fire"></i> Events
+            <i class="fa fa-chevron-down" style="margin-left: 10rem"></i
           ></a>
           <div class="dropdown-content">
             <a href="/upcomingevent">Upcoming</a>
@@ -148,23 +147,23 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-archive"></i> Information Hub
-            <i class="fa fa-chevron-down" style="margin-left: 1.8rem;"></i
+            <i class="fa fa-chevron-down" style="margin-left: 1.8rem"></i
           ></a>
           <div class="dropdown-content">
             <a href="/cyberview">Cybersecurity</a>
           </div>
         </li>
         <li class="dropdown">
-            <a class="dropbtn"
-              ><i class="fa fa-archive"></i> Competition
-              <i class="fa fa-chevron-down" style="margin-left: 4.9rem;"></i
-            ></a>
-            <div class="dropdown-content">
-              <a href="/cyberview">Cyber Security</a>
-              <a href="/careers">Programming</a>
-              <a href="/careers">Robotics</a>
-            </div>
-          </li>
+          <a class="dropbtn"
+            ><i class="fa fa-archive"></i> Competition
+            <i class="fa fa-chevron-down" style="margin-left: 4.9rem"></i
+          ></a>
+          <div class="dropdown-content">
+            <a href="/cyberview">Cyber Security</a>
+            <a href="/careers">Programming</a>
+            <!-- <a href="/careers">Robotics</a> -->
+          </div>
+        </li>
       </nav>
       <div class="sectionAsk">
         <div class="search-bar">
@@ -472,9 +471,8 @@ button {
     max-width: 97%;
   }
   .cta {
-     padding: 2px 2rem;
+    padding: 2px 2rem;
   }
- 
 }
 
 @media (max-width: 200px) {
