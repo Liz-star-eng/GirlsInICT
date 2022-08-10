@@ -2,8 +2,8 @@
   <div class="main-body">
     <h1>Directory</h1>
     <div class="row">
-      <div class="card col-sm-3">
-        <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
+      <div class="col-sm-3">
+        <img src="../assets/office.png" alt="Avatar" />
         <div class="container">
           <h4><b>Matilda Doe</b></h4>
           <p>System analyst</p>
@@ -96,35 +96,39 @@
     </div>
   </div>
   <div class="jumbotron">
-        <h2>Sponsors</h2>
-        <div class="sponsors">
-            <div class="cards">
+    <h2>Sponsors</h2>
+    <div class="sponsors">
+      <div class="cards">
         <div class="card">
           <img src="../assets/lady.jpg" alt="Avatar" style="width: 100%" />
           <div class="container">
-            <a href=""><h4><b>Jane Doe</b></h4></a>
+            <a href=""
+              ><h4><b>Jane Doe</b></h4></a
+            >
             <p>Interior Designer</p>
           </div>
         </div>
         <div class="card">
           <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
           <div class="container">
-            <a href=""><h4><b>Jane Doe</b></h4></a>
+            <a href=""
+              ><h4><b>Jane Doe</b></h4></a
+            >
             <p>Interior Designer</p>
           </div>
         </div>
         <div class="card">
           <img src="../assets/woman.webp" alt="Avatar" style="width: 100%" />
           <div class="container">
-            <a href=""><h4><b>Jane Doe</b></h4></a>
+            <a href=""
+              ><h4><b>Jane Doe</b></h4></a
+            >
             <p>Interior Designer</p>
           </div>
         </div>
       </div>
-
-        </div>
-
     </div>
+  </div>
 </template>
 
 <style scoped>
@@ -142,11 +146,10 @@
 .card {
   padding-top: 3rem;
   width: 200px;
-text-align: ju;
+  text-align: ju;
   /* height: 100%; */
 }
-
-.card img {
+.card img, .col-sm-3 img  {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -168,45 +171,44 @@ text-align: ju;
 }
 
 .jumbotron h2 {
-   margin: 0 0 0 100px;
-   padding: 10px 0 0 0;
+  margin: 0 0 0 100px;
+  padding: 10px 0 0 0;
 }
-
 .cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-      max-width: 80%;
-      margin: auto;
-      text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
-@media only screen and (max-width: 1033px ) {
+@media only screen and (max-width: 1115px) {
   .main-body {
     margin-left: 0;
-  }
-.row  {
-  flex-wrap: wrap;
-}
-  
-}
-
-@media only screen and (max-width: 992px ) {
-   .main-body {
-    padding: 15rem 1rem 1rem 1rem;
+    padding: 15rem 7rem 1rem 7rem;
   }
   .row {
     flex-wrap: wrap;
-     justify-content: center;
   }
 }
 
-@media (max-width: 600px ) {
+@media only screen and (max-width: 992px) {
+  .main-body {
+    padding: 15rem 4rem 1rem 4rem;
+  }
+  .row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
   .main-body {
     padding: 15rem 2rem 1rem 2rem;
   }
   .row {
-     justify-content: center;
+    justify-content: center;
   }
   .col-sm-9 p {
     text-align: justify;
@@ -217,5 +219,4 @@ text-align: ju;
     text-align: center;
   }
 }
-
 </style>
