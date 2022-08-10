@@ -336,6 +336,7 @@ select {
 }
 .card {
   background-color: whitesmoke;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .card img {
   width: 100%;
@@ -412,6 +413,9 @@ select {
   .maincontent {
   padding: 4rem 2rem 1rem 2rem;
   overflow: hidden;
+}
+h1 {
+  padding: 12rem 8rem;
 }
   .sidenav {
       padding: 0;

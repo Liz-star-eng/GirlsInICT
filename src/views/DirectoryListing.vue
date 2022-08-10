@@ -6,96 +6,90 @@
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima
         qui odio, rem officia dolorum accusamus aut vel dicta esse.
       </p>
-      <div class="cards">
-        <div class="card">
-          <img src="../assets/office.png" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Janet Nkansah</b></h4></router-link
-            >
-            <p>Computer Analyst</p>
+      <div class="grid-container">
+      
+          <div class="card">
+            <img src="../assets/office.png" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Janet Nkansah</b></h4></router-link
+              >
+              <p>Computer Analyst</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/ladys.webp" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Sara Antwi</b></h4></router-link
+              >
+              <p>Systems Analyst</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/lady.jpg" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Rebecca Agyapong</b></h4></router-link
+              >
+              <p>Computer Application Analyst</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/lady.jpg" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Elizabeth Appiah</b></h4></router-link
+              >
+              <p>ICT Business Analyst</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/office.png" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Appiah Juliana</b></h4></router-link
+              >
+              <p>UI/UX Designer</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/lady.jpg" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Jane Doe</b></h4></router-link
+              >
+              <p>Cyber Security Expert</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/office.png" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>LadyMartha Annoba</b></h4></router-link
+              >
+              <p>ux/ui Designer</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/lady.jpg" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Jane Doe</b></h4></router-link
+              >
+              <p>system Analysis</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/office.png" alt="Avatar" />
+            <div class="card-body">
+              <router-link to="/directorydetail"
+                ><h4><b>Matilda Teye</b></h4></router-link
+              >
+              <p>internet security analyst</p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="../assets/ladys.webp" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Sara Antwi</b></h4></router-link
-            >
-            <p>Systems Analyst</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/lady.jpg" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Rebecca Agyapong</b></h4></router-link
-            >
-            <p>Computer Application Analyst</p>
-          </div>
-        </div>
-      </div>
-      <hr class="hr" />
-      <div class="cards">
-        <div class="card">
-          <img src="../assets/lady.jpg" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Elizabeth Appiah</b></h4></router-link
-            >
-            <p>ICT Business Analyst</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/office.png" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Appiah Juliana</b></h4></router-link
-            >
-            <p>UI/UX Designer</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/lady.jpg" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
-            >
-            <p>Cyber Security Expert</p>
-          </div>
-        </div>
-      </div>
-      <hr class="hr" />
-      <div class="cards">
-        <div class="card">
-          <img src="../assets/office.png" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>LadyMartha Annoba</b></h4></router-link
-            >
-            <p>ux/ui Designer</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/lady.jpg" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Jane Doe</b></h4></router-link
-            >
-            <p>system Analysis</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/office.png" alt="Avatar" />
-          <div class="container">
-            <router-link to="/directorydetail"
-              ><h4><b>Matilda Teye</b></h4></router-link
-            >
-            <p>internet security analyst</p>
-          </div>
-        </div>
-      </div>
-      <hr class="hr" />
       <div class="arrow">
         <a href="listings.html"><i class="fa fa-arrow-left"></i></a>
         <a href="listings.html"><i class="fa fa-arrow-right"></i></a>
@@ -107,38 +101,25 @@
     <div><h4>Our Partners and Sponsors make us grow</h4></div>
     <div><button>Become a Partner Today</button></div>
   </div>
-  <!-- <div class="mt-5 mb-5">
-      <h3 style="text-align: center" class="mt-5 mb-5">Our Partners</h3>
-      <div class="row-2 links">
-        <div class="col-sm-3">
-          <img src="../assets/image_2022-05-04_16-41-16.png" alt="" />
-        </div>
-        <div class="col-sm-3">
-          <img src="../assets/image_2022-05-04_16-41-57.png" alt="" />
-        </div>
-        <div class="col-sm-3">
-          <img src="../assets/image_2022-05-04_16-42-21.png" alt="" />
-        </div>
-      </div>
-    </div> -->
 </template>
 
 <style scoped>
 .main-body {
-  padding: 0 15rem;
-  padding-top: 15rem;
+  padding: 15rem 15rem 1rem 15rem;
   overflow: hidden;
 }
 .sub-body {
   padding: 0 3rem;
 }
-.cards {
-  display: flex;
-  /* justify-content: space-around;  */
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 40px;
+  padding: 30px;
+  margin: 0 0 0 50px;
 }
 .card {
-  height: 100%;
-  overflow: hidden;
+  text-align: center;
 }
 
 .card img {
@@ -210,32 +191,34 @@
 
 @media only screen and (max-width: 992px) {
   .main-body {
-     padding: 15rem 6rem 1px 6rem;
+    padding: 15rem 6rem 1px 6rem;
   }
 }
 @media only screen and (max-width: 722px) {
   .main-body {
-     padding: 15rem 2rem 1px 2rem;
-  }
-  .cards {
-    flex-wrap: wrap;
-  }
-  .card .container {
-    text-align: center;
+    padding: 15rem 2rem 1px 2rem;
   }
 }
 
+@media only screen and (max-width: 992px) {
+ .grid-container {
+     grid-template-columns: 50% 50%;
+     margin: 0;
+  }
+}
 @media only screen and (max-width: 600px) {
   .main-body {
-    margin-left: 0;
-    padding: 15rem 2rem !important;
+    padding: 15rem 1rem 1rem 1rem !important;
   }
 
   .sub-body {
     padding: 0 !important;
   }
-  .cards {
-    justify-content: center;
+
+  .grid-container {
+     grid-template-columns: 100%;
+     margin: 0;
   }
+  
 }
 </style>

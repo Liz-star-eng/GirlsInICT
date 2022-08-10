@@ -110,7 +110,7 @@
           ></a>
           <div class="dropdown-content">
             <a href="/directorylistings">Mentors</a>
-            <router-link to="/careers">Carreers</router-link>
+            <a href="/careers">Carreers</a>
             <!-- <a href="/StudentsViews">Students</a> -->
           </div>
         </li>

@@ -139,7 +139,7 @@
    text-align: center;
 }
 
-@media (max-width: 992px){
+@media screen and (max-width: 992px){
   #largeCarousel .carousel-inner img{
   width: 70%;
 }
@@ -147,7 +147,9 @@
   height: 45px;
 }
 } 
-@media (max-width: 600px) {
+
+
+@media (max-width: 768px) {
 #largeCarousel {
     display: none;
   }
