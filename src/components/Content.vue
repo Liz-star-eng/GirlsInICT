@@ -398,7 +398,7 @@ export default {
   display: flex;
 }
 .con-wrapper {
-  /* padding: 0 10%; */
+  padding: 10px;
   max-width: 80%;
   margin: auto;
   display: flex;
