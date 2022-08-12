@@ -23,7 +23,7 @@
         <div class="menus">
           <div class="menuHolder">
             <div class="innerContainer">
-              <h1>Browse through our course categories</h1>
+              <h1>Browse through our courses</h1>
               <div class="menu">
                 <a href="/academy/primaryJhs">Primary/JHS</a>
                 <a href="/academy/Shs" class="gb">Senior High</a>
@@ -295,17 +295,17 @@ export default {
   padding: 15rem 0 3rem 0;
 }
 /* Hero background */
+.herobg, .herotext {
+  height: 65vh;
+} 
 .herobg {
   background-image: url("../assets/IMG_7391.jpg");
-  height: 65vh;
   background-repeat: no-repeat;
   background-size: 100% 130%;
-  /* background-position: center; */
 }
 
 .herotext {
   display: flex;
-  height: 65vh;
   padding: 15rem 30rem 0 22rem;
   background-image: linear-gradient(
     to right,
@@ -327,6 +327,7 @@ export default {
 }
 .herotext button:hover {
   background-color: rgba(204, 153, 12, 0.8);
+  transition: 0.3s;
 }
 
 .herotext h2,
@@ -389,6 +390,7 @@ export default {
   color: #652e89;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.3s;
 }
 .lst {
   margin-bottom: 100px;
@@ -710,11 +712,21 @@ h6 {
 }
 @media only screen and (max-width: 992px) {
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
-   .herotext {
-    padding: 27rem 0 0 7rem;
+    .herobg, .herotext {
+  height: 30vh;
+}
+  .herotext {
+    padding: 0;
   }
+ .herotext .right {
+    padding: 3rem 6rem;
+    width: 70%;
+  }
+   .menus {
+  margin-top: -3rem;
+ }
 
   .innerContainer .menu {
     flex-direction: column;
@@ -751,10 +763,27 @@ h6 {
   }
 }
 @media only screen and (max-width: 600px) {
-  .herotext {
-    padding: 16rem 0 0 2rem;
+  .herobg, .herotext {
+  height: 28vh;
+}
+ p {
+    font-size: 16px;
   }
- 
+
+  .herotext .right {
+    padding: 0.5rem 1.2rem;
+    width: 90%;
+  }
+  .herotext button {
+  padding: 10px 3.5rem;
+  }
+ .herotext p {
+  font-size: 12px;
+ }
+
+ .menus {
+  margin-top: -1rem;
+ }
   .con-wrapper .intro-text {
     margin: 0;
   }
@@ -779,10 +808,5 @@ h6 {
   .intro-pics .a2 {
     display: none;
   }
-  .herotext .right {
-    width: 90%;
-  }
-  
-
 }
 </style>
