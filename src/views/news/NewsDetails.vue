@@ -1,13 +1,13 @@
 <template>
   <div class="main-body">
     <main class="row">
-      <div class="col-sm-8 news-content">
-        <h2 class="news">News</h2>
+      <div class="news-content">
+        <h2 class="news">Past Events</h2>
         <hr class="break" />
         <p class="sub-heading">
           Things to know when moving a website from a shopify to WordPress CMS
         </p>
-        <img src="../assets/office.png" alt="Avatar" />
+        <img src="../../assets/office.png" alt="Avatar" />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
           ducimus quos, repellat voluptates odio illo perspiciatis debitis error
@@ -77,25 +77,39 @@
           <button>Post Comment</button>
         </div>
       </div>
-      <div class="col-sm-4 related-news">
-        <h3>Related news</h3>
+      <div class="related-news">
         <nav>
-          <a href=""
-            ><img src="../assets/bd.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet.</p></a
-          >
-          <a href=""
-            ><img src="../assets/bd.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet.</p></a
-          >
-          <a href=""
-            ><img src="../assets/bd.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet.</p></a
-          >
-          <a href=""
-            ><img src="../assets/bd.jpg" alt="" />
-            <p>Lorem ipsum dolor sit amet.</p></a
-          >
+          <h3 href="">Latest Events</h3>
+          <a href="">CyberSecurity Events</a>
+          <hr />
+          <a href="">Scratch Events</a>
+          <hr />
+          <a href="">Programming Events</a>
+          <hr />
+          <a href="">Comprtitions</a>
+          <hr />
+          <a href=""> Events</a>
+          <hr />
+          <h2>Related Events</h2>
+          <hr />
+          <div class="RN">
+            <a href="">
+              <img src="../../assets/bd.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </a>
+            <a href="">
+              <img src="../../assets/bd.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </a>
+            <a href="">
+              <img src="../../assets/bd.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </a>
+            <a href="">
+              <img src="../../assets/bd.jpg" alt="" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </a>
+          </div>
         </nav>
       </div>
     </main>
@@ -104,12 +118,12 @@
 
 <style scoped>
 .main-body {
- padding: 15rem 10rem 5rem 5rem;
+  padding: 15rem 5rem 5rem 5rem;
 }
 .row {
- 
   display: flex;
   overflow: hidden;
+  justify-content: space-between;
 }
 
 .news {
@@ -118,6 +132,10 @@
   font-style: italic;
 }
 
+.news-content {
+  flex-basis: 50%;
+  width: 70%;
+}
 .news-content img {
   height: 50vh;
   width: 100% !important;
@@ -125,28 +143,39 @@
   object-position: center;
 }
 .related-news {
-  border-left: 1px solid #652e89;
-  border-right: 1px solid #652e89;
-  border-radius: 10px;
+  text-align: center;
 }
-.related-news a {
+
+nav {
+  margin: 9rem 2rem 3rem 5rem;
+  background-color: #ececec;
+  padding-bottom: 3rem;
+}
+
+nav a,
+a p {
+  margin-top: 2rem;
   color: #652e89;
-  font-size: 18px;
-  margin-right: 0;
+  font-size: 15px;
+  text-align: center;
+  display: block;
 }
-.related-news a p {
-  margin-left: 2.5rem;
+nav h3,
+nav h2 {
+  background-color: #3c1655;
+  color: #ffc527;
+  padding: 3px;
 }
+
 .related-news a:hover {
   color: #574105;
   text-decoration: none;
 }
 .related-news img {
-  width: 80%;
-  padding: 10px 20px;
+  width: 70%;
 }
 .related-news img:hover {
-  width: 81%;
+  width: 71%;
   transition: 0.3s ease-in-out;
 }
 p {
@@ -163,7 +192,7 @@ p {
   padding: 1rem;
 }
 .message {
-  width: 40%;
+  width: 60%;
   height: 60px;
   padding: 0 0 0 10px;
 }
@@ -173,7 +202,7 @@ input::placeholder {
 }
 input {
   margin-top: 20px;
-  width: 19%;
+  width: 29%;
 }
 .input {
   display: flex;
@@ -203,14 +232,10 @@ button:hover {
 
 @media (max-width: 1310px) {
   .main-body {
-padding: 15rem 5rem 1rem 5rem;
+    padding: 15rem 5rem 1rem 5rem;
   }
   .row {
     overflow: hidden;
-  }
-
-  .related-news a {
-    font-size: 14px;
   }
 }
 
@@ -222,33 +247,52 @@ padding: 15rem 5rem 1rem 5rem;
   .news-content {
     width: 100%;
   }
-
-  .related-news {
-    width: 100%;
-  }
-  .related-news nav {
+  .RN {
     display: flex;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .main-body {
-padding: 15rem 5rem 1rem 5rem;
+    padding: 15rem 5rem 1rem 5rem;
   }
   .row {
     padding: 1rem 5rem;
+  }
+  .message {
+    width: 80%;
+  }
+  input {
+    width: 39%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .row {
-    padding: 15rem 1rem 1rem 1rem;
+    padding: 0 1px 1px 1px;
   }
   p {
     text-align: justify;
   }
+  input {
+    width: 100%;
+  }
+  input:nth-child(2) {
+    margin-left: 0 !important;
+    margin-bottom: 1rem !important;
+  }
   .related-news {
-    overflow: hidden;
+    width: 100%;
+  }
+
+  nav {
+    margin-left: 0;
+  }
+  nav a p {
+    font-size: 12px !important;
+  }
+  .RN {
+    flex-wrap: wrap;
   }
 }
 </style>

@@ -1,12 +1,19 @@
 <template>
   <div class="main-body">
-    <h1>Directory</h1>
+    <h1>Mentor</h1>
     <div class="row">
       <div class="col-sm-3">
-        <img src="../assets/office.png" alt="Avatar" />
+        <img src="../../assets/office.png" alt="Avatar" />
         <div class="container">
           <h4><b>Matilda Doe</b></h4>
           <p>System analyst</p>
+          <!-- <p class="experience">15+ years experience in <br> Engineering and Leadership </p> -->
+          <p>Category:</p>
+          <p class="Category">Primary|SHS|Tertiary</p>
+          <p>Contact Info.:</p>
+          <a href="">+233 2404 444 24 </a>
+          <br /><a href=""></a>
+          <a href=""><i class="fa fa-map-marker"></i> - Accra-Ghana</a>
         </div>
       </div>
       <div class="col-sm-9">
@@ -37,46 +44,55 @@
           quidem aliquid, ipsa, voluptate quos corporis unde.
         </p>
         <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-          rerum pariatur assumenda vel voluptatibus autem adipisci quis
-          molestias iusto amet labore quod eius quos, iure ea? Aperiam, soluta
-          ipsa consequuntur nemo est quasi molestiae mollitia hic tempora quod
-          dignissimos facilis, ab ut assumenda vel, enim unde tempore nihil
-          molestias tenetur cupiditate? Iusto ea sit placeat nesciunt similique
-          dignissimos facilis ducimus amet. Eos molestiae numquam, corporis
-          autem dolorem maxime, quaerat ex quod cupiditate voluptatem sed
-          recusandae odit ullam est ea ducimus aut sint assumenda ab eius
-          excepturi soluta! Amet sapiente nisi, expedita, tenetur laborum
-          reprehenderit, in enim aliquam nostrum officiis ducimus ullam
-          provident reiciendis possimus. Minus voluptatum culpa cumque
-          consequuntur velit excepturi tempore quibusdam possimus iusto dolorum,
-          fuga quas ab unde temporibus maiores! Voluptate, maiores, ipsam
-          commodi sint culpa perferendis deleniti iusto porro rerum voluptatem
-          quo. Sapiente voluptatibus magni dolorum sint repudiandae neque rerum
-          optio consectetur ipsa dolor labore porro doloribus vero voluptates
-          ad, repellat temporibus dicta eaque ratione voluptate iure velit
-          aspernatur recusandae. Repudiandae earum voluptas expedita nostrum
-          aperiam voluptatem provident suscipit et magni, tempora id soluta
-          ducimus sunt quae. Ipsa repudiandae nemo quaerat? Blanditiis, fugiat
-          vero expedita totam molestiae sunt perferendis. Quae mollitia, sunt ex
-          blanditiis eaque porro exercitationem.
-        </p>
+        <div class="contribution">
+          <div class="content">
+            <div>
+              <h2>Contributions</h2>
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+            <hr class="hr" />
+            <div class="content2">
+              <h2>Skills</h2>
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+            <!-- <div class="content2">
+              <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
         <br />
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex et minus
-          quos maiores praesentium dolorem eaque fugit vel ea eos rem sed quam,
-          itaque dicta doloremque sint nisi voluptatum voluptates tenetur
-          veritatis? Animi, at totam nihil accusantium aut consequuntur saepe
-          reiciendis ipsam natus maxime recusandae modi quas, eum veritatis
-          similique voluptate nisi error? Quasi, eligendi! Ratione et quam
-          laborum aspernatur, quibusdam eligendi vitae dignissimos tempore
-          voluptates cupiditate ipsum commodi repellat aperiam. Distinctio
-          numquam illum fugiat maiores nisi non ut asperiores, incidunt
-          consequuntur laboriosam tenetur quo, ea ullam eveniet nihil libero
-          voluptates in nam quas cumque dolore dignissimos rerum temporibus!
-          Reiciendis!
-        </p>
+        <div>
+          <h2>Comments</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex et
+            minus quos maiores praesentium dolorem eaque fugit vel ea eos rem
+            sed quam, itaque dicta doloremque sint nisi voluptatum voluptates
+            tenetur veritatis? Animi, at totam nihil accusantium aut
+            consequuntur saepe reiciendis ipsam natus maxime recusandae modi
+            quas, eum veritatis.
+          </p>
+        </div>
         <br />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
@@ -96,34 +112,34 @@
     </div>
   </div>
   <div class="jumbotron">
-    <h2>Sponsors</h2>
+    <h2>Mentors</h2>
     <div class="sponsors">
       <div class="cards">
         <div class="card">
-          <img src="../assets/lady.jpg" alt="Avatar" style="width: 100%" />
+          <img src="../../assets/lady.jpg" alt="Avatar" />
           <div class="container">
             <a href=""
               ><h4><b>Jane Doe</b></h4></a
             >
-            <p>Interior Designer</p>
+            <p>UI/UX Designer</p>
           </div>
         </div>
         <div class="card">
-          <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
+          <img src="../../assets/ladys.webp" alt="Avatar" />
           <div class="container">
             <a href=""
               ><h4><b>Jane Doe</b></h4></a
             >
-            <p>Interior Designer</p>
+            <p>Frontend Engineer</p>
           </div>
         </div>
         <div class="card">
-          <img src="../assets/woman.webp" alt="Avatar" style="width: 100%" />
+          <img src="../../assets/woman.webp" alt="Avatar" />
           <div class="container">
             <a href=""
               ><h4><b>Jane Doe</b></h4></a
             >
-            <p>Interior Designer</p>
+            <p>System Analyst</p>
           </div>
         </div>
       </div>
@@ -133,7 +149,7 @@
 
 <style scoped>
 .main-body {
-  padding: 15rem;
+  padding: 15rem 10rem 1rem 10rem;
   overflow: hidden;
 }
 
@@ -149,7 +165,8 @@
   text-align: ju;
   /* height: 100%; */
 }
-.card img, .col-sm-3 img  {
+.card img,
+.col-sm-3 img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -164,7 +181,17 @@
   transition: 0.3s;
   text-decoration: none;
 }
+.contribution {
+  text-align: center;
+}
 
+.contribution .content {
+  display: flex;
+  justify-content: space-between;
+}
+/* .content2 {
+  border-left: 1px solid grey;
+} */
 .jumbotron {
   margin-bottom: 0;
   background-color: whitesmoke;
@@ -181,6 +208,17 @@
   max-width: 60%;
   margin: auto;
   text-align: center;
+}
+
+.container .Category,
+.container a {
+  color: #652e89;
+}
+.experience,
+.hr {
+  margin-top: 0;
+  border: 1px solid black;
+  height: 200px;
 }
 
 @media only screen and (max-width: 1115px) {

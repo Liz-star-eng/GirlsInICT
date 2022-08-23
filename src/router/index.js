@@ -1,14 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DirectoryListing from '../views/DirectoryListing.vue'
+import MentorsListing from '../views/Mentors/MentorsListing.vue'
 import StudentsView from "../views/StudentsView.vue";
-import UpcomingEvent from "../views/UpcomingEvent.vue"
+import UpcomingEvent from "../views/news/UpcomingEvent.vue"
 import MoCs from "../views/MoCs.vue";
-import DirectoryDetail from "../views/DirectoryDetail.vue";
+import MentorsDetail from "../views/Mentors/MentorsDetail.vue";
 import CyberView from "../views/CyberView.vue";
-import Careers from "../views/Careers.vue";
-import NewsViews from "../views/NewsViews.vue";
-import NewsDetails from "../views/NewsDetails.vue";
+import Careers from "../views/careers/Careers.vue";
+import CareerLanding from "../views/careers/CareerLanding.vue";
+import NewsViews from "../views/news/NewsViews.vue";
+import NewsDetails from "../views/news/NewsDetails.vue";
 import Form from "../views/Form.vue";
 import AboutUs from "../views/AboutUs.vue";
 import privacy from "../views/privacy.vue"
@@ -35,9 +36,14 @@ const routes = [
     component: AboutUs,
   },
   {
-    path: "/directorylistings",
+    path: "/Mentors/mentorslistings",
     name: "mentors",
-    component: DirectoryListing,
+    component: MentorsListing,
+  },
+  {
+    path: "/Mentors/mentorsdetail",
+    name: "directory",
+    component: MentorsDetail,
   },
   {
     path: "/StudentsViews",
@@ -45,7 +51,7 @@ const routes = [
     component: StudentsView,
   },
   {
-    path: "/upcomingevent",
+    path: "/news/upcomingevent",
     name: "upcomingEvent",
     component: UpcomingEvent,
   },
@@ -53,11 +59,6 @@ const routes = [
     path: "/moccorner",
     name: "MoCs",
     component: MoCs,
-  },
-  {
-    path: "/directorydetail",
-    name: "directory",
-    component: DirectoryDetail,
   },
   {
     path: "/cyberview",
@@ -70,17 +71,22 @@ const routes = [
     component: Form,
   },
   {
-    path: "/careers",
+    path: "/careers/careers",
     name: "careers",
     component: Careers,
   },
   {
-    path: "/newsviews",
+    path: "/careers/careerlanding",
+    name: "careerlanding",
+    component: CareerLanding,
+  },
+  {
+    path: "/news/newsviews",
     name: "news",
     component: NewsViews,
   },
   {
-    path: "/newsdetails",
+    path: "/news/newsdetails",
     name: "newsdetails",
     component: NewsDetails,
   },

@@ -33,8 +33,8 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/directorylistings">Mentors</router-link>
-              <router-link to="/careers">Carreers</router-link>
+              <router-link to="/Mentors/mentorslistings">Mentors</router-link>
+              <router-link to="/careers/careerlanding">Carreers</router-link>
               <!-- <router-link to="/StudentsViews">Students</router-link> -->
             </div>
           </li>
@@ -44,13 +44,13 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <!-- <router-link to="/moccorner">Mentors</router-link> -->
+              <router-link to="/moccorner">MoC Corner</router-link>
               <router-link to="">Let's Chat</router-link>
             </div>
           </li>
           <li class="dropdown">
             <a class="dropbtn"
-              ><i class="fa fa-graduation-cap"></i> Academy
+              ><i class="fa fa-graduation-cap"></i> Training
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
@@ -61,12 +61,12 @@
           </li>
           <li class="dropdown">
             <a class="dropbtn"
-              ><i class="fa fa-fire"></i> Events
+              ><i class="fa fa-fire"></i> Episodes
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/upcomingevent">Upcoming</router-link>
-              <router-link to="newsviews">Past</router-link>
+              <router-link to="/news/upcomingevent">Upcoming</router-link>
+              <router-link to="/news/newsviews">Past</router-link>
             </div>
           </li>
           <li class="dropdown">
@@ -80,12 +80,12 @@
           </li>
           <li class="dropdown">
             <a class="dropbtn"
-              ><i class="fa fa-archive"></i> Competition
+              ><i class="fa fa-archive"></i> Programs
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
               <router-link to="/cyberview">CyberSecurity</router-link>
-              <router-link to="/careers">Programming</router-link>
+              <router-link to="/careers/careers">Programming</router-link>
               <!-- <router-link to="/cyberview">IoT</router-link>
               <router-link to="/careers">Robotics</router-link> -->
             </div>
@@ -101,7 +101,7 @@
     </header>
 
     <!-- toggle navbar -->
-    <div class="ResponsiveNav" :class="collapsibleNav">
+    <div class="ResponsiveNav" :class="collapsibleNav" @click="close()">
       <nav class="NavItems">
         <li class="dropdown">
           <a class="dropbtn"
@@ -109,8 +109,9 @@
             <i class="fa fa-chevron-down" style="margin-left: 7.8rem"></i
           ></a>
           <div class="dropdown-content">
-            <a href="/directorylistings">Mentors</a>
-            <a href="/careers">Carreers</a>
+            <!-- <a href="/directorylistings">Mentors</a> -->
+            <router-link to="/Mentors/directorylistings">Mentors</router-link>
+            <a href="/careers/careers">Carreers</a>
             <!-- <a href="/StudentsViews">Students</a> -->
           </div>
         </li>
@@ -127,7 +128,7 @@
         </li>
         <li class="dropdown">
           <a class="dropbtn"
-            ><i class="fa fa-graduation-cap"></i> Academy
+            ><i class="fa fa-graduation-cap"></i> Training
             <i class="fa fa-chevron-down" style="margin-left: 6.6rem"></i
           ></a>
           <div class="dropdown-content">
@@ -142,8 +143,8 @@
             <i class="fa fa-chevron-down" style="margin-left: 10rem"></i
           ></a>
           <div class="dropdown-content">
-            <a href="/upcomingevent">Upcoming</a>
-            <a href="newsviews">Past</a>
+            <a href="/news/upcomingevent">Upcoming</a>
+            <a href="/news/newsviews">Past</a>
           </div>
         </li>
         <li class="dropdown">
@@ -162,7 +163,7 @@
           ></a>
           <div class="dropdown-content">
             <a href="/cyberview">Cyber Security</a>
-            <a href="/careers">Programming</a>
+            <a href="/careers/careers">Programming</a>
             <!-- <a href="/careers">Robotics</a> -->
           </div>
         </li>
@@ -256,7 +257,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 85%;
+  max-width: 90%;
   margin: auto;
 }
 .title img {

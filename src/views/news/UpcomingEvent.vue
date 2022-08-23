@@ -4,7 +4,7 @@
       <h3><strong>Upcoming Events</strong></h3>
       <hr />
       <div class="eventContent">
-        <div><img src="../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
+        <div><img src="../../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
         <div class="textContent">
           <h4>
             Splunk 101 Hands-on Workshop <br />
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="eventContent">
-        <div><img src="../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
+        <div><img src="../../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
         <div class="textContent">
           <h4>
             Splunk 101 Hands-on Workshop <br />
@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="eventContent">
-        <div><img src="../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
+        <div><img src="../../assets/Girls-in-ICT-Day.jpg" alt="" /></div>
         <div class="textContent">
           <h4>
             Splunk 101 Hands-on Workshop <br />
@@ -82,7 +82,6 @@
         </div>
       </div>
     </div>
-
   </div>
   <div class="empower mb-5">
     <div class="left">
@@ -95,7 +94,7 @@
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div>
-    <img src="../assets/Girls-in-ICT-North-East.jpg" alt="" />
+    <img src="../../assets/Girls-in-ICT-North-East.jpg" alt="" />
   </div>
 </template>
 
@@ -179,7 +178,6 @@ a:hover {
   width: 500px;
 }
 
-
 .col-sm-4 img {
   border-radius: 10px;
   width: 100%;
@@ -202,12 +200,12 @@ a:hover {
 
 @media only screen and (max-width: 992px) {
   .main-body {
-     padding: 15rem 1px 0 1px;
+    padding: 15rem 1px 0 1px;
   }
   .empower {
-      padding: 2rem 5rem;
-      align-content: justify;
-      margin-left: 0 !important;
+    padding: 2rem 5rem;
+    align-content: justify;
+    margin-left: 0 !important;
   }
   .empower img {
     width: 400px;
@@ -216,7 +214,7 @@ a:hover {
 
 @media (max-width: 600px) {
   .main-body {
-     padding: 15rem 1rem 0 1rem;
+    padding: 15rem 1rem 0 1rem;
   }
   .Events {
     margin: 0 0 50px 0;
@@ -224,7 +222,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
- 
   }
   .eventContent {
     margin: 0;
@@ -243,15 +240,14 @@ a:hover {
   .symbol-text {
     margin-right: 0;
   }
-   .eventContent img {
+  .eventContent img {
     width: 100%;
-   }
-    .empower {
+  }
+  .empower {
     padding: 20px;
   }
   .empower img {
     width: 100%;
   }
-
 }
 </style>

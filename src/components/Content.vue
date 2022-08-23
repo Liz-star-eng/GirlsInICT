@@ -299,9 +299,9 @@ export default {
   height: 65vh;
 } 
 .herobg {
-  background-image: url("../assets/IMG_7391.jpg");
+  background-image: url("../assets/herobg.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 130%;
+  background-size: 100% 150%;
 }
 
 .herotext {

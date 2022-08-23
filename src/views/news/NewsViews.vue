@@ -3,155 +3,168 @@
     <!-- <span class="right-sidebar" id="span" onclick="openNav()"
              ><i>show Right Sidebar <<< </i></span
                  > -->
-    <h2>News</h2>
+    <h2>Past Events</h2>
 
     <div class="grid-container cards">
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
-          style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Bolgatanga</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
           style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Bono Ahafo</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
-          style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Eatern Region</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-           <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
-          style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Ashanti Region</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-           <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
-          style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Nothern Region</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-           <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
           style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Western Region</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-           <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
           style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Bolgatanga</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
           style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Bolgatanga</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
       <div class="card">
         <img
           class="card-img-top"
-          src="../assets/Girls-in-ICT-North-East.jpg"
+          src="../../assets/Girls-in-ICT-North-East.jpg"
           alt="Card image"
-          style="width: 100%"
         />
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
+          <h4 class="card-title">Girls in ICT Event in Greater Accra</h4>
           <p class="card-text">
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-         <router-link to="./newsdetails" class="link">See Profile</router-link>
+          <router-link to="/news/newsdetails" class="link"
+            >View Details</router-link
+          >
         </div>
       </div>
     </div>
-    <hr>
+    <hr />
     <div class="navigation">
       <a href="">Previous</a>
       <a href="">1</a>
@@ -161,7 +174,7 @@
       <a href="">5</a>
       <a href="">Next</a>
     </div>
-    <hr>
+    <hr />
   </div>
 </template>
 
@@ -196,8 +209,8 @@
   transition: 0.3s;
 }
 
-.link{
-color: #652e89;
+.link {
+  color: #652e89;
 }
 
 .link:hover {
@@ -211,7 +224,6 @@ color: #652e89;
   text-align: left;
   margin-left: 0;
 }
-
 
 .navigation {
   justify-content: space-around;
@@ -231,23 +243,23 @@ color: #652e89;
 }
 @media (max-width: 992px) {
   .main-body {
-  padding: 15rem 2rem 1rem 1rem
-}
+    padding: 15rem 2rem 1rem 1rem;
+  }
   .grid-container {
     grid-template-columns: 50% 50%;
   }
 }
 @media (max-width: 600px) {
-/* .main-body {
+  /* .main-body {
   padding: 15rem 1px 1px 1px;
 } */
-.grid-container {
-  grid-template-columns: 100%;
-   margin: 0;
-}
+  .grid-container {
+    grid-template-columns: 100%;
+    margin: 0;
+  }
 
-.navigation a {
+  .navigation a {
     margin: 5px;
-}
+  }
 }
 </style>
