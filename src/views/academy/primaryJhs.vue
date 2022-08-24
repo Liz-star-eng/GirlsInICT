@@ -8,7 +8,7 @@
 
     <div class="container2">
       <div class="row2">
-        <div class="menus">
+        <!-- <div class="menus">
           <div class="menuHolder">
             <div class="innerContainer">
               <div class="menu">
@@ -18,7 +18,16 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+        <nav>
+          <ul>
+            <h4>Related Articles</h4><hr>
+            <li><a href="/Mentors/mentorslistings">Mentors</a></li>
+            <li><a href="/news/upcomingevent">Events</a></li>
+            <li><a href="/careers/careerlanding">Careers</a></li>
+            <li><a href="">Competitions</a></li>
+          </ul>
+        </nav>
         <div class="main">
           <div class="intro">
             <p>
@@ -93,7 +102,7 @@
                 </div>
               </div>
             </div>
-            <div class="cards">
+            <!-- <div class="cards">
               <div class="card">
                 <img
                   class="card-img-top"
@@ -148,7 +157,7 @@
                   >
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div>
             <hr />
@@ -171,8 +180,7 @@
 <script></script>
 <style scoped>
 section {
-  padding-top: 15rem;
-  padding-bottom: 8rem;
+  padding-top: 15rem 0 8rem 0;
 }
 
 .container2 {
@@ -187,7 +195,7 @@ section {
       rgba(255, 255, 255, 0.001)
     ),
     url("../../assets/IMG_3614.jpg");
-  height: 40vh;
+  height: 45vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -200,8 +208,9 @@ section {
 
 .row2 {
   display: flex;
+  justify-content: space-between;
 }
-.menus {
+/* .menus {
   flex-basis: 30%;
   margin: -5rem;
   position: relative;
@@ -236,11 +245,35 @@ section {
   color: #652e89;
   text-decoration: none;
   font-weight: bold;
-}
+} */
 .lst {
   margin-bottom: 100px;
 }
-
+nav {
+  background-color: #652e89;
+  padding: 5rem 5rem 0 1rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(190, 184, 184, 0.52);
+  margin-top: -25px;
+  height: 350px;
+  border-radius: 5px;
+}
+nav h4 {
+  color: white;
+}
+nav li {
+  list-style: none;
+  padding: 1rem 0 1rem 0;
+}
+nav li a {
+  color: #ffc527;
+  font-size: 16px;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
 .main {
   margin-top: 25px;
   flex-basis: 70%;

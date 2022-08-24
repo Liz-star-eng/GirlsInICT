@@ -80,7 +80,7 @@
           </li>
           <li class="dropdown">
             <a class="dropbtn"
-              ><i class="fa fa-archive"></i> Programs
+              ><i class="fa fa-tasks"></i> Programs
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">

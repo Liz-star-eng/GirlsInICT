@@ -306,7 +306,7 @@ export default {
 
 .herotext {
   display: flex;
-  padding: 15rem 30rem 0 22rem;
+  padding: 12rem 30rem 0 22rem;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.798),
@@ -342,7 +342,7 @@ export default {
 }
 
 .menus {
-  margin-top: -10rem;
+  margin-top: -5rem;
   position: relative;
 }
 

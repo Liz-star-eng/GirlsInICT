@@ -134,6 +134,10 @@
   border: none;
   border-radius: 10px;
 }
+.mentorsCategories button:hover {
+  background-color: #7211b3;
+  transition: 0.3s;
+}
 .sub-body {
   padding: 0 3rem;
 }
