@@ -34,7 +34,7 @@
             ></a>
             <div class="dropdown-content">
               <router-link to="/Mentors/mentorslistings">Mentors</router-link>
-              <router-link to="/careers/careerlanding">Carreers</router-link>
+              <router-link to="/careers/careerlanding">Careers</router-link>
               <!-- <router-link to="/StudentsViews">Students</router-link> -->
             </div>
           </li>
@@ -111,7 +111,7 @@
           <div class="dropdown-content">
             <!-- <a href="/directorylistings">Mentors</a> -->
             <router-link to="/Mentors/directorylistings">Mentors</router-link>
-            <a href="/careers/careers">Carreers</a>
+            <a href="/careers/careers">Careers</a>
             <!-- <a href="/StudentsViews">Students</a> -->
           </div>
         </li>
