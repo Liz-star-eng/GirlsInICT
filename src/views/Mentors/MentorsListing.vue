@@ -4,9 +4,9 @@
     <div class="mentors">
       <h2>Categories</h2>
       <div class="mentorsCategories">
-        <button>Primary/JHS</button>
-        <button>SHS</button>
-        <button>Tertiary</button>
+        <a href="/Mentors/mentorslistings">Primary/JHS</a>
+        <a href="/Mentors/mentorslistings">Senior High Sch.</a>
+        <a href="/Mentors/mentorslistings">Tertiary</a>
       </div>
     </div>
     <div class="sub-body">
@@ -125,17 +125,19 @@
   display: flex;
   /* justify-content: space-around; */
 }
-.mentorsCategories button {
+.mentorsCategories a {
   width: 15%;
   height: 40px;
+  padding: 1rem 0 0 3.5rem;
   margin: 0 1rem;
   background-color: #420a68;
   color: #ffc527;
   border: none;
   border-radius: 10px;
 }
-.mentorsCategories button:hover {
+.mentorsCategories a:hover {
   background-color: #7211b3;
+  text-decoration: none;
   transition: 0.3s;
 }
 .sub-body {

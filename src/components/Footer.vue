@@ -2,9 +2,7 @@
   <div class="footer">
     <div class="section">
       <div class="whitelogo">
-        <a href="/"
-          ><img src="../assets/white-girlslogo.png" alt=""
-        /></a>
+        <a href="/"><img src="../assets/white-girlslogo.png" alt="" /></a>
       </div>
       <div class="Links">
         <h4>Quick Links</h4>
@@ -29,6 +27,8 @@
           <a href=""><i class="fa fa-facebook"></i></a>
           <a href=""><i class="fa fa-instagram"></i></a>
           <a href=""><i class="fa fa-linkedin"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-youtube"></i></a>
         </li>
       </div>
     </div>

@@ -18,7 +18,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="/news/newsdetails" class="link"
+          <router-link to="./news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -36,7 +36,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="/news/newsdetails" class="link"
+          <router-link to="./news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -53,7 +53,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="/news/newsdetails" class="link"
+          <router-link to="./news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -70,7 +70,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="/news/newsdetails" class="link"
+          <router-link to="./news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -87,7 +87,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="/news/newsdetails" class="link"
+          <router-link to="./news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -105,7 +105,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="/news/newsdetails" class="link"
+          <router-link to="./news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -183,6 +183,7 @@
   padding: 15rem 10rem 1rem 10rem;
   justify-content: center;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .grid-container {
@@ -198,7 +199,10 @@
   padding: 20px;
   border-radius: 10px;
 }
-.grid-container img {
+.card img  {
+  width: 100%;
+}
+.grid-container {
   border-radius: 10px;
   cursor: pointer;
   object-fit: cover;

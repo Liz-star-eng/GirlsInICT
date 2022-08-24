@@ -280,15 +280,6 @@
   </div>
 </template>
 
-<!-- <script>
-import partners from "./views/partners.vue";
-
-export default {
-  components: {
-    partners,
-  },
-};
-</script> -->
 <style scoped>
 .main-body {
   overflow: hidden;
@@ -301,7 +292,7 @@ export default {
 .herobg {
   background-image: url("../assets/herobg.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 150%;
+  background-size: 100% 170%;
 }
 
 .herotext {
@@ -494,13 +485,14 @@ export default {
 .empower {
   background-color: antiquewhite;
   display: flex;
-  padding: 10rem 10%;
+  gap: 50px;
+  padding: 10rem 10rem;
   align-content: center;
 }
 
 .empower .right {
-  padding-left: 50px;
   flex-basis: 60%;
+  margin-bottom: 4rem;
 }
 
 .empower h2 {
@@ -516,7 +508,7 @@ export default {
 .empower img {
   flex-basis: 50%;
   width: 100%;
-  height: 400px;
+  height: 430px;
   object-fit: cover;
   object-position: center;
 }
@@ -668,8 +660,9 @@ h6 {
   padding: 10px 0 0 0;
 }
 
+/* minister's message */
 .con-wrapper3 {
-  padding: 0 10%;
+  padding: 0 10rem;
 }
 
 .mins-msg {
@@ -694,7 +687,7 @@ h6 {
   padding-top: 3rem;
   color: #652e89;
 }
-
+/* end */
 @media only screen and (max-width: 1280px) {
    .herotext {
     /* width: 100%; */

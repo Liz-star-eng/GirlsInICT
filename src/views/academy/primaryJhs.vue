@@ -21,7 +21,13 @@
         </div> -->
         <nav>
           <ul>
-            <h4>Related Articles</h4><hr>
+            <h4>Other categories</h4>
+            <hr />
+            <li><a href="/academy/shs">SHS</a></li>
+            <li><a href="/academy/tertiary">Tertiary</a></li>
+            <hr>
+            <h4>Related Articles</h4>
+            <hr />
             <li><a href="/Mentors/mentorslistings">Mentors</a></li>
             <li><a href="/news/upcomingevent">Events</a></li>
             <li><a href="/careers/careerlanding">Careers</a></li>
@@ -195,7 +201,7 @@ section {
       rgba(255, 255, 255, 0.001)
     ),
     url("../../assets/IMG_3614.jpg");
-  height: 45vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -254,8 +260,8 @@ nav {
   padding: 5rem 5rem 0 1rem;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
     0 10px 10px rgba(190, 184, 184, 0.52);
-  margin-top: -25px;
-  height: 350px;
+  margin-top: -35px;
+  height: 100%;
   border-radius: 5px;
 }
 nav h4 {
