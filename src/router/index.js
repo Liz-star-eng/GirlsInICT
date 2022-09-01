@@ -19,6 +19,7 @@ import courseInfo from "../views/academy/courseInfo";
 import primaryJhs from "../views/academy/primaryJhs";
 import Shs from "../views/academy/Shs";
 import Tertiary from "../views/academy/Tertiary";
+import letsChat from "../views/forum/letsChat.vue";
 import Test from "../views/Test.vue"
 
 
@@ -124,6 +125,11 @@ const routes = [
     path: "/academy/tertiary",
     name: "tertiary",
     component: Tertiary,
+  },
+  {
+    path: "/forum/letsChat",
+    name: "letsChat",
+    component: letsChat,
   },
   {
     path: "/Test",

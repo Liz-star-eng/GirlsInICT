@@ -232,8 +232,8 @@ input::placeholder {
 }
 
 @media only screen and (max-width: 1280px) {
-  .main-body {
-    padding: 15rem 5rem 1rem 5rem;
+  section {
+    padding: 1rem 7rem;
   }
   .button {
     justify-content: center;
@@ -243,6 +243,9 @@ input::placeholder {
   }
 }
 @media only screen and (max-width: 992px) {
+  section {
+    padding: 1rem 5rem;
+  }
   .image img {
     width: 100%;
     margin-left: 0;
@@ -258,6 +261,9 @@ input::placeholder {
   }
 }
 @media (max-width: 600px) {
+  section {
+    padding: 1rem;
+  }
   .image img {
     margin-left: 0;
     height: 250px;
@@ -269,9 +275,7 @@ input::placeholder {
   .button {
     margin: 4px;
   }
-  .main-body {
-    padding: 15rem 1rem 1rem 1rem;
-  }
+
   .content {
     text-align: justify;
   }
@@ -281,6 +285,9 @@ input::placeholder {
     margin-left: 3rem;
     gap: 20px;
     margin-top: 1px !important;
+  }
+  .card {
+    width: 100%;
   }
   .fa-chevron-right,
   .fa-chevron-left {
