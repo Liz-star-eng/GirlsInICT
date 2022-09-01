@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="main-body">
     <div class="titleHolder">
       <div class="container2">
         <div class="title">Tertiary</div>
@@ -8,7 +8,7 @@
 
     <div class="container2">
       <div class="row2">
-        <div class="menus">
+        <!-- <div class="menus">
           <div class="menuHolder">
             <div class="innerContainer">
               <div class="menu">
@@ -18,7 +18,23 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+
+        <nav>
+          <ul>
+            <h4>Other categories</h4>
+            <hr />
+            <li><a href="/academy/primaryJhs">Primary/Jhs</a></li>
+            <li><a href="/academy/shs">SHS</a></li>
+            <hr />
+            <h4>Related Articles</h4>
+            <hr />
+            <li><a href="/Mentors/mentorslistings">Mentors</a></li>
+            <li><a href="/news/upcomingevent">Events</a></li>
+            <li><a href="/careers/careerlanding">Careers</a></li>
+            <li><a href="">Competitions</a></li>
+          </ul>
+        </nav>
         <div class="main">
           <div class="intro">
             <p>
@@ -37,62 +53,6 @@
           </div>
 
           <div class="cardHolder">
-            <div class="cards">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
-                  alt="Card image"
-                  style="width: 100%"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">
-                    Some example text some example text. John Doe is an
-                    architect and engineer
-                  </p>
-                  <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
-                  >
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
-                  alt="Card image"
-                  style="width: 100%"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">
-                    Some example text some example text. John Doe is an
-                    architect and engineer
-                  </p>
-                  <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
-                  >
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
-                  alt="Card image"
-                  style="width: 100%"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">
-                    Some example text some example text. John Doe is an
-                    architect and engineer
-                  </p>
-                  <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
-                  >
-                </div>
-              </div>
-            </div>
             <div class="cards">
               <div class="card">
                 <img
@@ -170,11 +130,6 @@
 </template>
 <script></script>
 <style scoped>
-section {
-  padding-top: 15rem;
-  padding-bottom: 8rem;
-}
-
 .container2 {
   padding: 0 10%;
 }
@@ -193,12 +148,12 @@ section {
   background-position: center;
 }
 .title {
-  padding-top: 20rem;
+  padding-top: 15rem;
   color: white;
   font-size: 4rem;
 }
 
-.row2 {
+/* .row2 {
   display: flex;
 }
 .menus {
@@ -236,6 +191,36 @@ section {
   color: #652e89;
   text-decoration: none;
   font-weight: bold;
+} */
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #652e89;
+  padding: 5rem 5rem 0 1rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(190, 184, 184, 0.52);
+  margin-top: -35px;
+  height: 100%;
+  border-radius: 5px;
+}
+nav h4 {
+  color: white;
+}
+nav li {
+  list-style: none;
+  padding: 1rem 0 1rem 0;
+}
+nav li a {
+  color: #ffc527;
+  font-size: 16px;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
 }
 .lst {
   margin-bottom: 100px;
@@ -310,11 +295,6 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-  section {
-    padding-top: 13rem;
-    padding-bottom: 8rem;
-  }
-
   .title {
     padding-top: 10rem;
     color: white;
@@ -347,11 +327,6 @@ hr {
 }
 
 @media only screen and (max-width: 992px) {
-  section {
-    padding-top: 13rem;
-    padding-bottom: 8rem;
-  }
-
   .title {
     padding-top: 18rem;
     color: white;

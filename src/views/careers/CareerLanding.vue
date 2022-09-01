@@ -125,11 +125,11 @@ main {
   font-size: 40px;
 }
 .container {
-  padding: 5rem;
-  width: 40%;
+  padding: 5rem 20rem;
+  
 }
 .container h3 {
-  padding: 0 0 3rem 0;
+  padding: 0 0 2rem 0;
 }
 /* categories styling */
 .categories {

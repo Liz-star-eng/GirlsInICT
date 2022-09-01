@@ -93,9 +93,8 @@
           </li>
         </nav>
 
-        <div class="search-bar">
-          <!-- <input type="text" placeholder="what's on your mind" /> -->
-          <button><i class="fa fa-search"></i></button>
+        <div class="search-icon">
+          <button id="search"><i class="fa fa-search"></i></button>
         </div>
         <i class="fa fa-bars menuBars" @click="toggleNav()"></i>
       </div>
@@ -170,7 +169,7 @@
         </li>
       </nav>
       <div class="sectionAsk">
-        <div class="search-bar">
+        <div class="search-icon">
           <input type="text" placeholder="What are you looing for?" />
           <button><i class="fa fa-search"></i></button>
         </div>
@@ -449,7 +448,7 @@ button {
 
 @media (max-width: 1310px) {
   .menuItems,
-  .search-bar {
+  .search-icon {
     display: none;
   }
   .menuBars {

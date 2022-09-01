@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="main-body">
     <div class="titleHolder">
       <div class="container2">
         <div class="title">Primary/Jhs</div>
@@ -21,11 +21,12 @@
         </div> -->
         <nav>
           <ul>
+            <hr />
             <h4>Other categories</h4>
             <hr />
             <li><a href="/academy/shs">SHS</a></li>
             <li><a href="/academy/tertiary">Tertiary</a></li>
-            <hr>
+            <hr />
             <h4>Related Articles</h4>
             <hr />
             <li><a href="/Mentors/mentorslistings">Mentors</a></li>
@@ -108,62 +109,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="cards">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
-                  alt="Card image"
-                  style="width: 100%"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">
-                    Some example text some example text. John Doe is an
-                    architect and engineer
-                  </p>
-                  <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
-                  >
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
-                  alt="Card image"
-                  style="width: 100%"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">
-                    Some example text some example text. John Doe is an
-                    architect and engineer
-                  </p>
-                  <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
-                  >
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
-                  alt="Card image"
-                  style="width: 100%"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
-                  <p class="card-text">
-                    Some example text some example text. John Doe is an
-                    architect and engineer
-                  </p>
-                  <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
-                  >
-                </div>
-              </div>
-            </div> -->
           </div>
           <div>
             <hr />
@@ -185,10 +130,6 @@
 </template>
 <script></script>
 <style scoped>
-section {
-  padding-top: 15rem 0 8rem 0;
-}
-
 .container2 {
   padding: 0 10%;
 }
@@ -207,7 +148,7 @@ section {
   background-position: center;
 }
 .title {
-  padding-top: 20rem;
+  padding-top: 15rem;
   color: white;
   font-size: 4rem;
 }
@@ -216,42 +157,7 @@ section {
   display: flex;
   justify-content: space-between;
 }
-/* .menus {
-  flex-basis: 30%;
-  margin: -5rem;
-  position: relative;
-}
 
-.menuHolder {
-  padding-top: 5rem;
-  background-color: antiquewhite;
-  width: 300px;
-  height: 300px;
-}
-.innerContainer {
-  padding: 20px;
-}
-.innerContainer .menu {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.innerContainer .menu a {
-  padding: 10px 15px;
-  background-color: #652e89;
-  margin: 10px;
-  color: white;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-.innerContainer .menu a:hover {
-  background-color: white;
-  color: #652e89;
-  text-decoration: none;
-  font-weight: bold;
-} */
 .lst {
   margin-bottom: 100px;
 }
@@ -290,17 +196,19 @@ nav li a:hover {
   padding-bottom: 20px;
 }
 
-.main .cardHolder {
-  display: flex;
-  flex-direction: column;
-}
 .main .cardHolder .cards {
   margin-top: 25px;
-  gap: 30px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
+.card {
+  background-color: whitesmoke;
+  width: 31%;
+}
+
 .card-body {
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .card-text,
@@ -347,83 +255,6 @@ hr {
   background: grey;
   margin: 30px 0;
 }
-
-@media only screen and (max-width: 600px) {
-  section {
-    padding-top: 13rem;
-    padding-bottom: 8rem;
-  }
-
-  .title {
-    padding-top: 10rem;
-    color: white;
-    font-size: 4rem;
-  }
-
-  .row2 {
-    flex-direction: column-reverse;
-  }
-  .menus {
-    margin: 0;
-    flex-basis: 100%;
-  }
-  .menuHolder {
-    padding-top: 5rem;
-    background-color: antiquewhite;
-    width: 100%;
-    height: 300px;
-  }
-  .main .cardHolder .cards {
-    margin-top: 25px;
-    gap: 30px;
-    flex-direction: column;
-  }
-  .navigation {
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  section {
-    padding-top: 13rem;
-    padding-bottom: 8rem;
-  }
-
-  .title {
-    padding-top: 18rem;
-    color: white;
-    font-size: 4rem;
-  }
-
-  .row2 {
-    flex-direction: column-reverse;
-  }
-  .menus {
-    margin: 0;
-    flex-basis: 50%;
-  }
-  .main {
-    margin: 25px 0;
-    padding-left: 0;
-  }
-  .menuHolder {
-    padding-top: 5rem;
-    background-color: antiquewhite;
-    width: 100%;
-    height: 300px;
-  }
-  .main .cardHolder .cards {
-    margin-top: 25px;
-    gap: 30px;
-    /* flex-direction: column; */
-  }
-  .btm {
-    margin-bottom: 50px;
-  }
-}
-
 @media only screen and (max-width: 1280px) {
   .menus {
     flex-basis: 40%;
@@ -434,6 +265,65 @@ hr {
     /* padding-left: 80px; */
     margin-top: 25px;
     flex-basis: 60%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container2 {
+    padding: 0 1rem;
+  }
+  .main {
+    padding: 0 1rem;
+  }
+
+  .title {
+    padding-top: 18rem;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .row2 {
+    flex-direction: column;
+  }
+  .menus {
+    margin: 0;
+    flex-basis: 50%;
+  }
+  .main {
+    margin: 25px 0;
+    padding-left: 0;
+  }
+  .btm {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    padding: 0 1rem;
+  }
+
+  .title {
+    padding-top: 10rem;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .row2 {
+    flex-direction: column;
+  }
+  .main .cardHolder .cards {
+    margin-top: 25px;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 10px !important;
+  }
+  .navigation {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
   }
 }
 </style>

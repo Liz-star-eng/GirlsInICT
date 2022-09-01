@@ -5,12 +5,12 @@
         <div class="left"></div>
         <div class="right">
           <h2>GIRLS in ICT</h2>
-          <P
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui iure
-            provident, nisi illo accusantium. Deserunt, deleniti libero?</P
-          >
-          <router-link to="/about-us"
-            ><button><i class="fa fa-user"></i> Who we are</button></router-link
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui iure
+            provident, nisi illo accusantium. Deserunt, deleniti libero?
+          </p>
+          <a href="" to="/about-us"
+            ><button><i class="fa fa-user"></i> Who we are</button></a
           >
         </div>
       </div>
@@ -18,22 +18,18 @@
 
     <!-- browse through -->
 
-    <section>
+    <div class="section">
       <div class="container">
-        <div class="menus">
-          <div class="menuHolder">
-            <div class="innerContainer">
-              <h1>Browse through our courses</h1>
-              <div class="menu">
-                <a href="/academy/primaryJhs">Primary/JHS</a>
-                <a href="/academy/Shs" class="gb">Senior High</a>
-                <a href="/academy/Tertiary" class="lst">Tertiary</a>
-              </div>
-            </div>
+        <div class="innerContainer">
+          <h1>Browse through our courses</h1>
+          <div class="menu">
+            <a href="/academy/primaryJhs">Primary/JHS</a>
+            <a href="/academy/Shs" class="gb">Senior High</a>
+            <a href="/acad emy/Tertiary" class="lst">Tertiary</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- We equip our girls -->
     <div class="introduction">
       <div class="con-wrapper">
@@ -43,23 +39,23 @@
             <strong>for the tech world.</strong>
           </h2>
           <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          debitis voluptatem porro corrupti nisi? Magnam necessitatibus
-          perferendis, iure repellat eum sint laborum nulla sit commodi dolore
-          ratione maxime voluptatum asperiores. Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Mollitia debitis voluptatem porro
-          corrupti nisi? Magnam necessitatibus perferendis, iure repellat eum
-          sint laborum nulla sit commodi dolore ratione maxime voluptatum
-          asperiores.
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            debitis voluptatem porro corrupti nisi? Magnam necessitatibus
+            perferendis, iure repellat eum sint laborum nulla sit commodi dolore
+            ratione maxime voluptatum asperiores. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Mollitia debitis voluptatem porro
+            corrupti nisi? Magnam necessitatibus perferendis, iure repellat eum
+            sint laborum nulla sit commodi dolore ratione maxime voluptatum
+            asperiores.
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
         <div class="intro-pics">
@@ -281,18 +277,16 @@
 </template>
 
 <style scoped>
-.main-body {
-  overflow: hidden;
-  padding: 15rem 0 3rem 0;
-}
 /* Hero background */
-.herobg, .herotext {
+.herobg,
+.herotext {
   height: 65vh;
-} 
+}
 .herobg {
   background-image: url("../assets/herobg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 170%;
+  z-index: 1;
 }
 
 .herotext {
@@ -333,25 +327,19 @@
 }
 
 .menus {
-  margin-top: -5rem;
   position: relative;
 }
 
-.menuHolder {
+.innerContainer {
   /* padding: 4rem 0; */
   background-color: antiquewhite;
   height: auto;
-  padding-bottom: 2rem;
-}
-
-.menuHolder h1 {
+  padding: 2rem;
   text-align: center;
   font-size: 3rem;
+  margin-top: -10rem;
 }
 
-.innerContainer {
-  padding: 20px;
-}
 .innerContainer .menu {
   display: flex;
   padding-bottom: 10px;
@@ -689,77 +677,81 @@ h6 {
 }
 /* end */
 @media only screen and (max-width: 1280px) {
-   .herotext {
+  .herotext {
     /* width: 100%; */
     padding: 18rem 0 0 7rem;
   }
-.empower {
-  padding: 5.5rem;
-}
-.empower .right h2, .empower .right h2 strong {
-  font-size: 2rem;
-}
-.con-wrapper3 {
-  padding: 2.5rem;
-}
+  .empower {
+    padding: 5.5rem;
+  }
+  .empower .right h2,
+  .empower .right h2 strong {
+    font-size: 2rem;
+  }
+  .con-wrapper3 {
+    padding: 2.5rem;
+  }
 }
 @media only screen and (max-width: 992px) {
   p {
     font-size: 18px;
   }
-    .herobg, .herotext {
-  height: 30vh;
-}
+  .herobg,
+  .herotext {
+    height: 30vh;
+  }
   .herotext {
     padding: 0;
   }
- .herotext .right {
+  .herotext .right {
     padding: 3rem 6rem;
     width: 70%;
   }
-   .menus {
-  margin-top: -3rem;
- }
+  .menus {
+    margin-top: -3rem;
+  }
 
   .innerContainer .menu {
     flex-direction: column;
   }
-    .innerContainer .menu a {
+  .innerContainer .menu a {
     height: auto;
     padding: 20px 30px;
     width: 100%;
   }
-.mins-msg {
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.con-wrapper3 {
-  padding: 0;
-}
-.con-wrapper3 img {
-  width: 100%;
-  height: 100%;
-}
+  .mins-msg {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .con-wrapper3 {
+    padding: 0;
+  }
+  .con-wrapper3 img {
+    width: 100%;
+    height: 100%;
+  }
   .empower {
     flex-direction: column-reverse;
   }
-  
+
   .empower,
   .empower .right {
     padding: 2rem;
   }
-  .empower .right h2, .empower .right h2 strong {
-  font-size: 5rem;
-}
- .con-wrapper {
+  .empower .right h2,
+  .empower .right h2 strong {
+    font-size: 5rem;
+  }
+  .con-wrapper {
     flex-direction: column;
   }
 }
 @media only screen and (max-width: 600px) {
-  .herobg, .herotext {
-  height: 28vh;
-}
- p {
+  .herobg,
+  .herotext {
+    height: 28vh;
+  }
+  p {
     font-size: 16px;
   }
 
@@ -768,15 +760,15 @@ h6 {
     width: 90%;
   }
   .herotext button {
-  padding: 10px 3.5rem;
+    padding: 10px 3.5rem;
   }
- .herotext p {
-  font-size: 12px;
- }
+  .herotext p {
+    font-size: 12px;
+  }
 
- .menus {
-  margin-top: -1rem;
- }
+  .menus {
+    margin-top: -1rem;
+  }
   .con-wrapper .intro-text {
     margin: 0;
   }
@@ -788,7 +780,6 @@ h6 {
     font-size: 3rem;
   }
 
-  
   .con-wrapper2 h2,
   .con-wrapper2 h2 strong {
     padding: 0 2rem;

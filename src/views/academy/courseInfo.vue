@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="main-body">
     <div class="titleHolder">
       <div class="container2">
         <div class="title">Course Title Goes Here</div>
@@ -159,11 +159,6 @@
 </template>
 
 <style scoped>
-section {
-  padding-top: 15rem;
-  padding-bottom: 8rem;
-}
-
 .container2 {
   padding: 0 10%;
 }

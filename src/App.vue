@@ -1,6 +1,6 @@
 <template>
   <div class="topNav">
-  <Topnav />
+    <Topnav />
   </div>
   <!-- <LeftSideBar /> -->
   <!-- <RightSideNav /> -->
@@ -29,6 +29,5 @@ export default {
 </script>
 
 <style scoped>
-
+  @import "./assets/style.css";
 </style>
-
