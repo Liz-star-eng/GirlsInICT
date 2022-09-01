@@ -8,17 +8,6 @@
 
     <div class="container2">
       <div class="row2">
-        <!-- <div class="menus">
-          <div class="menuHolder">
-            <div class="innerContainer">
-              <div class="menu">
-                <a href="/academy/primaryJhs">Primary/JHS</a>
-                <a href="/academy/Shs">SHS</a>
-                <a href="/academy/Tertiary" class="lst">Tertiary</a>
-              </div>
-            </div>
-          </div>
-        </div> -->
         <nav>
           <ul>
             <hr />

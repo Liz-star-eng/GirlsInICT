@@ -7,6 +7,8 @@
       <div class="content">
         <div class="sidenav">
           <h4>Degrees Required</h4>
+          <input type="text" placeholder="filter here" class="search" />
+          <button><i class="fa fa-search"></i></button>
           <form action="">
             <div class="inputs">
               <input type="checkbox" name="Associate's Degree Required" />
@@ -356,23 +358,20 @@
               </div>
             </div>
           </div>
+          <div class="navigation">
+            <a href="">Previous</a>
+            <a class="active" href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">Next</a>
+          </div>
         </div>
-      </div>
-      <div class="navigation">
-        <a href="">Previous</a>
-        <a class="active" href="">1</a>
-        <a href="">2</a>
-        <a href="">3</a>
-        <a href="">Next</a>
       </div>
     </div>
   </main>
 </template>
 
 <style scoped>
-main {
-  padding-top: 14rem;
-}
 .maincontent {
   padding: 4rem 10rem 1rem 10rem;
 }
@@ -408,16 +407,46 @@ h1 {
   width: 20%;
   height: 100%;
 }
+.search {
+  width: 200px;
+  margin-left: 5px;
+  padding: 0 2rem;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.search::placeholder {
+  font-style: italic;
+  color: #652e89;
+}
+
+.search,
+button {
+  height: 30px;
+}
+
+button {
+  border: none;
+  padding: 0 10px;
+  color: white;
+  background-color: #652e89;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+button:hover {
+  background-color: #954cc5;
+}
 .inputs {
-  white-space: nowrap;
+  display: flex;
+  padding-top: 1rem;
+}
+.inputs:first-child {
+  margin-top: 2rem;
 }
 label {
-  position: relative;
   vertical-align: text-top;
   word-wrap: break-word;
 }
 input {
-  margin-top: 20px;
   width: 30px;
   height: 20px;
 }
@@ -491,7 +520,7 @@ select {
 .navigation a {
   margin: 10px;
   background-color: whitesmoke;
-  border-radius: 10px;
+  border-radius: 2px;
   padding: 5px;
   color: #652e89;
 }
@@ -520,6 +549,7 @@ select {
   .content {
     flex-wrap: wrap;
   }
+
   .container {
     padding: 0;
     margin: 0;

@@ -1,137 +1,150 @@
 <template>
   <div class="main-body">
-    <h2>Cyber security</h2>
-    <div class="image">
-      <img src="../assets/cyber.jpg" alt="" />
+    <div class="hero">
+      <h2>Cyber security</h2>
     </div>
-    <div class="button">
-      <button class="active">Overview</button>
-      <button>Curriculum</button>
-      <button>Reviews</button>
-    </div>
-
-    <h3>Long & big title</h3>
-    <p class="content">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatibus
-      fugit minus earum cumque consequatur voluptate tempore debitis quam!
-      Laborum odit minima veniam ea a sunt distinctio inventore debitis
-      recusandae dolor, doloremque asperiores quod eligendi nulla porro
-      officiis, unde incidunt itaque! Quaerat, asperiores maxime consequuntur
-      nulla esse voluptatem harum magni illo! Officiis eaque natus sequi? Illum,
-      id voluptas ipsa vero aliquam unde numquam necessitatibus autem sunt nisi
-      placeat assumenda nihil ullam recusandae beatae culpa? Illum, eum vitae
-      excepturi aut ex eligendi aliquam eos sunt accusantium ea nam ab deserunt
-      sapiente cum, quaerat, facere maiores quos minus aperiam. Aspernatur, eum
-      placeat?
-    </p>
-    <br />
-    <p class="content">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatibus
-      fugit minus earum cumque consequatur voluptate tempore debitis quam!
-      Laborum odit minima veniam ea a sunt distinctio inventore debitis
-      recusandae dolor, doloremque asperiores quod eligendi nulla porro
-      officiis, unde incidunt itaque! Quaerat, asperiores maxime consequuntur
-      nulla esse voluptatem harum magni illo! Officiis eaque natus sequi? Illum,
-      id voluptas ipsa vero aliquam unde numquam necessitatibus autem sunt nisi
-      placeat assumenda nihil ullam recusandae beatae culpa? Illum, eum vitae
-      excepturi aut ex eligendi aliquam eos sunt accusantium ea nam ab deserunt
-      sapiente cum, quaerat, facere maiores quos minus aperiam. Aspernatur, eum
-      placeat?
-    </p>
-    <br />
-    <div class="container">
-      <h3>Interested in this courses? Send us an email to register.</h3>
-      <div class="name">
+    <section>
+      <div class="button">
+        <button class="active">Overview</button>
+        <button>Curriculum</button>
+        <button>Reviews</button>
+      </div>
+      <div>
+        <h3>Long & big title</h3>
+        <p class="content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+          voluptatibus fugit minus earum cumque consequatur voluptate tempore
+          debitis quam! Laborum odit minima veniam ea a sunt distinctio
+          inventore debitis recusandae dolor, doloremque asperiores quod
+          eligendi nulla porro officiis, unde incidunt itaque! Quaerat,
+          asperiores maxime consequuntur nulla esse voluptatem harum magni illo!
+          Officiis eaque natus sequi? Illum, id voluptas ipsa vero aliquam unde
+          numquam necessitatibus autem sunt nisi placeat assumenda nihil ullam
+          recusandae beatae culpa? Illum, eum vitae excepturi aut ex eligendi
+          aliquam eos sunt accusantium ea nam ab deserunt sapiente cum, quaerat,
+          facere maiores quos minus aperiam. Aspernatur, eum placeat?
+        </p>
+        <br />
+        <p class="content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+          voluptatibus fugit minus earum cumque consequatur voluptate tempore
+          debitis quam! Laborum odit minima veniam ea a sunt distinctio
+          inventore debitis recusandae dolor, doloremque asperiores quod
+          eligendi nulla porro officiis, unde incidunt itaque! Quaerat,
+          asperiores maxime consequuntur nulla esse voluptatem harum magni illo!
+          Officiis eaque natus sequi? Illum, id voluptas ipsa vero aliquam unde
+          numquam necessitatibus autem sunt nisi placeat assumenda nihil ullam
+          recusandae beatae culpa? Illum, eum vitae excepturi aut ex eligendi
+          aliquam eos sunt accusantium ea nam ab deserunt sapiente cum, quaerat,
+          facere maiores quos minus aperiam. Aspernatur, eum placeat?
+        </p>
+      </div>
+      <br />
+      <div class="container">
+        <h3>Interested in this courses? Send us an email to register.</h3>
+        <div class="name">
+          <div>
+            <p>First name</p>
+            <input type="text" placeholder="Bismark" />
+          </div>
+          <div>
+            <p>Last name</p>
+            <input type="text" placeholder="Agyen" />
+          </div>
+        </div>
         <div>
-          <p>First name</p>
-          <input type="text" placeholder="Bismark" />
+          <p>Your Email address</p>
+          <input type="text" placeholder="eg: liz@gmail.com" />
         </div>
         <div>
-          <p>Last name</p>
-          <input type="text" placeholder="Agyen" />
+          <p>Which Course do you want to study</p>
+          <input type="text" placeholder="" /><i class="fa fa-chevron-down"></i>
+        </div>
+        <div>
+          <p>Type your message</p>
+          <input type="text" placeholder="" />
+        </div>
+        <div>
+          <a href="#" class="btn">Submit</a>
         </div>
       </div>
-      <div>
-        <p>Your Email address</p>
-        <input type="text" placeholder="eg: liz@gmail.com" />
-      </div>
-      <div>
-        <p>Which Course do you want to study</p>
-        <input type="text" placeholder="" /><i class="fa fa-chevron-down"></i>
-      </div>
-      <div>
-        <p>Type your message</p>
-        <input type="text" placeholder="" />
-      </div>
-      <div>
-        <a href="#" class="btn">Submit</a>
-      </div>
-    </div>
-    <div class="cards">
-      <div class="arrow">
-        <a href=""><i class="fa fa-chevron-left"></i></a>
-      </div>
-      <div class="card">
-        <i class="fa fa-"></i>
-        <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
-        <div class="container">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">
-              Some example text some example text. John Doe is an architect and
-              engineer
-            </p>
-            <a href="#" class="btn">See Profile</a>
+      <div class="cards">
+        <div class="arrow">
+          <a href=""><i class="fa fa-chevron-left"></i></a>
+        </div>
+        <div class="card">
+          <i class="fa fa-"></i>
+          <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
+          <div class="container">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a href="#" class="btn">See Profile</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
-        <div class="container">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">
-              Some example text some example text. John Doe is an architect and
-              engineer
-            </p>
-            <a href="#" class="btn">See Profile</a>
+        <div class="card">
+          <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
+          <div class="container">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a href="#" class="btn">See Profile</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="../assets/ursla.jpg" alt="Avatar" />
-        <div class="container">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">
-              Some example text some example text. John Doe is an architect and
-              engineer
-            </p>
-            <a href="#" class="btn">See Profile</a>
+        <div class="card">
+          <img src="../assets/ursla.jpg" alt="Avatar" />
+          <div class="container">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                Some example text some example text. John Doe is an architect
+                and engineer
+              </p>
+              <a href="#" class="btn">See Profile</a>
+            </div>
           </div>
         </div>
+        <div class="arrow">
+          <a href=""><i class="fa fa-chevron-right"></i></a>
+        </div>
       </div>
-      <div class="arrow">
-        <a href=""><i class="fa fa-chevron-right"></i></a>
-      </div>
-    </div>
+    </section>
   </div>
 </template>
 
 <style scoped>
-.main-body {
-  overflow-x: hidden;
-  padding: 15rem 10rem 1rem 10rem;
+section {
+  padding: 1rem 15rem;
 }
 
-.image img {
-  object-fit: cover;
-  object-position: center;
-  width: 70%;
-  margin-left: 15rem;
-  overflow: hidden;
-  height: 500px;
-  border-radius: 10px;
+.hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../assets/cyber.jpg");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  color: #f9be2a;
+}
+.hero h2 {
+  padding: 10rem;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
 }
 .button {
   display: flex;
@@ -259,9 +272,9 @@ input::placeholder {
   .main-body {
     padding: 15rem 1rem 1rem 1rem;
   }
-.content {
-  text-align: justify;
-}
+  .content {
+    text-align: justify;
+  }
   .cards {
     justify-content: center;
     flex-direction: column;
@@ -299,11 +312,11 @@ input::placeholder {
   }
 }
 @media (max-width: 360px) {
-.cards {
-margin-left: 7px;
-}
-input {
-  width: 25rem;
-}
+  .cards {
+    margin-left: 7px;
+  }
+  input {
+    width: 25rem;
+  }
 }
 </style>

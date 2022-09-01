@@ -45,7 +45,7 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/moccorner">MoC Corner</router-link>
+              <!-- <router-link to="/moccorner">MoC Corner</router-link> -->
               <router-link to="">Let's Chat</router-link>
             </div>
           </li>

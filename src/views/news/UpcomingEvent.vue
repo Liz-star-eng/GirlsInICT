@@ -21,7 +21,7 @@
           <br />
           <div class="symbol">
             <p class="symbol-text">
-              <i class="fa fa-clock-o"></i> text goes here
+              <i class="fa fa-clock-o"></i> Date goes here
             </p>
             <a href=""
               ><button>Register <i class="fa fa-long-arrow-right"></i></button
@@ -83,18 +83,67 @@
       </div>
     </div>
   </div>
-  <div class="empower mb-5">
-    <div class="left">
-      <h3>Empowering Girls & Women In ICT</h3>
-      <p style="text-align: justify">
+  <div class="empower">
+    <div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../../assets/K.jpg" alt="Los Angeles" />
+          </div>
+
+          <div class="item">
+            <img src="../../assets/L.jpg" alt="Chicago" />
+          </div>
+
+          <div class="item">
+            <img src="../../assets/IMG_3643.jpg" alt="New York" />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- <img src="../assets/photo_2022-07-25_09-11-26.jpg" alt="" /> -->
+    <div class="right">
+      <h2>
+        We Empower <br />
+        <strong>you to go for it.</strong>
+      </h2>
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. <br />Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.
+        <br /><br />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div>
-    <img src="../../assets/Girls-in-ICT-North-East.jpg" alt="" />
   </div>
 </template>
 
@@ -164,18 +213,34 @@ a:hover {
 }
 
 .empower {
-  background-color: #fdd5ef;
+  background-color: antiquewhite;
   display: flex;
-  padding: 8rem 16rem;
+  gap: 50px;
+  padding: 10rem 10rem;
   align-content: center;
 }
 
-.empower .left {
-  padding: 0 3rem 0 0;
+.empower .right {
+  flex-basis: 60%;
+  margin-bottom: 4rem;
+}
+
+.empower h2 {
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+.empower h2 strong {
+  padding-top: 3rem;
+  font-size: 7rem;
+  color: #652e89;
 }
 
 .empower img {
-  width: 500px;
+  flex-basis: 50%;
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .col-sm-4 img {
