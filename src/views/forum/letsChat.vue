@@ -50,7 +50,6 @@
         </div>
         <div><p class="topics">7 Topic(s)</p></div>
       </div>
-      
     </div>
   </main>
 </template>
@@ -92,6 +91,13 @@ main {
   }
   .content {
     padding: 2.5rem 2rem;
+  }
+  .content i {
+    font-size: 16px;
+    color: #652e89;
+  }
+  h3 {
+    font-size: 18px;
   }
 }
 </style>
