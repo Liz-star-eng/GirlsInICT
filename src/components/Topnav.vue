@@ -101,7 +101,7 @@
     </header>
 
     <!-- toggle navbar -->
-    <div class="ResponsiveNav" :class="collapsibleNav" @click="close()">
+    <div class="ResponsiveNav" :class="collapsibleNav">
       <nav class="NavItems">
         <li class="dropdown">
           <a class="dropbtn"
