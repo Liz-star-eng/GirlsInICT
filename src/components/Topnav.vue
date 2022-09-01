@@ -106,7 +106,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-address-book-o"></i> Directory
-            <i class="fa fa-chevron-down" style="margin-left: 7.8rem"></i
+            <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
             <!-- <a href="/directorylistings">Mentors</a> -->
@@ -118,7 +118,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-folder-open-o"></i> Forum
-            <i class="fa fa-chevron-down" style="margin-left: 9.7rem"></i
+            <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
             <router-link to="">Let's Chat</router-link>
@@ -129,7 +129,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-graduation-cap"></i> Training
-            <i class="fa fa-chevron-down" style="margin-left: 6.6rem"></i
+            <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
             <a href="/academy/primaryJhs">Primary/JHS</a>
@@ -140,7 +140,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-fire"></i> Events
-            <i class="fa fa-chevron-down" style="margin-left: 10rem"></i
+            <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
             <a href="/news/upcomingevent">Upcoming</a>
@@ -150,7 +150,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-archive"></i> Information Hub
-            <i class="fa fa-chevron-down" style="margin-left: 1.8rem"></i
+            <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
             <a href="/cyberview">Cybersecurity</a>
@@ -159,7 +159,7 @@
         <li class="dropdown">
           <a class="dropbtn"
             ><i class="fa fa-archive"></i> Competition
-            <i class="fa fa-chevron-down" style="margin-left: 4.9rem"></i
+            <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
             <a href="/cyberview">Cyber Security</a>
@@ -312,6 +312,11 @@ li.dropdown {
   text-decoration: none;
   display: block;
   text-align: left;
+}
+.ResponsiveNav a .arrow-down {
+  position: absolute;
+  text-align: right;
+  right: 0;
 }
 .dropdown-content a:hover {
   color: #ffc527;

@@ -130,7 +130,9 @@
   padding-bottom: 5px;
   margin-bottom: 0;
 }
-
+.row {
+  justify-content: center;
+}
 #myCarousel {
   display: none;
 }
@@ -156,6 +158,9 @@
   #largeCarousel .carousel-inner img {
     width: 70%;
   }
+  .partners-body {
+    padding: 4rem 5rem;
+  }
   .nita {
     height: 45px;
   }
@@ -164,6 +169,9 @@
 @media (max-width: 768px) {
   #largeCarousel {
     display: none;
+  }
+  .partners-body {
+    padding: 4rem 0;
   }
   #myCarousel {
     display: flex;
