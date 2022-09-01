@@ -121,7 +121,7 @@
             <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
-            <router-link to="">Let's Chat</router-link>
+            <router-link to="/forum/letsChat">Let's Chat</router-link>
             <!-- <a href="/moccorner">Mentors</a>
             <a href="/careers">Carreers</a> -->
           </div>

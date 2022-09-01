@@ -32,24 +32,25 @@
       <div class="content">
         <div><i class="fa fa-comments-o"></i></div>
         <div>
-          <h3>Job Opportunities</h3>
+          <h3>What's On Your Mind</h3>
         </div>
         <div><p class="topics">4 Topic(s)</p></div>
       </div>
       <div class="content">
         <div><i class="fa fa-comments-o"></i></div>
         <div>
-          <h3>Job Opportunities</h3>
+          <h3>Education</h3>
         </div>
         <div><p class="topics">3 Topic(s)</p></div>
       </div>
       <div class="content">
         <div><i class="fa fa-comments-o"></i></div>
         <div>
-          <h3>Job Opportunities</h3>
+          <h3>Training Resources</h3>
         </div>
         <div><p class="topics">7 Topic(s)</p></div>
       </div>
+      
     </div>
   </main>
 </template>
@@ -63,7 +64,7 @@ p {
   padding: 0;
 }
 main {
-  padding: 15rem 10rem;
+  padding: 15rem 10rem 0;
 }
 
 .content {
@@ -71,15 +72,15 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 2.5rem 7rem;
-  box-shadow: 4px 2px 10px gray;
+  box-shadow: 2px 2px 5px gray;
 }
 .content i {
-  font-size: 20px;
-  color: rgb(107, 107, 13);
+  font-size: 30px;
+  color: #652e89;
 }
 .content .topics {
   font-size: 12px;
-  color: orangered;
+  color: #430e66;
 }
 .content:hover {
   background-color: rgb(238, 238, 238);
