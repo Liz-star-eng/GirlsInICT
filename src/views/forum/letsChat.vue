@@ -87,7 +87,7 @@ main {
 
 @media (max-width: 728px) {
   main {
-    padding: 15rem 1rem;
+    padding: 15rem 1rem 0;
   }
   .content {
     padding: 2.5rem 2rem;
