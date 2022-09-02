@@ -4,10 +4,10 @@
       <div class="H-container">
         <div class="user">
           <a href="/about-us"><i class="fa fa-user"></i> About Us</a>
-          <a href="" class="cta"> Ask for help </a>
+          <a href="/contact" class="cta"> Ask for help </a>
         </div>
         <div class="social">
-          <a class="text"
+          <a class="text" href="/users/login"
             ><i class="fa fa-sign-in" aria-hidden="true"></i>
             Login
           </a>

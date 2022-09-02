@@ -20,6 +20,7 @@ import primaryJhs from "../views/academy/primaryJhs";
 import Shs from "../views/academy/Shs";
 import Tertiary from "../views/academy/Tertiary";
 import letsChat from "../views/forum/letsChat.vue";
+import login from "../views/users/login.vue";
 import Test from "../views/Test.vue"
 
 
@@ -130,6 +131,11 @@ const routes = [
     path: "/forum/letsChat",
     name: "letsChat",
     component: letsChat,
+  },
+  {
+    path: "/users/login",
+    name: "login",
+    component: login,
   },
   {
     path: "/Test",
