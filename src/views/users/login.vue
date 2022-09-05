@@ -52,11 +52,8 @@ input {
   width: 50%;
   background-image: url("../../assets/logo.png");
   background-size: 100% 170%;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.798),
-    rgba(255, 255, 255, 0.001)
-  );
+  background-image: linear-gradient(to right, #652e89, #ffcb51);
+  color: white;
 }
 section {
   padding: 10rem 7rem;

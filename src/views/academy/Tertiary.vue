@@ -57,54 +57,51 @@
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  src="../../assets/programming.webp"
                   alt="Card image"
-                  style="width: 100%"
                 />
                 <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                  <h4 class="card-title">Programming</h4>
                   <p class="card-text">
                     Some example text some example text. John Doe is an
                     architect and engineer
                   </p>
                   <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
+                    >See Details</router-link
                   >
                 </div>
               </div>
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  src="../../assets/cyber.jpg"
                   alt="Card image"
-                  style="width: 100%"
                 />
                 <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                  <h4 class="card-title">Cybersecurity</h4>
                   <p class="card-text">
                     Some example text some example text. John Doe is an
                     architect and engineer
                   </p>
                   <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
+                    >See Details</router-link
                   >
                 </div>
               </div>
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="../../assets/Girls-in-ICT-North-East.jpg"
+                  src="../../assets/iot.webp"
                   alt="Card image"
-                  style="width: 100%"
                 />
                 <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                  <h4 class="card-title">IoT</h4>
                   <p class="card-text">
                     Some example text some example text. John Doe is an
                     architect and engineer
                   </p>
                   <router-link to="/academy/courseInfo" class="link"
-                    >See Profile</router-link
+                    >See Details</router-link
                   >
                 </div>
               </div>
@@ -153,45 +150,7 @@
   font-size: 4rem;
 }
 
-/* .row2 {
-  display: flex;
-}
-.menus {
-  flex-basis: 30%;
-  margin: -5rem;
-  position: relative;
-}
 
-.menuHolder {
-  padding-top: 5rem;
-  background-color: antiquewhite;
-  width: 300px;
-  height: 300px;
-}
-.innerContainer {
-  padding: 20px;
-}
-.innerContainer .menu {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.innerContainer .menu a {
-  padding: 10px 15px;
-  background-color: #652e89;
-  margin: 10px;
-  color: white;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-.innerContainer .menu a:hover {
-  background-color: white;
-  color: #652e89;
-  text-decoration: none;
-  font-weight: bold;
-} */
 .row2 {
   display: flex;
   justify-content: space-between;
@@ -245,8 +204,18 @@ nav li a:hover {
   gap: 30px;
   display: flex;
 }
+
+.card {
+  background-color: whitesmoke;
+  width: 31%;
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+}
 .card-body {
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .card-text,

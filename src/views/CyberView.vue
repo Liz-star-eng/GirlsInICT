@@ -41,7 +41,7 @@
       </div>
       <br />
       <div class="container">
-        <h3>Interested in this courses? Send us an email to register.</h3>
+        <h3>Interested in this course? Send us an email to register.</h3>
         <div class="name">
           <div>
             <p>First name</p>
@@ -68,52 +68,55 @@
           <a href="#" class="btn">Submit</a>
         </div>
       </div>
-      <div class="cards">
-        <div class="arrow">
-          <a href=""><i class="fa fa-chevron-left"></i></a>
-        </div>
-        <div class="card">
-          <i class="fa fa-"></i>
-          <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
-          <div class="container">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">
-                Some example text some example text. John Doe is an architect
-                and engineer
-              </p>
-              <a href="#" class="btn">See Profile</a>
+      <div class="cards-holder">
+        <h2>Mentors</h2>
+        <div class="cards">
+          <div class="arrow">
+            <a href=""><i class="fa fa-chevron-left"></i></a>
+          </div>
+          <div class="card">
+            <i class="fa fa-"></i>
+            <img src="../assets/office.png" alt="Avatar" style="width: 100%" />
+            <div class="container">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+                <a href="#" class="btn">See Profile</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
-          <div class="container">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">
-                Some example text some example text. John Doe is an architect
-                and engineer
-              </p>
-              <a href="#" class="btn">See Profile</a>
+          <div class="card">
+            <img src="../assets/ladys.webp" alt="Avatar" style="width: 100%" />
+            <div class="container">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+                <a href="#" class="btn">See Profile</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="../assets/ursla.jpg" alt="Avatar" />
-          <div class="container">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">
-                Some example text some example text. John Doe is an architect
-                and engineer
-              </p>
-              <a href="#" class="btn">See Profile</a>
+          <div class="card">
+            <img src="../assets/ursla.jpg" alt="Avatar" />
+            <div class="container">
+              <div class="card-body">
+                <h4 class="card-title">Hon. Ursula</h4>
+                <p class="card-text">
+                  Some example text some example text. John Doe is an architect
+                  and engineer
+                </p>
+                <a href="#" class="btn">See Profile</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="arrow">
-          <a href=""><i class="fa fa-chevron-right"></i></a>
+          <div class="arrow">
+            <a href=""><i class="fa fa-chevron-right"></i></a>
+          </div>
         </div>
       </div>
     </section>
@@ -201,6 +204,9 @@ input::placeholder {
 }
 /* end */
 
+.cards-holder {
+  padding-top: 3rem;
+}
 .cards {
   display: flex;
   justify-content: space-between;
