@@ -162,9 +162,10 @@
 .card {
   padding-top: 3rem;
   width: 200px;
-  text-align: ju;
+  text-align: center;
   /* height: 100%; */
 }
+
 .card img,
 .col-sm-3 img {
   width: 200px;
@@ -172,6 +173,9 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+}
+.col-sm-3  {
+text-align: center;
 }
 .card h4 {
   color: #652e89;
@@ -256,5 +260,13 @@
     justify-content: center;
     text-align: center;
   }
+  /* start contribution */
+  .contribution .content {
+    flex-direction: column;
+  }
+  .hr {
+    display: none;
+  }
+  /* end cntribution */
 }
 </style>

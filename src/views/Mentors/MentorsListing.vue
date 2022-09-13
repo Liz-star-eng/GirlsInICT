@@ -244,6 +244,16 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  /*start mentors buttons */
+  .mentorsCategories {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .mentorsCategories a {
+    width: 50%;
+  }
+  /* end mentors button */
   .main-body {
     padding: 15rem 1rem 1rem 1rem !important;
   }
