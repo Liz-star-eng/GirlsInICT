@@ -767,7 +767,7 @@ h6 {
   }
 
   .innerContainer {
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .menus {
     margin-top: -1rem;
