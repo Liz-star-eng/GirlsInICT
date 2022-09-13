@@ -766,6 +766,9 @@ h6 {
     font-size: 12px;
   }
 
+  .innerContainer {
+    margin-top: -1rem;
+  }
   .menus {
     margin-top: -1rem;
   }
@@ -784,13 +787,43 @@ h6 {
   .con-wrapper2 h2 strong {
     padding: 0 2rem;
   }
+
+  .introduction .con-wrapper {
+    max-width: 90%;
+    padding: 5px 1px;
+  }
   .intro-pics img {
-    width: 100%;
+    width: 90%;
     padding: 0;
     margin-top: 2rem;
   }
   .intro-pics .a2 {
     display: none;
   }
+  /* specialty cards */
+  .top-cards {
+    padding: 10px;
+  }
+  .top-card {
+    width: 100%;
+  }
+  /* end of specialty */
+  /* start empower section */
+  .empower {
+    padding: 5px;
+  }
+  /* end of empower */
+  /* start past event */
+  .pastEvent .containerEvents {
+    padding: 0 5px;
+  }
+
+  .pastEvent .containerEvents a {
+    width: 90%;
+  }
+  .pastEvent .containerEvents a img{
+width: 100%
+  }
+  /* end past event */;
 }
 </style>
