@@ -316,5 +316,10 @@ hr {
     align-content: center;
     justify-content: center;
   }
+  /* start cards */
+  .card {
+    width: 100%;
+  }
+  /* end card */
 }
 </style>

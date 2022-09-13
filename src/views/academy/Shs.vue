@@ -155,6 +155,9 @@
   justify-content: space-between;
 }
 
+.lst {
+  margin-bottom: 100px;
+}
 nav {
   background-color: #652e89;
   padding: 5rem 5rem 0 1rem;
@@ -180,10 +183,6 @@ nav li a:hover {
   color: white;
   transition: 0.4s;
 }
-.lst {
-  margin-bottom: 100px;
-}
-
 .main {
   margin-top: 25px;
   flex-basis: 70%;
@@ -194,19 +193,17 @@ nav li a:hover {
   padding-bottom: 20px;
 }
 
-.main .cardHolder {
-  display: flex;
-  flex-direction: column;
-}
 .main .cardHolder .cards {
   margin-top: 25px;
-  gap: 30px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .card {
   background-color: whitesmoke;
   width: 31%;
 }
+
 .card img {
   width: 100%;
   height: 50%;
@@ -260,83 +257,6 @@ hr {
   background: grey;
   margin: 30px 0;
 }
-
-@media only screen and (max-width: 600px) {
-  section {
-    padding-top: 13rem;
-    padding-bottom: 8rem;
-  }
-
-  .title {
-    padding-top: 10rem;
-    color: white;
-    font-size: 4rem;
-  }
-
-  .row2 {
-    flex-direction: column-reverse;
-  }
-  .menus {
-    margin: 0;
-    flex-basis: 100%;
-  }
-  .menuHolder {
-    padding-top: 5rem;
-    background-color: antiquewhite;
-    width: 100%;
-    height: 300px;
-  }
-  .main .cardHolder .cards {
-    margin-top: 25px;
-    gap: 30px;
-    flex-direction: column;
-  }
-  .navigation {
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  section {
-    padding-top: 13rem;
-    padding-bottom: 8rem;
-  }
-
-  .title {
-    padding-top: 18rem;
-    color: white;
-    font-size: 4rem;
-  }
-
-  .row2 {
-    flex-direction: column-reverse;
-  }
-  .menus {
-    margin: 0;
-    flex-basis: 50%;
-  }
-  .main {
-    margin: 25px 0;
-    padding-left: 0;
-  }
-  .menuHolder {
-    padding-top: 5rem;
-    background-color: antiquewhite;
-    width: 100%;
-    height: 300px;
-  }
-  .main .cardHolder .cards {
-    margin-top: 25px;
-    gap: 30px;
-    /* flex-direction: column; */
-  }
-  .btm {
-    margin-bottom: 50px;
-  }
-}
-
 @media only screen and (max-width: 1280px) {
   .menus {
     flex-basis: 40%;
@@ -348,5 +268,69 @@ hr {
     margin-top: 25px;
     flex-basis: 60%;
   }
+}
+
+@media only screen and (max-width: 992px) {
+  .container2 {
+    padding: 0 1rem;
+  }
+  .main {
+    padding: 0 1rem;
+  }
+
+  .title {
+    padding-top: 18rem;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .row2 {
+    flex-direction: column;
+  }
+  .menus {
+    margin: 0;
+    flex-basis: 50%;
+  }
+  .main {
+    margin: 25px 0;
+    padding-left: 0;
+  }
+  .btm {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    padding: 0 1rem;
+  }
+
+  .title {
+    padding-top: 10rem;
+    color: white;
+    font-size: 4rem;
+  }
+
+  .row2 {
+    flex-direction: column;
+  }
+  .main .cardHolder .cards {
+    margin-top: 25px;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 10px !important;
+  }
+  .navigation {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+  /* start Cards */
+  .card {
+    width: 100%;
+  }
+  /* end cards */
 }
 </style>
