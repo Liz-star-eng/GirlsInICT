@@ -126,7 +126,6 @@ main {
 }
 .container {
   padding: 5rem 20rem;
-  
 }
 .container h3 {
   padding: 0 0 2rem 0;
@@ -177,5 +176,44 @@ main {
 .field-item {
   color: #2283d2;
   margin-left: 2.5rem;
+}
+@media only screen and (max-width: 900px) {
+  /* start container */
+  .container {
+    padding: 1rem 10rem;
+  }
+  /* end container */
+  /* start cards */
+  .cards {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  }
+  .card {
+    width: 45%;
+  }
+  /* end cards */
+  /* button */
+  .categories button {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* start container */
+  .container {
+    padding: 1rem;
+  }
+  /* end container */
+  /* start cards */
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  /*end cards */
+  /* button */
+  .categories button {
+    width: 80%;
+  }
 }
 </style>
