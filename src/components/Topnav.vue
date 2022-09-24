@@ -77,7 +77,7 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/cyberview">Cybersecurity</router-link>
+              <router-link to="/programs/cyberview">Cybersecurity</router-link>
             </div>
           </li>
           <li class="dropdown">
