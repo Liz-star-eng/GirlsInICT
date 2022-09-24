@@ -8,8 +8,8 @@
         <h4>Quick Links</h4>
         <hr class="underline" />
         <a href="">About Us</a><br />
-        <a href="">Competition</a><br />
-        <a href="/contact">Contact Us</a><br />
+        <a href="/news/upcomingevent">Episodes</a><br />
+        <a href="/academy/primaryJhs">Training</a><br />
         <a href="/FQA">FAQ</a><br />
       </div>
       <div class="contact">

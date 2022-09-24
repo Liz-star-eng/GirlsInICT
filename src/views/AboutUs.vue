@@ -163,18 +163,6 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="ourpartner">
-        <div class="container">
-          <div class="row">
-            <div class="col6">
-              <h1>Our Partners</h1>
-              <p>put the partner carousel logo here</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
@@ -208,13 +196,20 @@ section {
 
 .row {
   display: flex;
+  padding: 5rem 0;
 }
 .row .col1 {
-  margin: 50px 0;
+  /* margin: 50px 0; */
   padding-right: 50px;
   flex-basis: 50%;
 }
 
+/* taking default margin and padding out */
+.row .col1  h1{
+padding: 0;
+margin: 0;
+margin-bottom: 5px;
+}
 .row .col2 {
   flex-basis: 50%;
 }

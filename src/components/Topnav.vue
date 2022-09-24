@@ -66,6 +66,7 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
+              <a href="">Events</a>
               <router-link to="/news/upcomingevent">Upcoming</router-link>
               <router-link to="/news/newsviews">Past</router-link>
             </div>
@@ -85,8 +86,8 @@
               <i class="fa fa-chevron-down"></i
             ></a>
             <div class="dropdown-content">
-              <router-link to="/cyberview">CyberSecurity</router-link>
-              <router-link to="/careers/careers">Programming</router-link>
+              <router-link to="/programs/cyberview">CyberSecurity</router-link>
+              <router-link to="/programs/programming">Programming</router-link>
               <!-- <router-link to="/cyberview">IoT</router-link>
               <router-link to="/careers">Robotics</router-link> -->
             </div>
@@ -139,10 +140,11 @@
         </li>
         <li class="dropdown">
           <a class="dropbtn"
-            ><i class="fa fa-fire"></i> Events
+            ><i class="fa fa-fire"></i> Episodes
             <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
+            <a href="">Events</a>
             <a href="/news/upcomingevent">Upcoming</a>
             <a href="/news/newsviews">Past</a>
           </div>
@@ -153,7 +155,7 @@
             <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
-            <a href="/cyberview">Cybersecurity</a>
+            <a href="/programs/cyberview">Cybersecurity</a>
           </div>
         </li>
         <li class="dropdown">
@@ -162,7 +164,7 @@
             <i class="fa fa-chevron-down arrow-down"></i
           ></a>
           <div class="dropdown-content">
-            <a href="/cyberview">Cyber Security</a>
+            <a href="/programs/cyberview">Cyber Security</a>
             <a href="/careers/careers">Programming</a>
             <!-- <a href="/careers">Robotics</a> -->
           </div>

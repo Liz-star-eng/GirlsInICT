@@ -18,7 +18,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./news/newsdetails" class="link"
+          <router-link to="/news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -36,7 +36,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./news/newsdetails" class="link"
+          <router-link to="/news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -53,7 +53,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./news/newsdetails" class="link"
+          <router-link to="/news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -70,7 +70,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./news/newsdetails" class="link"
+          <router-link to="/news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -87,7 +87,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./news/newsdetails" class="link"
+          <router-link to="/news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>
@@ -105,7 +105,7 @@
             Some example text some example text. John Doe is an architect and
             engineer
           </p>
-          <router-link to="./news/newsdetails" class="link"
+          <router-link to="/news/newsdetails" class="link"
             >View Details</router-link
           >
         </div>

@@ -5,7 +5,8 @@ import StudentsView from "../views/StudentsView.vue";
 import UpcomingEvent from "../views/news/UpcomingEvent.vue"
 import MoCs from "../views/MoCs.vue";
 import MentorsDetail from "../views/Mentors/MentorsDetail.vue";
-import CyberView from "../views/CyberView.vue";
+import programming from "../views/programs/programming.vue";
+import CyberView from "../views/programs/CyberView.vue";
 import Careers from "../views/careers/Careers.vue";
 import CareerLanding from "../views/careers/CareerLanding.vue";
 import NewsViews from "../views/news/NewsViews.vue";
@@ -63,9 +64,14 @@ const routes = [
     component: MoCs,
   },
   {
-    path: "/cyberview",
+    path: "/programs/cyberview",
     name: "cybersecurity",
     component: CyberView,
+  },
+  {
+    path: "/programs/programming",
+    name: "programming",
+    component: programming,
   },
   {
     path: "/form",

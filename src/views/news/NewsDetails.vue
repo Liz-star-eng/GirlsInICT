@@ -118,7 +118,7 @@
 
 <style scoped>
 .main-body {
-  padding: 15rem 5rem 5rem 5rem;
+  padding: 1rem 5rem 5rem 5rem;
 }
 .row {
   display: flex;
