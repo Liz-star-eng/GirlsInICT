@@ -334,11 +334,10 @@ input::placeholder {
     height: 250px;
     width: 100%;
   }
-  button {
-    margin: 1px;
-  }
-  .button {
-    margin: 4px;
+  /* tabs */
+  .button a {
+    color: black;
+    font-size: 18px;
   }
 
   .content {

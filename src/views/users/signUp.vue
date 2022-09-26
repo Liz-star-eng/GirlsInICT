@@ -4,14 +4,15 @@
       <div class="form-body">
         <div class="bg">
           <section class="form">
-            <h2>Login</h2>
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="Full name" required />
             <input type="email" placeholder="Email" required />
-            <input type="password" placeholder="Enter password" required />
-            <a href="" class="forgotpsd">Forgot your password?</a><br />
-            <a href=""><button>Login</button></a>
+            <input type="password" placeholder="Password" required />
+            <input type="password" placeholder="confirm password" required />
+            <a href=""><button>Sign Up</button></a>
             <p>
-              Does not have an account?
-              <a class="acc-link" href="/users/signUp">Sign Up here</a>
+              Have an account?
+              <a class="acc-link" href="/Users/login">Login here</a>
             </p>
           </section>
         </div>
@@ -28,7 +29,6 @@
     </div>
   </main>
 </template>
-
 <style scoped>
 main {
   padding: 20rem 1rem 5rem 1rem;
@@ -86,7 +86,7 @@ section {
   padding: 10rem 7rem;
 }
 .img {
-  margin: -10rem 1rem 1rem 75rem;
+  margin: -10rem 1rem 1rem 70rem;
   width: 200px;
 }
 img {

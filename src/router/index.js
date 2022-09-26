@@ -22,6 +22,7 @@ import Shs from "../views/academy/Shs";
 import Tertiary from "../views/academy/Tertiary";
 import letsChat from "../views/forum/letsChat.vue";
 import login from "../views/users/login.vue";
+import signUp from "../views/users/signUp.vue";
 import Test from "../views/Test.vue"
 
 
@@ -142,6 +143,11 @@ const routes = [
     path: "/users/login",
     name: "login",
     component: login,
+  },
+  {
+    path: "/users/signUp",
+    name: "signup",
+    component: signUp,
   },
   {
     path: "/Test",

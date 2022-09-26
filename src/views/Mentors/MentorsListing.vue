@@ -123,12 +123,11 @@
 }
 .mentorsCategories {
   display: flex;
-  /* justify-content: space-around; */
 }
 .mentorsCategories a {
-  width: 15%;
+  /* width: 15%; */
   height: 40px;
-  padding: 1rem 0 0 3.5rem;
+  padding: 1rem 3.5rem;
   margin: 0 1rem;
   background-color: #420a68;
   color: #ffc527;
