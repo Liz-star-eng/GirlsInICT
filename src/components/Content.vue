@@ -217,7 +217,7 @@
             <h4>Our Sponsors And Partnership Helps Us Grow</h4>
           </div>
           <div class="right">
-            <button>partner with us</button>
+            <a href=""><button>partner with us</button></a>
           </div>
         </div>
       </div>
