@@ -217,7 +217,7 @@
             <h4>Our Sponsors And Partnership Helps Us Grow</h4>
           </div>
           <div class="right">
-            <a href=""><button>partner with us</button></a>
+            <a href="/partnersviews"><button>partner with us</button></a>
           </div>
         </div>
       </div>
@@ -659,12 +659,12 @@ h6 {
   margin: 40px 0;
 }
 .minsImage img {
-  height: 400px;
+  height: 350px;
   object-fit: cover;
   object-position: center;
 }
 .mins-text {
-  margin: 0 30px;
+  margin: 0 10px;
 }
 
 .mins-text h2 {

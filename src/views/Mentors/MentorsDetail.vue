@@ -174,9 +174,7 @@
   object-fit: cover;
   object-position: center;
 }
-.col-sm-3  {
-text-align: center;
-}
+
 .card h4 {
   color: #652e89;
 }

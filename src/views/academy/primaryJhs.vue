@@ -181,7 +181,7 @@ nav li a:hover {
   margin: 20px 0;
   padding-bottom: 20px;
 }
-
+/* card holder */
 .main .cardHolder .cards {
   margin-top: 25px;
   display: flex;
@@ -210,6 +210,7 @@ nav li a:hover {
 .card-body p {
   padding-bottom: 10px;
 }
+/* end */
 
 .link {
   background-color: #652e89;

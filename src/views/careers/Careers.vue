@@ -408,7 +408,7 @@ h1 {
   height: 100%;
 }
 .search {
-  width: 200px;
+  width: 150px;
   margin-left: 5px;
   padding: 0 2rem;
   border-bottom-left-radius: 5px;

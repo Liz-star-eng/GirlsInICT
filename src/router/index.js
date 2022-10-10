@@ -23,6 +23,7 @@ import Tertiary from "../views/academy/Tertiary";
 import letsChat from "../views/forum/letsChat.vue";
 import login from "../views/users/login.vue";
 import signUp from "../views/users/signUp.vue";
+import PartnersViews from "../views/PartnersViews.vue";
 import Test from "../views/Test.vue"
 
 
@@ -148,6 +149,11 @@ const routes = [
     path: "/users/signUp",
     name: "signup",
     component: signUp,
+  },
+  {
+    path: "/partnersviews",
+    name: "partnersviews",
+    component: PartnersViews,
   },
   {
     path: "/Test",

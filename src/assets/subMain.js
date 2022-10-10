@@ -11,3 +11,12 @@
 //   document.getElementById(cityName).style.display = "block";
 //   evt.currentTarget.className += " active";
 // }
+
+//search pop up
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
