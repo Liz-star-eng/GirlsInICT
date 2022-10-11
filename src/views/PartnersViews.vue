@@ -156,23 +156,23 @@
 .card {
   background-color: whitesmoke;
   width: 31%;
-  box-shadow: 0 10px 20px rgba(54, 48, 48, 0.15);
+  box-shadow: 0 10px 20px rgba(33, 32, 32, 0.15);
 }
 
 .card img {
   width: 100%;
-  height: 50%;
+  height: 40%;
 }
 
-.card-body {
-  padding: 30px;
-}
+
 
 .card-text,
 .card-title {
   margin-bottom: 10px;
 }
-
+.card-body {
+    padding: 3rem;
+}
 .card-body p {
   padding-bottom: 10px;
 }
@@ -250,12 +250,36 @@
     height: 300px;
     margin-top: 20px;
   }
+  @media only screen and (max-width: 992px) {
+    .sponsors-body {
+    max-width: 90%;
+    margin: auto;
+  }
+    .cardHolder .cards {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+  
+  }
   
   @media only screen and (max-width: 600px) {
     section {
       padding-top: 15rem;
       padding-bottom: 0;
       margin: 0 !important;
+    }
+
+    .cardHolder .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
     }
   
     .row2 {
