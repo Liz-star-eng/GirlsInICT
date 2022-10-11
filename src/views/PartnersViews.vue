@@ -278,6 +278,9 @@
         flex-direction: column;
     }
 
+    .card img {
+        height: 60%;
+    }
     .card {
         width: 100%;
     }

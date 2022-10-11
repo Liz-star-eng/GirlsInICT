@@ -534,6 +534,9 @@ button {
   header {
     padding: 3rem 2rem;
   }
+   button {
+    display: none;
+  }
 }
 
 @media (max-width: 1310px) {
